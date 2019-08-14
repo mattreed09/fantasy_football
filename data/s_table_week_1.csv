@@ -1,0 +1,526 @@
+element,position,multiplier,is_captain,is_vice_captain,first_name,second_name,web_name,team_name,team_id,team_owner,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,total_points,in_dreamteam
+340,1,1,FALSE,FALSE,Hugo,Lloris,Lloris,AFC_REDSHAW,2545729,Adam Redshaw,90,0,0,0,1,0,0,0,0,0,3,0,13,21.4,0.0,0.0,2.1,3,FALSE
+203,2,1,FALSE,FALSE,Kyle,Walker,Walker,AFC_REDSHAW,2545729,Adam Redshaw,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+122,3,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,AFC_REDSHAW,2545729,Adam Redshaw,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+182,4,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,AFC_REDSHAW,2545729,Adam Redshaw,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+405,5,1,FALSE,FALSE,Willy,Boly,Boly,AFC_REDSHAW,2545729,Adam Redshaw,90,0,0,1,0,0,0,0,0,0,0,3,32,27.2,0.3,2.0,3.0,9,FALSE
+171,6,1,FALSE,FALSE,James,Maddison,Maddison,AFC_REDSHAW,2545729,Adam Redshaw,90,0,0,1,0,0,0,0,0,0,0,0,9,3.6,49.2,13.0,6.6,3,FALSE
+214,7,1,FALSE,FALSE,Raheem,Sterling,Sterling,AFC_REDSHAW,2545729,Adam Redshaw,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+191,8,2,TRUE,FALSE,Mohamed,Salah,Salah,AFC_REDSHAW,2545729,Adam Redshaw,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+420,9,1,FALSE,FALSE,Leander,Dendoncker,Dendoncker,AFC_REDSHAW,2545729,Adam Redshaw,90,0,0,1,0,0,0,0,0,0,0,0,13,16.8,21.9,23.0,6.2,3,FALSE
+338,10,1,FALSE,TRUE,Harry,Kane,Kane,AFC_REDSHAW,2545729,Adam Redshaw,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+68,11,1,FALSE,FALSE,Joshua,King,King,AFC_REDSHAW,2545729,Adam Redshaw,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+281,12,0,FALSE,FALSE,Michael,McGovern,McGovern,AFC_REDSHAW,2545729,Adam Redshaw,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+120,13,0,FALSE,FALSE,Daniel,Drinkwater,Drinkwater,AFC_REDSHAW,2545729,Adam Redshaw,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+128,14,0,FALSE,FALSE,Martin,Kelly,Kelly,AFC_REDSHAW,2545729,Adam Redshaw,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+315,15,0,FALSE,FALSE,Shane,Long,Long,AFC_REDSHAW,2545729,Adam Redshaw,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+212,1,1,FALSE,FALSE,Ederson,Santana de Moraes,Ederson,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,3,0,26,28.8,0.0,0.0,2.9,7,FALSE
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Evil FC*,2908674,Peter Everill,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+122,3,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+141,4,1,FALSE,FALSE,Lucas,Digne,Digne,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,0,0,17,6.4,16.5,22.0,4.5,6,FALSE
+206,5,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+390,6,1,FALSE,FALSE,Felipe Anderson,Pereira Gomes,Felipe Anderson,Evil FC*,2908674,Peter Everill,65,0,0,0,2,0,0,0,1,0,0,0,0,3.8,1.6,0.0,0.5,1,FALSE
+214,7,1,FALSE,TRUE,Raheem,Sterling,Sterling,Evil FC*,2908674,Peter Everill,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+171,8,1,FALSE,FALSE,James,Maddison,Maddison,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,0,0,9,3.6,49.2,13.0,6.6,3,FALSE
+191,9,2,TRUE,FALSE,Mohamed,Salah,Salah,Evil FC*,2908674,Peter Everill,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+188,10,1,FALSE,FALSE,Divock,Origi,Origi,Evil FC*,2908674,Peter Everill,73,1,1,0,1,0,0,0,0,0,0,3,46,45.4,26.4,21.0,9.3,12,FALSE
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Evil FC*,2908674,Peter Everill,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+68,13,0,FALSE,FALSE,Joshua,King,King,Evil FC*,2908674,Peter Everill,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+420,14,0,FALSE,FALSE,Leander,Dendoncker,Dendoncker,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,0,0,13,16.8,21.9,23.0,6.2,3,FALSE
+128,15,0,FALSE,FALSE,Martin,Kelly,Kelly,Evil FC*,2908674,Peter Everill,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+47,1,1,FALSE,FALSE,Mathew,Ryan,Ryan,Pukkimon Go,3761276,Jamie Hayes,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+182,2,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Pukkimon Go,3761276,Jamie Hayes,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+183,3,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Pukkimon Go,3761276,Jamie Hayes,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+203,4,1,FALSE,FALSE,Kyle,Walker,Walker,Pukkimon Go,3761276,Jamie Hayes,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+59,5,1,FALSE,FALSE,Nathan,Aké,Aké,Pukkimon Go,3761276,Jamie Hayes,90,0,0,0,1,0,0,0,0,0,0,0,19,16.4,21.7,22.0,6.0,2,FALSE
+191,6,2,TRUE,FALSE,Mohamed,Salah,Salah,Pukkimon Go,3761276,Jamie Hayes,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+214,7,1,FALSE,FALSE,Raheem,Sterling,Sterling,Pukkimon Go,3761276,Jamie Hayes,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+420,8,1,FALSE,FALSE,Leander,Dendoncker,Dendoncker,Pukkimon Go,3761276,Jamie Hayes,90,0,0,1,0,0,0,0,0,0,0,0,13,16.8,21.9,23.0,6.2,3,FALSE
+215,9,1,FALSE,TRUE,Kevin,De Bruyne,De Bruyne,Pukkimon Go,3761276,Jamie Hayes,78,0,1,1,0,0,0,0,0,0,0,1,37,37.8,37.4,27.0,10.2,7,FALSE
+166,10,1,FALSE,FALSE,Jamie,Vardy,Vardy,Pukkimon Go,3761276,Jamie Hayes,90,0,0,1,0,0,0,0,0,0,0,0,5,6.8,4.9,4.0,1.6,2,FALSE
+68,11,1,FALSE,FALSE,Joshua,King,King,Pukkimon Go,3761276,Jamie Hayes,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Pukkimon Go,3761276,Jamie Hayes,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+128,13,0,FALSE,FALSE,Martin,Kelly,Kelly,Pukkimon Go,3761276,Jamie Hayes,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+271,14,0,FALSE,FALSE,Isaac,Hayden,Hayden,Pukkimon Go,3761276,Jamie Hayes,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+234,15,0,FALSE,FALSE,Mason,Greenwood,Greenwood,Pukkimon Go,3761276,Jamie Hayes,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+189,1,1,FALSE,FALSE,Alisson,Ramses Becker,Alisson,Schär the load,2459277,Matt Reed,38,0,0,0,0,0,0,0,0,0,2,0,7,5.6,0.0,0.0,0.6,1,FALSE
+206,2,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,Schär the load,2459277,Matt Reed,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+183,3,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Schär the load,2459277,Matt Reed,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+143,4,1,FALSE,FALSE,Michael,Keane,Keane,Schär the load,2459277,Matt Reed,90,0,0,1,0,0,0,0,0,0,0,2,26,24.4,0.5,0.0,2.5,8,FALSE
+214,5,1,FALSE,TRUE,Raheem,Sterling,Sterling,Schär the load,2459277,Matt Reed,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+191,6,2,TRUE,FALSE,Mohamed,Salah,Salah,Schär the load,2459277,Matt Reed,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+134,7,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,Schär the load,2459277,Matt Reed,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+265,8,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Schär the load,2459277,Matt Reed,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+502,9,1,FALSE,FALSE,Neal,Maupay,Maupay,Schär the load,2459277,Matt Reed,26,1,0,0,0,0,0,0,0,0,0,1,27,0.0,0.0,0.0,0.0,6,FALSE
+68,10,1,FALSE,FALSE,Joshua,King,King,Schär the load,2459277,Matt Reed,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+278,11,1,FALSE,FALSE,Teemu,Pukki,Pukki,Schär the load,2459277,Matt Reed,82,1,0,0,4,0,0,0,0,0,0,1,32,39.2,21.2,41.0,10.1,7,FALSE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,Schär the load,2459277,Matt Reed,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+161,13,0,FALSE,FALSE,Benjamin,Chilwell,Chilwell,Schär the load,2459277,Matt Reed,90,0,0,1,0,0,0,0,0,0,0,0,23,5.4,16.8,9.0,3.1,6,FALSE
+325,14,0,FALSE,FALSE,Pierre-Emile,Højbjerg,Højbjerg,Schär the load,2459277,Matt Reed,17,0,0,0,1,0,0,0,0,0,0,0,2,0.0,1.1,0.0,0.0,1,FALSE
+258,15,0,FALSE,FALSE,Jamaal,Lascelles,Lascelles,Schär the load,2459277,Matt Reed,90,0,0,0,1,0,0,0,0,0,0,0,13,19.6,0.4,0.0,2.0,2,FALSE
+235,1,1,FALSE,FALSE,David,de Gea,de Gea,pranay2505,2913195,Pranay Patel,90,0,0,1,0,0,0,0,0,0,7,2,34,43.2,0.0,0.0,4.3,10,TRUE
+122,2,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,pranay2505,2913195,Pranay Patel,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+203,3,1,FALSE,FALSE,Kyle,Walker,Walker,pranay2505,2913195,Pranay Patel,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+183,4,1,FALSE,TRUE,Virgil,van Dijk,van Dijk,pranay2505,2913195,Pranay Patel,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+181,5,1,FALSE,FALSE,Andrew,Robertson,Robertson,pranay2505,2913195,Pranay Patel,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+297,6,1,FALSE,FALSE,John,Lundstram,Lundstram,pranay2505,2913195,Pranay Patel,77,0,0,0,1,0,0,0,0,0,0,1,20,4.8,27.2,3.0,3.5,3,FALSE
+442,7,1,FALSE,FALSE,Tanguy,Ndombele,Ndombele,pranay2505,2913195,Pranay Patel,90,1,0,0,1,0,0,0,0,0,0,1,26,41.2,20.3,14.0,7.6,8,FALSE
+191,8,2,TRUE,FALSE,Mohamed,Salah,Salah,pranay2505,2913195,Pranay Patel,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+29,9,1,FALSE,FALSE,Jack,Grealish,Grealish,pranay2505,2913195,Pranay Patel,90,0,0,0,3,0,0,0,0,0,0,0,22,27.0,22.1,0.0,4.9,2,FALSE
+338,10,1,FALSE,FALSE,Harry,Kane,Kane,pranay2505,2913195,Pranay Patel,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+234,11,1,FALSE,FALSE,Mason,Greenwood,Greenwood,pranay2505,2913195,Pranay Patel,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,pranay2505,2913195,Pranay Patel,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,13,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,pranay2505,2913195,Pranay Patel,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+448,14,0,FALSE,FALSE,Youri,Tielemans,Tielemans,pranay2505,2913195,Pranay Patel,90,0,0,1,0,0,0,0,0,0,0,0,21,14.2,33.7,36.0,8.4,3,FALSE
+410,15,0,FALSE,FALSE,Diogo,Jota,Jota,pranay2505,2913195,Pranay Patel,75,0,0,1,0,0,0,0,0,0,0,0,4,1.6,12.3,25.0,3.9,2,FALSE
+471,1,1,FALSE,FALSE,Dean,Henderson,Henderson,Shawly now!,1546688,Michael Gomes Vieira,90,0,0,0,1,0,0,0,0,0,2,0,12,13.6,0.0,0.0,1.4,2,FALSE
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Shawly now!,1546688,Michael Gomes Vieira,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+182,3,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Shawly now!,1546688,Michael Gomes Vieira,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+202,4,1,FALSE,FALSE,Aymeric,Laporte,Laporte,Shawly now!,1546688,Michael Gomes Vieira,90,0,0,1,0,0,0,0,0,0,0,0,26,19.2,0.9,0.0,2.0,6,FALSE
+226,5,1,FALSE,FALSE,Luke,Shaw,Shaw,Shawly now!,1546688,Michael Gomes Vieira,90,0,0,1,0,0,0,0,0,0,0,0,27,14.6,3.0,2.0,2.0,6,FALSE
+337,6,1,FALSE,FALSE,Kyle,Walker-Peters,Walker-Peters,Shawly now!,1546688,Michael Gomes Vieira,90,0,0,0,1,0,0,0,0,0,0,0,20,20.2,19.3,14.0,5.4,2,FALSE
+215,7,1,FALSE,FALSE,Kevin,De Bruyne,De Bruyne,Shawly now!,1546688,Michael Gomes Vieira,78,0,1,1,0,0,0,0,0,0,0,1,37,37.8,37.4,27.0,10.2,7,FALSE
+214,8,1,FALSE,TRUE,Raheem,Sterling,Sterling,Shawly now!,1546688,Michael Gomes Vieira,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+191,9,2,TRUE,FALSE,Mohamed,Salah,Salah,Shawly now!,1546688,Michael Gomes Vieira,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+265,10,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Shawly now!,1546688,Michael Gomes Vieira,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+68,11,1,FALSE,FALSE,Joshua,King,King,Shawly now!,1546688,Michael Gomes Vieira,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Shawly now!,1546688,Michael Gomes Vieira,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+416,13,0,FALSE,FALSE,Morgan,Gibbs-White,Gibbs-White,Shawly now!,1546688,Michael Gomes Vieira,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+234,14,0,FALSE,FALSE,Mason,Greenwood,Greenwood,Shawly now!,1546688,Michael Gomes Vieira,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+130,15,0,FALSE,FALSE,Connor,Wickham,Wickham,Shawly now!,1546688,Michael Gomes Vieira,7,0,0,0,0,0,0,0,0,0,0,0,1,0.0,0.5,2.0,0.2,1,FALSE
+111,1,1,FALSE,FALSE,Kepa,Arrizabalaga,Kepa,AFC Basics,2374004,Laurence B-N,90,0,0,0,4,0,0,0,0,0,1,0,9,7.0,0.0,0.0,0.7,0,FALSE
+4,2,1,FALSE,FALSE,Ainsley,Maitland-Niles,Maitland-Niles,AFC Basics,2374004,Laurence B-N,90,0,1,1,0,0,0,0,0,0,0,3,38,38.4,12.3,0.0,5.1,12,TRUE
+337,3,1,FALSE,FALSE,Kyle,Walker-Peters,Walker-Peters,AFC Basics,2374004,Laurence B-N,90,0,0,0,1,0,0,0,0,0,0,0,20,20.2,19.3,14.0,5.4,2,FALSE
+182,4,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,AFC Basics,2374004,Laurence B-N,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+206,5,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,AFC Basics,2374004,Laurence B-N,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+239,6,1,FALSE,FALSE,Anthony,Martial,Martial,AFC Basics,2374004,Laurence B-N,90,1,0,1,0,0,0,0,1,0,0,0,19,39.2,19.3,71.0,13.0,7,FALSE
+214,7,1,FALSE,TRUE,Raheem,Sterling,Sterling,AFC Basics,2374004,Laurence B-N,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+265,8,1,FALSE,FALSE,Ayoze,Pérez,Pérez,AFC Basics,2374004,Laurence B-N,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+75,9,1,FALSE,FALSE,Ryan,Fraser,Fraser,AFC Basics,2374004,Laurence B-N,90,0,0,0,1,0,0,0,1,0,0,0,0,1.6,24.7,5.0,3.1,1,FALSE
+68,10,1,FALSE,FALSE,Joshua,King,King,AFC Basics,2374004,Laurence B-N,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+338,11,2,TRUE,FALSE,Harry,Kane,Kane,AFC Basics,2374004,Laurence B-N,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+48,12,0,FALSE,FALSE,David,Button,Button,AFC Basics,2374004,Laurence B-N,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+17,13,0,FALSE,FALSE,Alex,Iwobi,Iwobi,AFC Basics,2374004,Laurence B-N,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+234,14,0,FALSE,FALSE,Mason,Greenwood,Greenwood,AFC Basics,2374004,Laurence B-N,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+103,15,0,FALSE,FALSE,Marcos,Alonso,Alonso,AFC Basics,2374004,Laurence B-N,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+47,1,1,FALSE,FALSE,Mathew,Ryan,Ryan,Icardi B,877112,Fatlum Vranovci,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+182,2,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Icardi B,877112,Fatlum Vranovci,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+206,3,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,Icardi B,877112,Fatlum Vranovci,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+183,4,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Icardi B,877112,Fatlum Vranovci,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+105,5,1,FALSE,FALSE,César,Azpilicueta,Azpilicueta,Icardi B,877112,Fatlum Vranovci,90,0,0,0,4,0,0,0,0,0,0,0,9,24.2,16.7,2.0,4.3,0,FALSE
+214,6,2,TRUE,FALSE,Raheem,Sterling,Sterling,Icardi B,877112,Fatlum Vranovci,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+117,7,1,FALSE,FALSE,Ross,Barkley,Barkley,Icardi B,877112,Fatlum Vranovci,57,0,0,0,1,0,0,0,0,0,0,0,1,8.0,14.4,18.0,4.0,1,FALSE
+469,8,1,FALSE,FALSE,Daniel,Ceballos Fernández,Ceballos,Icardi B,877112,Fatlum Vranovci,26,0,0,0,0,0,0,0,0,0,0,0,3,3.0,2.9,0.0,0.6,1,FALSE
+11,9,1,FALSE,TRUE,Pierre-Emerick,Aubameyang,Aubameyang,Icardi B,877112,Fatlum Vranovci,90,1,0,1,0,0,0,0,0,0,0,0,25,37.4,6.5,78.0,12.2,6,FALSE
+67,10,1,FALSE,FALSE,Callum,Wilson,Wilson,Icardi B,877112,Fatlum Vranovci,89,0,1,0,1,0,0,0,0,0,0,0,10,2.4,2.3,35.0,4.0,5,FALSE
+44,11,1,FALSE,FALSE,Glenn,Murray,Murray,Icardi B,877112,Fatlum Vranovci,63,0,0,1,0,0,0,0,0,0,0,0,0,4.2,3.1,4.0,1.1,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Icardi B,877112,Fatlum Vranovci,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+17,13,0,FALSE,FALSE,Alex,Iwobi,Iwobi,Icardi B,877112,Fatlum Vranovci,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,14,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,Icardi B,877112,Fatlum Vranovci,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+128,15,0,FALSE,FALSE,Martin,Kelly,Kelly,Icardi B,877112,Fatlum Vranovci,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+47,1,1,FALSE,FALSE,Mathew,Ryan,Ryan,Chi's XI,1300063,Chirag Garg,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+181,2,1,FALSE,FALSE,Andrew,Robertson,Robertson,Chi's XI,1300063,Chirag Garg,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+203,3,1,FALSE,FALSE,Kyle,Walker,Walker,Chi's XI,1300063,Chirag Garg,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+122,4,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,Chi's XI,1300063,Chirag Garg,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+420,5,1,FALSE,FALSE,Leander,Dendoncker,Dendoncker,Chi's XI,1300063,Chirag Garg,90,0,0,1,0,0,0,0,0,0,0,0,13,16.8,21.9,23.0,6.2,3,FALSE
+191,6,2,TRUE,FALSE,Mohamed,Salah,Salah,Chi's XI,1300063,Chirag Garg,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+215,7,1,FALSE,FALSE,Kevin,De Bruyne,De Bruyne,Chi's XI,1300063,Chirag Garg,78,0,1,1,0,0,0,0,0,0,0,1,37,37.8,37.4,27.0,10.2,7,FALSE
+265,8,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Chi's XI,1300063,Chirag Garg,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+151,9,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,Chi's XI,1300063,Chirag Garg,78,0,0,1,0,0,0,0,0,0,0,0,3,4.8,13.1,37.0,5.5,3,FALSE
+338,10,1,FALSE,TRUE,Harry,Kane,Kane,Chi's XI,1300063,Chirag Garg,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+68,11,1,FALSE,FALSE,Joshua,King,King,Chi's XI,1300063,Chirag Garg,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+94,12,0,FALSE,FALSE,Tom,Heaton,Heaton,Chi's XI,1300063,Chirag Garg,90,0,0,0,3,0,0,0,0,0,3,0,15,24.2,0.0,0.0,2.4,2,FALSE
+315,13,0,FALSE,FALSE,Shane,Long,Long,Chi's XI,1300063,Chirag Garg,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+87,14,0,FALSE,FALSE,Charlie,Taylor,Taylor,Chi's XI,1300063,Chirag Garg,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+381,15,0,FALSE,FALSE,Issa,Diop,Diop,Chi's XI,1300063,Chirag Garg,90,0,0,0,5,0,0,0,0,0,0,0,3,5.0,0.3,7.0,1.2,0,FALSE
+93,1,1,FALSE,FALSE,Nick,Pope,Pope,Woodside Woof,1662018,Chris Scott,90,0,0,1,0,0,0,0,0,0,3,1,28,25.6,10.0,0.0,3.6,8,FALSE
+181,2,1,FALSE,FALSE,Andrew,Robertson,Robertson,Woodside Woof,1662018,Chris Scott,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+141,3,1,FALSE,FALSE,Lucas,Digne,Digne,Woodside Woof,1662018,Chris Scott,90,0,0,1,0,0,0,0,0,0,0,0,17,6.4,16.5,22.0,4.5,6,FALSE
+183,4,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Woodside Woof,1662018,Chris Scott,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+265,5,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Woodside Woof,1662018,Chris Scott,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+214,6,1,FALSE,TRUE,Raheem,Sterling,Sterling,Woodside Woof,1662018,Chris Scott,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+191,7,2,TRUE,FALSE,Mohamed,Salah,Salah,Woodside Woof,1662018,Chris Scott,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+75,8,1,FALSE,FALSE,Ryan,Fraser,Fraser,Woodside Woof,1662018,Chris Scott,90,0,0,0,1,0,0,0,1,0,0,0,0,1.6,24.7,5.0,3.1,1,FALSE
+415,9,1,FALSE,FALSE,João Filipe Iria,Santos Moutinho,Moutinho,Woodside Woof,1662018,Chris Scott,90,0,0,1,0,0,0,0,0,0,0,0,11,21.8,29.8,0.0,5.2,3,FALSE
+166,10,1,FALSE,FALSE,Jamie,Vardy,Vardy,Woodside Woof,1662018,Chris Scott,90,0,0,1,0,0,0,0,0,0,0,0,5,6.8,4.9,4.0,1.6,2,FALSE
+68,11,1,FALSE,FALSE,Joshua,King,King,Woodside Woof,1662018,Chris Scott,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Woodside Woof,1662018,Chris Scott,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+234,13,0,FALSE,FALSE,Mason,Greenwood,Greenwood,Woodside Woof,1662018,Chris Scott,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+297,14,0,FALSE,FALSE,John,Lundstram,Lundstram,Woodside Woof,1662018,Chris Scott,77,0,0,0,1,0,0,0,0,0,0,1,20,4.8,27.2,3.0,3.5,3,FALSE
+128,15,0,FALSE,FALSE,Martin,Kelly,Kelly,Woodside Woof,1662018,Chris Scott,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+366,1,1,FALSE,TRUE,Ben,Foster,Foster,Emery Little Helps,2780118,Yunus Malik,90,0,0,0,3,0,0,0,0,0,1,0,9,10.0,0.0,0.0,1.0,1,FALSE
+182,2,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Emery Little Helps,2780118,Yunus Malik,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+141,3,1,FALSE,FALSE,Lucas,Digne,Digne,Emery Little Helps,2780118,Yunus Malik,90,0,0,1,0,0,0,0,0,0,0,0,17,6.4,16.5,22.0,4.5,6,FALSE
+122,4,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,Emery Little Helps,2780118,Yunus Malik,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+114,5,1,FALSE,FALSE,Pedro,Rodríguez Ledesma,Pedro,Emery Little Helps,2780118,Yunus Malik,90,0,0,0,4,0,0,0,0,0,0,0,18,20.0,55.1,23.0,9.8,2,FALSE
+265,6,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Emery Little Helps,2780118,Yunus Malik,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+214,7,1,FALSE,FALSE,Raheem,Sterling,Sterling,Emery Little Helps,2780118,Yunus Malik,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+469,8,1,FALSE,FALSE,Daniel,Ceballos Fernández,Ceballos,Emery Little Helps,2780118,Yunus Malik,26,0,0,0,0,0,0,0,0,0,0,0,3,3.0,2.9,0.0,0.6,1,FALSE
+338,9,2,TRUE,FALSE,Harry,Kane,Kane,Emery Little Helps,2780118,Yunus Malik,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+409,10,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,Emery Little Helps,2780118,Yunus Malik,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+187,11,1,FALSE,FALSE,Roberto,Firmino,Firmino,Emery Little Helps,2780118,Yunus Malik,85,0,1,0,1,0,0,0,0,0,0,0,26,24.6,14.8,66.0,10.5,5,FALSE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,Emery Little Helps,2780118,Yunus Malik,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+66,13,0,FALSE,FALSE,Jack,Simpson,Simpson,Emery Little Helps,2780118,Yunus Malik,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+271,14,0,FALSE,FALSE,Isaac,Hayden,Hayden,Emery Little Helps,2780118,Yunus Malik,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+128,15,0,FALSE,FALSE,Martin,Kelly,Kelly,Emery Little Helps,2780118,Yunus Malik,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+340,1,1,FALSE,FALSE,Hugo,Lloris,Lloris,Enter Team Name,1133280,Pete Crawley,90,0,0,0,1,0,0,0,0,0,3,0,13,21.4,0.0,0.0,2.1,3,FALSE
+128,2,1,FALSE,FALSE,Martin,Kelly,Kelly,Enter Team Name,1133280,Pete Crawley,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+159,3,1,FALSE,FALSE,Ricardo Domingos,Barbosa Pereira,Pereira,Enter Team Name,1133280,Pete Crawley,90,0,0,1,0,0,0,0,0,0,0,3,32,21.4,16.0,9.0,4.6,9,FALSE
+141,4,1,FALSE,FALSE,Lucas,Digne,Digne,Enter Team Name,1133280,Pete Crawley,90,0,0,1,0,0,0,0,0,0,0,0,17,6.4,16.5,22.0,4.5,6,FALSE
+191,5,2,TRUE,FALSE,Mohamed,Salah,Salah,Enter Team Name,1133280,Pete Crawley,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+133,6,1,FALSE,FALSE,Wilfried,Zaha,Zaha,Enter Team Name,1133280,Pete Crawley,25,0,0,0,0,0,0,0,0,0,0,0,1,4.4,0.8,32.0,3.7,1,FALSE
+214,7,1,FALSE,FALSE,Raheem,Sterling,Sterling,Enter Team Name,1133280,Pete Crawley,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+222,8,1,FALSE,FALSE,Ilkay,Gündogan,Gündogan,Enter Team Name,1133280,Pete Crawley,11,0,0,0,0,0,0,0,0,0,0,0,3,1.2,3.8,0.0,0.5,1,FALSE
+68,9,1,FALSE,FALSE,Joshua,King,King,Enter Team Name,1133280,Pete Crawley,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+410,10,1,FALSE,FALSE,Diogo,Jota,Jota,Enter Team Name,1133280,Pete Crawley,75,0,0,1,0,0,0,0,0,0,0,0,4,1.6,12.3,25.0,3.9,2,FALSE
+187,11,1,FALSE,TRUE,Roberto,Firmino,Firmino,Enter Team Name,1133280,Pete Crawley,85,0,1,0,1,0,0,0,0,0,0,0,26,24.6,14.8,66.0,10.5,5,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Enter Team Name,1133280,Pete Crawley,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+271,13,0,FALSE,FALSE,Isaac,Hayden,Hayden,Enter Team Name,1133280,Pete Crawley,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+66,14,0,FALSE,FALSE,Jack,Simpson,Simpson,Enter Team Name,1133280,Pete Crawley,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+106,15,0,FALSE,FALSE,David,Luiz Moreira Marinho,David Luiz,Enter Team Name,1133280,Pete Crawley,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+168,1,1,FALSE,FALSE,Kasper,Schmeichel,Schmeichel,Gingie FC,5276026,Will Lannin,90,0,0,1,0,0,0,0,0,0,2,0,23,15.8,0.0,0.0,1.6,6,FALSE
+405,2,1,FALSE,FALSE,Willy,Boly,Boly,Gingie FC,5276026,Will Lannin,90,0,0,1,0,0,0,0,0,0,0,3,32,27.2,0.3,2.0,3.0,9,FALSE
+143,3,1,FALSE,FALSE,Michael,Keane,Keane,Gingie FC,5276026,Will Lannin,90,0,0,1,0,0,0,0,0,0,0,2,26,24.4,0.5,0.0,2.5,8,FALSE
+459,4,1,FALSE,FALSE,Kurt,Zouma,Zouma,Gingie FC,5276026,Will Lannin,90,0,0,0,4,0,0,0,1,0,0,0,1,0.0,0.6,8.0,0.3,-1,FALSE
+159,5,1,FALSE,FALSE,Ricardo Domingos,Barbosa Pereira,Pereira,Gingie FC,5276026,Will Lannin,90,0,0,1,0,0,0,0,0,0,0,3,32,21.4,16.0,9.0,4.6,9,FALSE
+59,6,1,FALSE,FALSE,Nathan,Aké,Aké,Gingie FC,5276026,Will Lannin,90,0,0,0,1,0,0,0,0,0,0,0,19,16.4,21.7,22.0,6.0,2,FALSE
+191,7,2,TRUE,FALSE,Mohamed,Salah,Salah,Gingie FC,5276026,Will Lannin,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+390,8,1,FALSE,FALSE,Felipe Anderson,Pereira Gomes,Felipe Anderson,Gingie FC,5276026,Will Lannin,65,0,0,0,2,0,0,0,1,0,0,0,0,3.8,1.6,0.0,0.5,1,FALSE
+133,9,1,FALSE,FALSE,Wilfried,Zaha,Zaha,Gingie FC,5276026,Will Lannin,25,0,0,0,0,0,0,0,0,0,0,0,1,4.4,0.8,32.0,3.7,1,FALSE
+233,10,1,FALSE,FALSE,Marcus,Rashford,Rashford,Gingie FC,5276026,Will Lannin,85,2,0,1,0,0,0,0,0,0,0,3,53,71.8,1.9,58.0,13.2,13,TRUE
+187,11,1,FALSE,TRUE,Roberto,Firmino,Firmino,Gingie FC,5276026,Will Lannin,85,0,1,0,1,0,0,0,0,0,0,0,26,24.6,14.8,66.0,10.5,5,FALSE
+318,12,0,FALSE,FALSE,Alex,McCarthy,McCarthy,Gingie FC,5276026,Will Lannin,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,13,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,Gingie FC,5276026,Will Lannin,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+147,14,0,FALSE,FALSE,Dominic,Calvert-Lewin,Calvert-Lewin,Gingie FC,5276026,Will Lannin,68,0,0,1,0,0,0,0,0,0,0,0,5,1.4,11.2,6.0,1.9,2,FALSE
+18,15,0,FALSE,FALSE,Granit,Xhaka,Xhaka,Gingie FC,5276026,Will Lannin,90,0,0,1,0,0,0,0,1,0,0,0,11,15.8,24.2,5.0,4.5,2,FALSE
+93,1,1,FALSE,FALSE,Nick,Pope,Pope,Who ate all Depays?,1203003,Ryan Forrester,90,0,0,1,0,0,0,0,0,0,3,1,28,25.6,10.0,0.0,3.6,8,FALSE
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Who ate all Depays?,1203003,Ryan Forrester,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,Who ate all Depays?,1203003,Ryan Forrester,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+144,4,1,FALSE,FALSE,Seamus,Coleman,Coleman,Who ate all Depays?,1203003,Ryan Forrester,90,0,0,1,0,0,0,0,0,0,0,0,20,20.6,3.3,19.0,4.3,6,FALSE
+206,5,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,Who ate all Depays?,1203003,Ryan Forrester,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+297,6,1,FALSE,FALSE,John,Lundstram,Lundstram,Who ate all Depays?,1203003,Ryan Forrester,77,0,0,0,1,0,0,0,0,0,0,1,20,4.8,27.2,3.0,3.5,3,FALSE
+191,7,2,TRUE,FALSE,Mohamed,Salah,Salah,Who ate all Depays?,1203003,Ryan Forrester,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+117,8,1,FALSE,FALSE,Ross,Barkley,Barkley,Who ate all Depays?,1203003,Ryan Forrester,57,0,0,0,1,0,0,0,0,0,0,0,1,8.0,14.4,18.0,4.0,1,FALSE
+151,9,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,Who ate all Depays?,1203003,Ryan Forrester,78,0,0,1,0,0,0,0,0,0,0,0,3,4.8,13.1,37.0,5.5,3,FALSE
+68,10,1,FALSE,FALSE,Joshua,King,King,Who ate all Depays?,1203003,Ryan Forrester,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+338,11,1,FALSE,TRUE,Harry,Kane,Kane,Who ate all Depays?,1203003,Ryan Forrester,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,Who ate all Depays?,1203003,Ryan Forrester,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+505,13,0,FALSE,FALSE,Harry,Wilson,Wilson,Who ate all Depays?,1203003,Ryan Forrester,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,14,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,Who ate all Depays?,1203003,Ryan Forrester,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+234,15,0,FALSE,FALSE,Mason,Greenwood,Greenwood,Who ate all Depays?,1203003,Ryan Forrester,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+212,1,1,FALSE,TRUE,Ederson,Santana de Moraes,Ederson,Waranderers,5439191,Lucien Waran,90,0,0,1,0,0,0,0,0,0,3,0,26,28.8,0.0,0.0,2.9,7,FALSE
+123,2,1,FALSE,FALSE,Patrick,van Aanholt,van Aanholt,Waranderers,5439191,Lucien Waran,90,0,0,1,0,0,0,0,0,0,0,0,20,15.4,0.5,2.0,1.8,6,FALSE
+277,3,1,FALSE,FALSE,Grant,Hanley,Hanley,Waranderers,5439191,Lucien Waran,90,0,0,0,4,1,0,0,0,0,0,0,2,8.6,0.0,0.0,0.9,-2,FALSE
+22,4,1,FALSE,FALSE,Ahmed,El Mohamady,El Mohamady,Waranderers,5439191,Lucien Waran,90,0,0,0,3,0,0,0,0,0,0,0,10,13.4,1.0,0.0,1.4,1,FALSE
+191,5,2,TRUE,FALSE,Mohamed,Salah,Salah,Waranderers,5439191,Lucien Waran,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+214,6,1,FALSE,FALSE,Raheem,Sterling,Sterling,Waranderers,5439191,Lucien Waran,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+29,7,1,FALSE,FALSE,Jack,Grealish,Grealish,Waranderers,5439191,Lucien Waran,90,0,0,0,3,0,0,0,0,0,0,0,22,27.0,22.1,0.0,4.9,2,FALSE
+414,8,1,FALSE,FALSE,Rúben Diogo,da Silva Neves,Neves,Waranderers,5439191,Lucien Waran,80,0,0,1,0,0,0,0,1,0,0,0,10,13.8,10.7,0.0,2.5,2,FALSE
+278,9,1,FALSE,FALSE,Teemu,Pukki,Pukki,Waranderers,5439191,Lucien Waran,82,1,0,0,4,0,0,0,0,0,0,1,32,39.2,21.2,41.0,10.1,7,FALSE
+210,10,1,FALSE,FALSE,Sergio,Agüero,Agüero,Waranderers,5439191,Lucien Waran,21,1,0,0,0,0,0,0,0,0,0,0,27,33.4,0.3,17.0,5.1,5,FALSE
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,Waranderers,5439191,Lucien Waran,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+94,12,0,FALSE,FALSE,Tom,Heaton,Heaton,Waranderers,5439191,Lucien Waran,90,0,0,0,3,0,0,0,0,0,3,0,15,24.2,0.0,0.0,2.4,2,FALSE
+444,13,0,FALSE,FALSE,Phil,Jagielka,Jagielka,Waranderers,5439191,Lucien Waran,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+176,14,0,FALSE,FALSE,Wilfred,Ndidi,Ndidi,Waranderers,5439191,Lucien Waran,90,0,0,1,0,0,0,0,0,0,0,0,15,21.4,13.7,3.0,3.8,3,FALSE
+128,15,0,FALSE,FALSE,Martin,Kelly,Kelly,Waranderers,5439191,Lucien Waran,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+189,1,1,FALSE,FALSE,Alisson,Ramses Becker,Alisson,Bobby’s Dazzlers,1937981,Rob Dunse,38,0,0,0,0,0,0,0,0,0,2,0,7,5.6,0.0,0.0,0.6,1,FALSE
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Bobby’s Dazzlers,1937981,Rob Dunse,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+141,3,1,FALSE,FALSE,Lucas,Digne,Digne,Bobby’s Dazzlers,1937981,Rob Dunse,90,0,0,1,0,0,0,0,0,0,0,0,17,6.4,16.5,22.0,4.5,6,FALSE
+258,4,1,FALSE,FALSE,Jamaal,Lascelles,Lascelles,Bobby’s Dazzlers,1937981,Rob Dunse,90,0,0,0,1,0,0,0,0,0,0,0,13,19.6,0.4,0.0,2.0,2,FALSE
+134,5,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,Bobby’s Dazzlers,1937981,Rob Dunse,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+133,6,1,FALSE,FALSE,Wilfried,Zaha,Zaha,Bobby’s Dazzlers,1937981,Rob Dunse,25,0,0,0,0,0,0,0,0,0,0,0,1,4.4,0.8,32.0,3.7,1,FALSE
+191,7,2,TRUE,FALSE,Mohamed,Salah,Salah,Bobby’s Dazzlers,1937981,Rob Dunse,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+75,8,1,FALSE,FALSE,Ryan,Fraser,Fraser,Bobby’s Dazzlers,1937981,Rob Dunse,90,0,0,0,1,0,0,0,1,0,0,0,0,1.6,24.7,5.0,3.1,1,FALSE
+214,9,1,FALSE,FALSE,Raheem,Sterling,Sterling,Bobby’s Dazzlers,1937981,Rob Dunse,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+44,10,1,FALSE,FALSE,Glenn,Murray,Murray,Bobby’s Dazzlers,1937981,Rob Dunse,63,0,0,1,0,0,0,0,0,0,0,0,0,4.2,3.1,4.0,1.1,2,FALSE
+67,11,1,FALSE,TRUE,Callum,Wilson,Wilson,Bobby’s Dazzlers,1937981,Rob Dunse,89,0,1,0,1,0,0,0,0,0,0,0,10,2.4,2.3,35.0,4.0,5,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Bobby’s Dazzlers,1937981,Rob Dunse,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+42,13,0,FALSE,FALSE,Lewis,Dunk,Dunk,Bobby’s Dazzlers,1937981,Rob Dunse,90,0,1,1,0,0,0,0,1,0,0,3,41,35.8,13.3,2.0,5.1,11,TRUE
+234,14,0,FALSE,FALSE,Mason,Greenwood,Greenwood,Bobby’s Dazzlers,1937981,Rob Dunse,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+128,15,0,FALSE,FALSE,Martin,Kelly,Kelly,Bobby’s Dazzlers,1937981,Rob Dunse,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+93,1,1,FALSE,TRUE,Nick,Pope,Pope,Martial Mata’s LP,1143642,Matt Fleming,90,0,0,1,0,0,0,0,0,0,3,1,28,25.6,10.0,0.0,3.6,8,FALSE
+181,2,1,FALSE,FALSE,Andrew,Robertson,Robertson,Martial Mata’s LP,1143642,Matt Fleming,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+206,3,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,Martial Mata’s LP,1143642,Matt Fleming,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+183,4,2,TRUE,FALSE,Virgil,van Dijk,van Dijk,Martial Mata’s LP,1143642,Matt Fleming,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+215,5,1,FALSE,FALSE,Kevin,De Bruyne,De Bruyne,Martial Mata’s LP,1143642,Matt Fleming,78,0,1,1,0,0,0,0,0,0,0,1,37,37.8,37.4,27.0,10.2,7,FALSE
+265,6,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Martial Mata’s LP,1143642,Matt Fleming,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+345,7,1,FALSE,FALSE,Lucas,Rodrigues Moura da Silva,Lucas Moura,Martial Mata’s LP,1143642,Matt Fleming,90,0,1,0,1,0,0,0,0,0,0,0,19,24.4,39.4,32.0,9.6,5,FALSE
+214,8,1,FALSE,FALSE,Raheem,Sterling,Sterling,Martial Mata’s LP,1143642,Matt Fleming,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+431,9,1,FALSE,FALSE,Christian,Pulisic,Pulisic,Martial Mata’s LP,1143642,Matt Fleming,32,0,0,0,3,0,0,0,0,0,0,0,4,6.0,11.8,8.0,2.6,1,FALSE
+68,10,1,FALSE,FALSE,Joshua,King,King,Martial Mata’s LP,1143642,Matt Fleming,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+410,11,1,FALSE,FALSE,Diogo,Jota,Jota,Martial Mata’s LP,1143642,Matt Fleming,75,0,0,1,0,0,0,0,0,0,0,0,4,1.6,12.3,25.0,3.9,2,FALSE
+94,12,0,FALSE,FALSE,Tom,Heaton,Heaton,Martial Mata’s LP,1143642,Matt Fleming,90,0,0,0,3,0,0,0,0,0,3,0,15,24.2,0.0,0.0,2.4,2,FALSE
+457,13,0,FALSE,FALSE,Sébastien,Haller,Haller,Martial Mata’s LP,1143642,Matt Fleming,90,0,0,0,5,0,0,0,0,0,0,0,15,0.0,0.0,0.0,0.0,2,FALSE
+297,14,0,FALSE,FALSE,John,Lundstram,Lundstram,Martial Mata’s LP,1143642,Matt Fleming,77,0,0,0,1,0,0,0,0,0,0,1,20,4.8,27.2,3.0,3.5,3,FALSE
+378,15,0,FALSE,FALSE,Arthur,Masuaku,Masuaku,Martial Mata’s LP,1143642,Matt Fleming,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+189,1,1,FALSE,TRUE,Alisson,Ramses Becker,Alisson,Asda's Summit,2352240,Suraj Lukha,38,0,0,0,0,0,0,0,0,0,2,0,7,5.6,0.0,0.0,0.6,1,FALSE
+203,2,1,FALSE,FALSE,Kyle,Walker,Walker,Asda's Summit,2352240,Suraj Lukha,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,Asda's Summit,2352240,Suraj Lukha,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+183,4,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Asda's Summit,2352240,Suraj Lukha,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+59,5,1,FALSE,FALSE,Nathan,Aké,Aké,Asda's Summit,2352240,Suraj Lukha,90,0,0,0,1,0,0,0,0,0,0,0,19,16.4,21.7,22.0,6.0,2,FALSE
+214,6,1,FALSE,FALSE,Raheem,Sterling,Sterling,Asda's Summit,2352240,Suraj Lukha,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+102,7,1,FALSE,FALSE,Jack,Cork,Cork,Asda's Summit,2352240,Suraj Lukha,90,0,0,1,0,0,0,0,0,0,0,0,10,8.2,2.1,0.0,1.0,3,FALSE
+118,8,1,FALSE,FALSE,Jorge Luiz,Frello Filho,Jorginho,Asda's Summit,2352240,Suraj Lukha,72,0,0,0,3,0,0,0,1,0,0,0,10,6.2,4.4,8.0,1.9,1,FALSE
+176,9,1,FALSE,FALSE,Wilfred,Ndidi,Ndidi,Asda's Summit,2352240,Suraj Lukha,90,0,0,1,0,0,0,0,0,0,0,0,15,21.4,13.7,3.0,3.8,3,FALSE
+210,10,2,TRUE,FALSE,Sergio,Agüero,Agüero,Asda's Summit,2352240,Suraj Lukha,21,1,0,0,0,0,0,0,0,0,0,0,27,33.4,0.3,17.0,5.1,5,FALSE
+338,11,1,FALSE,FALSE,Harry,Kane,Kane,Asda's Summit,2352240,Suraj Lukha,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,Asda's Summit,2352240,Suraj Lukha,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+87,13,0,FALSE,FALSE,Charlie,Taylor,Taylor,Asda's Summit,2352240,Suraj Lukha,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+100,14,0,FALSE,FALSE,Jeff,Hendrick,Hendrick,Asda's Summit,2352240,Suraj Lukha,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+315,15,0,FALSE,FALSE,Shane,Long,Long,Asda's Summit,2352240,Suraj Lukha,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+189,1,1,FALSE,FALSE,Alisson,Ramses Becker,Alisson,Real Sosobad,2373199,Chris Adamson,38,0,0,0,0,0,0,0,0,0,2,0,7,5.6,0.0,0.0,0.6,1,FALSE
+182,2,1,FALSE,TRUE,Trent,Alexander-Arnold,Alexander-Arnold,Real Sosobad,2373199,Chris Adamson,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+59,3,1,FALSE,FALSE,Nathan,Aké,Aké,Real Sosobad,2373199,Chris Adamson,90,0,0,0,1,0,0,0,0,0,0,0,19,16.4,21.7,22.0,6.0,2,FALSE
+42,4,1,FALSE,FALSE,Lewis,Dunk,Dunk,Real Sosobad,2373199,Chris Adamson,90,0,1,1,0,0,0,0,1,0,0,3,41,35.8,13.3,2.0,5.1,11,TRUE
+239,5,1,FALSE,FALSE,Anthony,Martial,Martial,Real Sosobad,2373199,Chris Adamson,90,1,0,1,0,0,0,0,1,0,0,0,19,39.2,19.3,71.0,13.0,7,FALSE
+265,6,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Real Sosobad,2373199,Chris Adamson,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+271,7,1,FALSE,FALSE,Isaac,Hayden,Hayden,Real Sosobad,2373199,Chris Adamson,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+191,8,2,TRUE,FALSE,Mohamed,Salah,Salah,Real Sosobad,2373199,Chris Adamson,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+278,9,1,FALSE,FALSE,Teemu,Pukki,Pukki,Real Sosobad,2373199,Chris Adamson,82,1,0,0,4,0,0,0,0,0,0,1,32,39.2,21.2,41.0,10.1,7,FALSE
+11,10,1,FALSE,FALSE,Pierre-Emerick,Aubameyang,Aubameyang,Real Sosobad,2373199,Chris Adamson,90,1,0,1,0,0,0,0,0,0,0,0,25,37.4,6.5,78.0,12.2,6,FALSE
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,Real Sosobad,2373199,Chris Adamson,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,Real Sosobad,2373199,Chris Adamson,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+218,13,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,Real Sosobad,2373199,Chris Adamson,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+274,14,0,FALSE,FALSE,Maximillian,Aarons,Aarons,Real Sosobad,2373199,Chris Adamson,90,0,0,0,4,0,0,0,0,0,0,0,16,25.8,1.4,0.0,2.7,0,FALSE
+309,15,0,FALSE,FALSE,Matt,Targett,Targett,Real Sosobad,2373199,Chris Adamson,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+111,1,1,FALSE,FALSE,Kepa,Arrizabalaga,Kepa,Lord of the Ings,4955365,Ben Torrens,90,0,0,0,4,0,0,0,0,0,1,0,9,7.0,0.0,0.0,0.7,0,FALSE
+122,2,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,Lord of the Ings,4955365,Ben Torrens,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,Lord of the Ings,4955365,Ben Torrens,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+183,4,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Lord of the Ings,4955365,Ben Torrens,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+214,5,1,FALSE,TRUE,Raheem,Sterling,Sterling,Lord of the Ings,4955365,Ben Torrens,90,3,0,1,0,0,0,0,1,0,0,3,55,103.6,12.7,74.0,19.0,20,TRUE
+442,6,1,FALSE,FALSE,Tanguy,Ndombele,Ndombele,Lord of the Ings,4955365,Ben Torrens,90,1,0,0,1,0,0,0,0,0,0,1,26,41.2,20.3,14.0,7.6,8,FALSE
+420,7,1,FALSE,FALSE,Leander,Dendoncker,Dendoncker,Lord of the Ings,4955365,Ben Torrens,90,0,0,1,0,0,0,0,0,0,0,0,13,16.8,21.9,23.0,6.2,3,FALSE
+453,8,1,FALSE,FALSE,Callum,Robinson,Robinson,Lord of the Ings,4955365,Ben Torrens,90,0,0,0,1,0,0,0,0,0,0,0,2,4.6,0.9,29.0,3.5,2,FALSE
+11,9,1,FALSE,FALSE,Pierre-Emerick,Aubameyang,Aubameyang,Lord of the Ings,4955365,Ben Torrens,90,1,0,1,0,0,0,0,0,0,0,0,25,37.4,6.5,78.0,12.2,6,FALSE
+187,10,2,TRUE,FALSE,Roberto,Firmino,Firmino,Lord of the Ings,4955365,Ben Torrens,85,0,1,0,1,0,0,0,0,0,0,0,26,24.6,14.8,66.0,10.5,5,FALSE
+313,11,1,FALSE,FALSE,Danny,Ings,Ings,Lord of the Ings,4955365,Ben Torrens,65,0,0,0,1,0,0,0,0,0,0,0,8,4.8,11.0,0.0,1.6,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Lord of the Ings,4955365,Ben Torrens,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,13,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,Lord of the Ings,4955365,Ben Torrens,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+309,14,0,FALSE,FALSE,Matt,Targett,Targett,Lord of the Ings,4955365,Ben Torrens,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+274,15,0,FALSE,FALSE,Maximillian,Aarons,Aarons,Lord of the Ings,4955365,Ben Torrens,90,0,0,0,4,0,0,0,0,0,0,0,16,25.8,1.4,0.0,2.7,0,FALSE
+111,1,1,FALSE,TRUE,Kepa,Arrizabalaga,Kepa,Nikhil2019,2741442,Nikhil Sawant,90,0,0,0,4,0,0,0,0,0,1,0,9,7.0,0.0,0.0,0.7,0,FALSE
+182,2,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Nikhil2019,2741442,Nikhil Sawant,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+203,3,1,FALSE,FALSE,Kyle,Walker,Walker,Nikhil2019,2741442,Nikhil Sawant,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+105,4,1,FALSE,FALSE,César,Azpilicueta,Azpilicueta,Nikhil2019,2741442,Nikhil Sawant,90,0,0,0,4,0,0,0,0,0,0,0,9,24.2,16.7,2.0,4.3,0,FALSE
+122,5,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,Nikhil2019,2741442,Nikhil Sawant,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+191,6,1,FALSE,FALSE,Mohamed,Salah,Salah,Nikhil2019,2741442,Nikhil Sawant,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+134,7,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,Nikhil2019,2741442,Nikhil Sawant,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+369,8,1,FALSE,FALSE,Roberto,Pereyra,Pereyra,Nikhil2019,2741442,Nikhil Sawant,45,0,0,0,2,0,0,0,0,0,0,0,3,2.8,3.3,30.0,3.6,1,FALSE
+415,9,1,FALSE,FALSE,João Filipe Iria,Santos Moutinho,Moutinho,Nikhil2019,2741442,Nikhil Sawant,90,0,0,1,0,0,0,0,0,0,0,0,11,21.8,29.8,0.0,5.2,3,FALSE
+338,10,2,TRUE,FALSE,Harry,Kane,Kane,Nikhil2019,2741442,Nikhil Sawant,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+68,11,1,FALSE,FALSE,Joshua,King,King,Nikhil2019,2741442,Nikhil Sawant,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+189,12,0,FALSE,FALSE,Alisson,Ramses Becker,Alisson,Nikhil2019,2741442,Nikhil Sawant,38,0,0,0,0,0,0,0,0,0,2,0,7,5.6,0.0,0.0,0.6,1,FALSE
+1,13,0,FALSE,FALSE,Shkodran,Mustafi,Mustafi,Nikhil2019,2741442,Nikhil Sawant,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+315,14,0,FALSE,FALSE,Shane,Long,Long,Nikhil2019,2741442,Nikhil Sawant,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+271,15,0,FALSE,FALSE,Isaac,Hayden,Hayden,Nikhil2019,2741442,Nikhil Sawant,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+14,1,1,FALSE,FALSE,Bernd,Leno,Leno,... here we go again,1225635,Amir Al Jumaily,90,0,0,1,0,0,0,0,0,0,2,1,27,18.0,0.0,0.0,1.8,7,FALSE
+182,2,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,... here we go again,1225635,Amir Al Jumaily,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+144,3,1,FALSE,FALSE,Seamus,Coleman,Coleman,... here we go again,1225635,Amir Al Jumaily,90,0,0,1,0,0,0,0,0,0,0,0,20,20.6,3.3,19.0,4.3,6,FALSE
+203,4,1,FALSE,FALSE,Kyle,Walker,Walker,... here we go again,1225635,Amir Al Jumaily,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+134,5,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,... here we go again,1225635,Amir Al Jumaily,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+191,6,2,TRUE,FALSE,Mohamed,Salah,Salah,... here we go again,1225635,Amir Al Jumaily,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+271,7,1,FALSE,FALSE,Isaac,Hayden,Hayden,... here we go again,1225635,Amir Al Jumaily,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+135,8,1,FALSE,FALSE,Andros,Townsend,Townsend,... here we go again,1225635,Amir Al Jumaily,90,0,0,1,0,0,0,0,0,0,0,0,14,10.0,11.7,0.0,2.2,3,FALSE
+11,9,1,FALSE,TRUE,Pierre-Emerick,Aubameyang,Aubameyang,... here we go again,1225635,Amir Al Jumaily,90,1,0,1,0,0,0,0,0,0,0,0,25,37.4,6.5,78.0,12.2,6,FALSE
+68,10,1,FALSE,FALSE,Joshua,King,King,... here we go again,1225635,Amir Al Jumaily,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,... here we go again,1225635,Amir Al Jumaily,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,... here we go again,1225635,Amir Al Jumaily,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+185,13,0,FALSE,FALSE,Joel,Matip,Matip,... here we go again,1225635,Amir Al Jumaily,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,14,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,... here we go again,1225635,Amir Al Jumaily,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+128,15,0,FALSE,FALSE,Martin,Kelly,Kelly,... here we go again,1225635,Amir Al Jumaily,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+212,1,1,FALSE,FALSE,Ederson,Santana de Moraes,Ederson,Neville Wears Prada,1094928,Jack Smart,90,0,0,1,0,0,0,0,0,0,3,0,26,28.8,0.0,0.0,2.9,7,FALSE
+160,2,1,FALSE,FALSE,Harry,Maguire,Maguire,Neville Wears Prada,1094928,Jack Smart,90,0,0,1,0,0,0,0,0,0,0,0,29,34.8,10.8,8.0,5.4,6,FALSE
+122,3,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,Neville Wears Prada,1094928,Jack Smart,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+183,4,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Neville Wears Prada,1094928,Jack Smart,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+203,5,1,FALSE,FALSE,Kyle,Walker,Walker,Neville Wears Prada,1094928,Jack Smart,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+215,6,2,TRUE,FALSE,Kevin,De Bruyne,De Bruyne,Neville Wears Prada,1094928,Jack Smart,78,0,1,1,0,0,0,0,0,0,0,1,37,37.8,37.4,27.0,10.2,7,FALSE
+283,7,1,FALSE,FALSE,Emiliano,Buendía,Buendía,Neville Wears Prada,1094928,Jack Smart,90,0,1,0,4,0,0,0,1,0,0,0,16,34.2,40.5,24.0,9.9,4,FALSE
+150,8,1,FALSE,FALSE,Richarlison,de Andrade,Richarlison,Neville Wears Prada,1094928,Jack Smart,90,0,0,1,0,0,0,0,0,0,0,0,7,12.2,19.3,32.0,6.4,3,FALSE
+133,9,1,FALSE,FALSE,Wilfried,Zaha,Zaha,Neville Wears Prada,1094928,Jack Smart,25,0,0,0,0,0,0,0,0,0,0,0,1,4.4,0.8,32.0,3.7,1,FALSE
+68,10,1,FALSE,FALSE,Joshua,King,King,Neville Wears Prada,1094928,Jack Smart,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+187,11,1,FALSE,TRUE,Roberto,Firmino,Firmino,Neville Wears Prada,1094928,Jack Smart,85,0,1,0,1,0,0,0,0,0,0,0,26,24.6,14.8,66.0,10.5,5,FALSE
+280,12,0,FALSE,FALSE,Tim,Krul,Krul,Neville Wears Prada,1094928,Jack Smart,90,0,0,0,4,0,0,0,0,0,4,0,19,30.4,0.0,0.0,3.0,1,FALSE
+353,13,0,FALSE,FALSE,José,Holebas,Holebas,Neville Wears Prada,1094928,Jack Smart,90,0,0,0,3,0,0,0,0,0,0,0,7,12.6,3.8,0.0,1.6,1,FALSE
+390,14,0,FALSE,FALSE,Felipe Anderson,Pereira Gomes,Felipe Anderson,Neville Wears Prada,1094928,Jack Smart,65,0,0,0,2,0,0,0,1,0,0,0,0,3.8,1.6,0.0,0.5,1,FALSE
+457,15,0,FALSE,FALSE,Sébastien,Haller,Haller,Neville Wears Prada,1094928,Jack Smart,90,0,0,0,5,0,0,0,0,0,0,0,15,0.0,0.0,0.0,0.0,2,FALSE
+340,1,1,FALSE,FALSE,Hugo,Lloris,Lloris,NFRsenal,2350340,Jose Pereira,90,0,0,0,1,0,0,0,0,0,3,0,13,21.4,0.0,0.0,2.1,3,FALSE
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,NFRsenal,2350340,Jose Pereira,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+203,3,1,FALSE,FALSE,Kyle,Walker,Walker,NFRsenal,2350340,Jose Pereira,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+59,4,1,FALSE,FALSE,Nathan,Aké,Aké,NFRsenal,2350340,Jose Pereira,90,0,0,0,1,0,0,0,0,0,0,0,19,16.4,21.7,22.0,6.0,2,FALSE
+181,5,1,FALSE,FALSE,Andrew,Robertson,Robertson,NFRsenal,2350340,Jose Pereira,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+191,6,2,TRUE,FALSE,Mohamed,Salah,Salah,NFRsenal,2350340,Jose Pereira,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+21,7,1,FALSE,FALSE,Matteo,Guendouzi,Guendouzi,NFRsenal,2350340,Jose Pereira,90,0,0,1,0,0,0,0,0,0,0,0,15,21.2,14.4,0.0,3.6,3,FALSE
+265,8,1,FALSE,FALSE,Ayoze,Pérez,Pérez,NFRsenal,2350340,Jose Pereira,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+133,9,1,FALSE,FALSE,Wilfried,Zaha,Zaha,NFRsenal,2350340,Jose Pereira,25,0,0,0,0,0,0,0,0,0,0,0,1,4.4,0.8,32.0,3.7,1,FALSE
+11,10,1,FALSE,TRUE,Pierre-Emerick,Aubameyang,Aubameyang,NFRsenal,2350340,Jose Pereira,90,1,0,1,0,0,0,0,0,0,0,0,25,37.4,6.5,78.0,12.2,6,FALSE
+67,11,1,FALSE,FALSE,Callum,Wilson,Wilson,NFRsenal,2350340,Jose Pereira,89,0,1,0,1,0,0,0,0,0,0,0,10,2.4,2.3,35.0,4.0,5,FALSE
+281,12,0,FALSE,FALSE,Michael,McGovern,McGovern,NFRsenal,2350340,Jose Pereira,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,13,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,NFRsenal,2350340,Jose Pereira,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+383,14,0,FALSE,FALSE,Winston,Reid,Reid,NFRsenal,2350340,Jose Pereira,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+130,15,0,FALSE,FALSE,Connor,Wickham,Wickham,NFRsenal,2350340,Jose Pereira,7,0,0,0,0,0,0,0,0,0,0,0,1,0.0,0.5,2.0,0.2,1,FALSE
+189,1,1,FALSE,FALSE,Alisson,Ramses Becker,Alisson,MJBFC,4168821,Michael Browne,38,0,0,0,0,0,0,0,0,0,2,0,7,5.6,0.0,0.0,0.6,1,FALSE
+122,2,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,MJBFC,4168821,Michael Browne,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+184,3,1,FALSE,FALSE,Joseph,Gomez,Gomez,MJBFC,4168821,Michael Browne,90,0,0,0,1,0,0,0,0,0,0,0,10,14.0,11.8,0.0,2.6,2,FALSE
+206,4,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,MJBFC,4168821,Michael Browne,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+192,5,1,FALSE,TRUE,Sadio,Mané,Mané,MJBFC,4168821,Michael Browne,16,0,0,0,0,0,0,0,0,0,0,0,3,1.2,1.3,6.0,0.9,1,FALSE
+265,6,1,FALSE,FALSE,Ayoze,Pérez,Pérez,MJBFC,4168821,Michael Browne,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+151,7,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,MJBFC,4168821,Michael Browne,78,0,0,1,0,0,0,0,0,0,0,0,3,4.8,13.1,37.0,5.5,3,FALSE
+239,8,1,FALSE,FALSE,Anthony,Martial,Martial,MJBFC,4168821,Michael Browne,90,1,0,1,0,0,0,0,1,0,0,0,19,39.2,19.3,71.0,13.0,7,FALSE
+234,9,1,FALSE,FALSE,Mason,Greenwood,Greenwood,MJBFC,4168821,Michael Browne,4,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.6,18.0,1.9,1,FALSE
+409,10,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,MJBFC,4168821,Michael Browne,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+338,11,2,TRUE,FALSE,Harry,Kane,Kane,MJBFC,4168821,Michael Browne,90,2,0,0,1,0,0,0,0,0,0,3,50,64.2,24.1,95.0,18.3,13,TRUE
+149,12,0,FALSE,FALSE,Maarten,Stekelenburg,Stekelenburg,MJBFC,4168821,Michael Browne,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,13,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,MJBFC,4168821,Michael Browne,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+65,14,0,FALSE,FALSE,Diego,Rico,Rico,MJBFC,4168821,Michael Browne,90,0,0,0,1,0,0,0,0,0,0,0,13,21.0,16.6,3.0,4.1,2,FALSE
+89,15,0,FALSE,FALSE,Ben,Gibson,Gibson,MJBFC,4168821,Michael Browne,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+111,1,1,FALSE,TRUE,Kepa,Arrizabalaga,Kepa,King's 11,2351376,Nagaraju N,90,0,0,0,4,0,0,0,0,0,1,0,9,7.0,0.0,0.0,0.7,0,FALSE
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,King's 11,2351376,Nagaraju N,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,King's 11,2351376,Nagaraju N,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+293,4,1,FALSE,FALSE,Jack,O'Connell,O'Connell,King's 11,2351376,Nagaraju N,90,0,0,0,1,0,0,0,0,0,0,0,12,15.6,4.6,0.0,2.0,2,FALSE
+238,5,1,FALSE,FALSE,Paul,Pogba,Pogba,King's 11,2351376,Nagaraju N,90,0,2,1,0,0,0,0,0,0,0,0,30,43.2,48.8,6.0,9.8,9,FALSE
+343,6,1,FALSE,FALSE,Christian,Eriksen,Eriksen,King's 11,2351376,Nagaraju N,26,0,0,0,0,0,0,0,0,0,0,0,10,12.6,40.8,18.0,7.1,1,FALSE
+415,7,1,FALSE,FALSE,João Filipe Iria,Santos Moutinho,Moutinho,King's 11,2351376,Nagaraju N,90,0,0,1,0,0,0,0,0,0,0,0,11,21.8,29.8,0.0,5.2,3,FALSE
+114,8,1,FALSE,FALSE,Pedro,Rodríguez Ledesma,Pedro,King's 11,2351376,Nagaraju N,90,0,0,0,4,0,0,0,0,0,0,0,18,20.0,55.1,23.0,9.8,2,FALSE
+68,9,1,FALSE,FALSE,Joshua,King,King,King's 11,2351376,Nagaraju N,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+233,10,2,TRUE,FALSE,Marcus,Rashford,Rashford,King's 11,2351376,Nagaraju N,85,2,0,1,0,0,0,0,0,0,0,3,53,71.8,1.9,58.0,13.2,13,TRUE
+187,11,1,FALSE,FALSE,Roberto,Firmino,Firmino,King's 11,2351376,Nagaraju N,85,0,1,0,1,0,0,0,0,0,0,0,26,24.6,14.8,66.0,10.5,5,FALSE
+235,12,0,FALSE,FALSE,David,de Gea,de Gea,King's 11,2351376,Nagaraju N,90,0,0,1,0,0,0,0,0,0,7,2,34,43.2,0.0,0.0,4.3,10,TRUE
+106,13,0,FALSE,FALSE,David,Luiz Moreira Marinho,David Luiz,King's 11,2351376,Nagaraju N,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+472,14,0,FALSE,FALSE,Ben,Osborn,Osborn,King's 11,2351376,Nagaraju N,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+473,15,0,FALSE,FALSE,Jesús,Vallejo Lázaro,Vallejo,King's 11,2351376,Nagaraju N,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+212,1,1,FALSE,TRUE,Ederson,Santana de Moraes,Ederson,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,1,0,0,0,0,0,0,3,0,26,28.8,0.0,0.0,2.9,7,FALSE
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Blasterzz,2364930,Balaji Lakshmanan,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+203,3,1,FALSE,FALSE,Kyle,Walker,Walker,Blasterzz,2364930,Balaji Lakshmanan,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+258,4,1,FALSE,FALSE,Jamaal,Lascelles,Lascelles,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,0,1,0,0,0,0,0,0,0,13,19.6,0.4,0.0,2.0,2,FALSE
+59,5,1,FALSE,FALSE,Nathan,Aké,Aké,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,0,1,0,0,0,0,0,0,0,19,16.4,21.7,22.0,6.0,2,FALSE
+192,6,2,TRUE,FALSE,Sadio,Mané,Mané,Blasterzz,2364930,Balaji Lakshmanan,16,0,0,0,0,0,0,0,0,0,0,0,3,1.2,1.3,6.0,0.9,1,FALSE
+134,7,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+238,8,1,FALSE,FALSE,Paul,Pogba,Pogba,Blasterzz,2364930,Balaji Lakshmanan,90,0,2,1,0,0,0,0,0,0,0,0,30,43.2,48.8,6.0,9.8,9,FALSE
+415,9,1,FALSE,FALSE,João Filipe Iria,Santos Moutinho,Moutinho,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,1,0,0,0,0,0,0,0,0,11,21.8,29.8,0.0,5.2,3,FALSE
+233,10,1,FALSE,FALSE,Marcus,Rashford,Rashford,Blasterzz,2364930,Balaji Lakshmanan,85,2,0,1,0,0,0,0,0,0,0,3,53,71.8,1.9,58.0,13.2,13,TRUE
+68,11,1,FALSE,FALSE,Joshua,King,King,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+366,12,0,FALSE,FALSE,Ben,Foster,Foster,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,0,3,0,0,0,0,0,1,0,9,10.0,0.0,0.0,1.0,1,FALSE
+159,13,0,FALSE,FALSE,Ricardo Domingos,Barbosa Pereira,Pereira,Blasterzz,2364930,Balaji Lakshmanan,90,0,0,1,0,0,0,0,0,0,0,3,32,21.4,16.0,9.0,4.6,9,FALSE
+153,14,0,FALSE,FALSE,Theo,Walcott,Walcott,Blasterzz,2364930,Balaji Lakshmanan,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+410,15,0,FALSE,FALSE,Diogo,Jota,Jota,Blasterzz,2364930,Balaji Lakshmanan,75,0,0,1,0,0,0,0,0,0,0,0,4,1.6,12.3,25.0,3.9,2,FALSE
+388,1,1,FALSE,TRUE,Lukasz,Fabianski,Fabianski,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,0,5,0,0,0,0,0,4,0,18,28.4,0.0,0.0,2.8,1,FALSE
+123,2,1,FALSE,FALSE,Patrick,van Aanholt,van Aanholt,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,0,0,0,0,20,15.4,0.5,2.0,1.8,6,FALSE
+401,3,1,FALSE,FALSE,Matt,Doherty,Doherty,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,0,0,0,0,16,0.0,1.8,0.0,0.2,6,FALSE
+141,4,1,FALSE,FALSE,Lucas,Digne,Digne,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,0,0,0,0,17,6.4,16.5,22.0,4.5,6,FALSE
+151,5,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,This is Our Year ICT,5005895,Stephen Bourton,78,0,0,1,0,0,0,0,0,0,0,0,3,4.8,13.1,37.0,5.5,3,FALSE
+171,6,1,FALSE,FALSE,James,Maddison,Maddison,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,0,0,0,0,9,3.6,49.2,13.0,6.6,3,FALSE
+191,7,1,FALSE,FALSE,Mohamed,Salah,Salah,This is Our Year ICT,5005895,Stephen Bourton,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+134,8,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+68,9,1,FALSE,FALSE,Joshua,King,King,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+11,10,2,TRUE,FALSE,Pierre-Emerick,Aubameyang,Aubameyang,This is Our Year ICT,5005895,Stephen Bourton,90,1,0,1,0,0,0,0,0,0,0,0,25,37.4,6.5,78.0,12.2,6,FALSE
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+42,13,0,FALSE,FALSE,Lewis,Dunk,Dunk,This is Our Year ICT,5005895,Stephen Bourton,90,0,1,1,0,0,0,0,1,0,0,3,41,35.8,13.3,2.0,5.1,11,TRUE
+271,14,0,FALSE,FALSE,Isaac,Hayden,Hayden,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+467,15,0,FALSE,FALSE,Calum,Chambers,Chambers,This is Our Year ICT,5005895,Stephen Bourton,90,0,0,1,0,0,0,0,0,0,0,0,26,13.0,0.2,0.0,1.3,6,FALSE
+212,1,1,FALSE,FALSE,Ederson,Santana de Moraes,Ederson,Fulhamish PPG,3702767,Ste Bourton,90,0,0,1,0,0,0,0,0,0,3,0,26,28.8,0.0,0.0,2.9,7,FALSE
+258,2,1,FALSE,FALSE,Jamaal,Lascelles,Lascelles,Fulhamish PPG,3702767,Ste Bourton,90,0,0,0,1,0,0,0,0,0,0,0,13,19.6,0.4,0.0,2.0,2,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,Fulhamish PPG,3702767,Ste Bourton,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+182,4,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Fulhamish PPG,3702767,Ste Bourton,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+448,5,1,FALSE,FALSE,Youri,Tielemans,Tielemans,Fulhamish PPG,3702767,Ste Bourton,90,0,0,1,0,0,0,0,0,0,0,0,21,14.2,33.7,36.0,8.4,3,FALSE
+191,6,2,TRUE,FALSE,Mohamed,Salah,Salah,Fulhamish PPG,3702767,Ste Bourton,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+134,7,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,Fulhamish PPG,3702767,Ste Bourton,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+151,8,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,Fulhamish PPG,3702767,Ste Bourton,78,0,0,1,0,0,0,0,0,0,0,0,3,4.8,13.1,37.0,5.5,3,FALSE
+166,9,1,FALSE,FALSE,Jamie,Vardy,Vardy,Fulhamish PPG,3702767,Ste Bourton,90,0,0,1,0,0,0,0,0,0,0,0,5,6.8,4.9,4.0,1.6,2,FALSE
+313,10,1,FALSE,FALSE,Danny,Ings,Ings,Fulhamish PPG,3702767,Ste Bourton,65,0,0,0,1,0,0,0,0,0,0,0,8,4.8,11.0,0.0,1.6,2,FALSE
+68,11,1,FALSE,TRUE,Joshua,King,King,Fulhamish PPG,3702767,Ste Bourton,90,0,0,0,1,0,0,0,0,0,0,0,6,6.0,12.4,22.0,4.0,2,FALSE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,Fulhamish PPG,3702767,Ste Bourton,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+103,13,0,FALSE,FALSE,Marcos,Alonso,Alonso,Fulhamish PPG,3702767,Ste Bourton,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+271,14,0,FALSE,FALSE,Isaac,Hayden,Hayden,Fulhamish PPG,3702767,Ste Bourton,90,0,0,0,1,0,0,0,0,0,0,0,20,22.4,12.0,0.0,3.4,2,FALSE
+42,15,0,FALSE,FALSE,Lewis,Dunk,Dunk,Fulhamish PPG,3702767,Ste Bourton,90,0,1,1,0,0,0,0,1,0,0,3,41,35.8,13.3,2.0,5.1,11,TRUE
+212,1,1,FALSE,TRUE,Ederson,Santana de Moraes,Ederson,Stranger Fruits,5285937,Jai Parmar,90,0,0,1,0,0,0,0,0,0,3,0,26,28.8,0.0,0.0,2.9,7,FALSE
+107,2,1,FALSE,FALSE,Emerson,Palmieri dos Santos,Emerson,Stranger Fruits,5285937,Jai Parmar,90,0,0,0,4,0,0,0,0,0,0,0,8,23.2,19.7,45.0,8.8,0,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,Stranger Fruits,5285937,Jai Parmar,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+183,4,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,Stranger Fruits,5285937,Jai Parmar,90,1,0,0,1,0,0,0,0,0,0,0,27,52.4,0.8,21.0,7.4,8,FALSE
+202,5,1,FALSE,FALSE,Aymeric,Laporte,Laporte,Stranger Fruits,5285937,Jai Parmar,90,0,0,1,0,0,0,0,0,0,0,0,26,19.2,0.9,0.0,2.0,6,FALSE
+420,6,1,FALSE,FALSE,Leander,Dendoncker,Dendoncker,Stranger Fruits,5285937,Jai Parmar,90,0,0,1,0,0,0,0,0,0,0,0,13,16.8,21.9,23.0,6.2,3,FALSE
+191,7,1,FALSE,FALSE,Mohamed,Salah,Salah,Stranger Fruits,5285937,Jai Parmar,90,1,1,0,1,0,0,0,0,0,0,2,40,54.8,39.7,39.0,13.4,12,TRUE
+239,8,1,FALSE,FALSE,Anthony,Martial,Martial,Stranger Fruits,5285937,Jai Parmar,90,1,0,1,0,0,0,0,1,0,0,0,19,39.2,19.3,71.0,13.0,7,FALSE
+265,9,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Stranger Fruits,5285937,Jai Parmar,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+166,10,2,TRUE,FALSE,Jamie,Vardy,Vardy,Stranger Fruits,5285937,Jai Parmar,90,0,0,1,0,0,0,0,0,0,0,0,5,6.8,4.9,4.0,1.6,2,FALSE
+410,11,1,FALSE,FALSE,Diogo,Jota,Jota,Stranger Fruits,5285937,Jai Parmar,75,0,0,1,0,0,0,0,0,0,0,0,4,1.6,12.3,25.0,3.9,2,FALSE
+450,12,0,FALSE,FALSE,Roberto,Jimenez Gago,Roberto,Stranger Fruits,5285937,Jai Parmar,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+206,13,0,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,Stranger Fruits,5285937,Jai Parmar,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+117,14,0,FALSE,FALSE,Ross,Barkley,Barkley,Stranger Fruits,5285937,Jai Parmar,57,0,0,0,1,0,0,0,0,0,0,0,1,8.0,14.4,18.0,4.0,1,FALSE
+129,15,0,FALSE,FALSE,Christian,Benteke,Benteke,Stranger Fruits,5285937,Jai Parmar,82,0,0,1,0,0,0,0,0,0,0,0,9,9.6,15.0,2.0,2.7,2,FALSE
+212,1,1,FALSE,FALSE,Ederson,Santana de Moraes,Ederson,Paulo D'ynt,4091788,Antonio T,90,0,0,1,0,0,0,0,0,0,3,0,26,28.8,0.0,0.0,2.9,7,FALSE
+181,2,1,FALSE,FALSE,Andrew,Robertson,Robertson,Paulo D'ynt,4091788,Antonio T,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+182,3,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Paulo D'ynt,4091788,Antonio T,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+203,4,1,FALSE,FALSE,Kyle,Walker,Walker,Paulo D'ynt,4091788,Antonio T,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+128,5,1,FALSE,FALSE,Martin,Kelly,Kelly,Paulo D'ynt,4091788,Antonio T,90,0,0,1,0,0,0,0,0,0,0,0,24,25.8,0.0,0.0,2.6,6,FALSE
+345,6,2,TRUE,FALSE,Lucas,Rodrigues Moura da Silva,Lucas Moura,Paulo D'ynt,4091788,Antonio T,90,0,1,0,1,0,0,0,0,0,0,0,19,24.4,39.4,32.0,9.6,5,FALSE
+134,7,1,FALSE,FALSE,Luka,Milivojevic,Milivojevic,Paulo D'ynt,4091788,Antonio T,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+151,8,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,Paulo D'ynt,4091788,Antonio T,78,0,0,1,0,0,0,0,0,0,0,0,3,4.8,13.1,37.0,5.5,3,FALSE
+265,9,1,FALSE,FALSE,Ayoze,Pérez,Pérez,Paulo D'ynt,4091788,Antonio T,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+187,10,1,FALSE,TRUE,Roberto,Firmino,Firmino,Paulo D'ynt,4091788,Antonio T,85,0,1,0,1,0,0,0,0,0,0,0,26,24.6,14.8,66.0,10.5,5,FALSE
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,Paulo D'ynt,4091788,Antonio T,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Paulo D'ynt,4091788,Antonio T,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+66,13,0,FALSE,FALSE,Jack,Simpson,Simpson,Paulo D'ynt,4091788,Antonio T,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,14,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,Paulo D'ynt,4091788,Antonio T,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+130,15,0,FALSE,FALSE,Connor,Wickham,Wickham,Paulo D'ynt,4091788,Antonio T,7,0,0,0,0,0,0,0,0,0,0,0,1,0.0,0.5,2.0,0.2,1,FALSE
+111,1,1,FALSE,TRUE,Kepa,Arrizabalaga,Kepa,Absolute Quality,2354983,Otis McLeod,90,0,0,0,4,0,0,0,0,0,1,0,9,7.0,0.0,0.0,0.7,0,FALSE
+105,2,1,FALSE,FALSE,César,Azpilicueta,Azpilicueta,Absolute Quality,2354983,Otis McLeod,90,0,0,0,4,0,0,0,0,0,0,0,9,24.2,16.7,2.0,4.3,0,FALSE
+159,3,1,FALSE,FALSE,Ricardo Domingos,Barbosa Pereira,Pereira,Absolute Quality,2354983,Otis McLeod,90,0,0,1,0,0,0,0,0,0,0,3,32,21.4,16.0,9.0,4.6,9,FALSE
+141,4,1,FALSE,FALSE,Lucas,Digne,Digne,Absolute Quality,2354983,Otis McLeod,90,0,0,1,0,0,0,0,0,0,0,0,17,6.4,16.5,22.0,4.5,6,FALSE
+203,5,1,FALSE,FALSE,Kyle,Walker,Walker,Absolute Quality,2354983,Otis McLeod,90,0,1,1,0,0,0,0,1,0,0,0,33,27.4,23.3,20.0,7.1,8,FALSE
+390,6,1,FALSE,FALSE,Felipe Anderson,Pereira Gomes,Felipe Anderson,Absolute Quality,2354983,Otis McLeod,65,0,0,0,2,0,0,0,1,0,0,0,0,3.8,1.6,0.0,0.5,1,FALSE
+171,7,1,FALSE,FALSE,James,Maddison,Maddison,Absolute Quality,2354983,Otis McLeod,90,0,0,1,0,0,0,0,0,0,0,0,9,3.6,49.2,13.0,6.6,3,FALSE
+16,8,1,FALSE,FALSE,Henrikh,Mkhitaryan,Mkhitaryan,Absolute Quality,2354983,Otis McLeod,83,0,0,1,0,0,0,0,1,0,0,0,0,0.2,19.4,22.0,4.2,2,FALSE
+133,9,1,FALSE,FALSE,Wilfried,Zaha,Zaha,Absolute Quality,2354983,Otis McLeod,25,0,0,0,0,0,0,0,0,0,0,0,1,4.4,0.8,32.0,3.7,1,FALSE
+67,10,2,TRUE,FALSE,Callum,Wilson,Wilson,Absolute Quality,2354983,Otis McLeod,89,0,1,0,1,0,0,0,0,0,0,0,10,2.4,2.3,35.0,4.0,5,FALSE
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,Absolute Quality,2354983,Otis McLeod,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+235,12,0,FALSE,FALSE,David,de Gea,de Gea,Absolute Quality,2354983,Otis McLeod,90,0,0,1,0,0,0,0,0,0,7,2,34,43.2,0.0,0.0,4.3,10,TRUE
+106,13,0,FALSE,FALSE,David,Luiz Moreira Marinho,David Luiz,Absolute Quality,2354983,Otis McLeod,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+134,14,0,FALSE,FALSE,Luka,Milivojevic,Milivojevic,Absolute Quality,2354983,Otis McLeod,90,0,0,1,0,0,0,0,1,0,0,0,-2,0.6,14.8,0.0,1.5,2,FALSE
+233,15,0,FALSE,FALSE,Marcus,Rashford,Rashford,Absolute Quality,2354983,Otis McLeod,85,2,0,1,0,0,0,0,0,0,0,3,53,71.8,1.9,58.0,13.2,13,TRUE
+366,1,1,FALSE,FALSE,Ben,Foster,Foster,Neville wears Prada,3569399,Arjun Takhar,90,0,0,0,3,0,0,0,0,0,1,0,9,10.0,0.0,0.0,1.0,1,FALSE
+206,2,1,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,Neville wears Prada,3569399,Arjun Takhar,90,0,0,1,0,0,0,0,0,0,0,0,26,17.8,25.0,1.0,4.4,6,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,Neville wears Prada,3569399,Arjun Takhar,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+182,4,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,Neville wears Prada,3569399,Arjun Takhar,90,0,1,0,1,0,0,0,0,0,0,0,24,35.6,36.3,12.0,8.4,5,FALSE
+368,5,1,FALSE,FALSE,Abdoulaye,Doucouré,Doucouré,Neville wears Prada,3569399,Arjun Takhar,90,0,0,0,3,1,0,0,0,0,0,0,7,4.4,23.1,2.0,3.0,0,FALSE
+215,6,1,FALSE,FALSE,Kevin,De Bruyne,De Bruyne,Neville wears Prada,3569399,Arjun Takhar,78,0,1,1,0,0,0,0,0,0,0,1,37,37.8,37.4,27.0,10.2,7,FALSE
+192,7,2,TRUE,FALSE,Sadio,Mané,Mané,Neville wears Prada,3569399,Arjun Takhar,16,0,0,0,0,0,0,0,0,0,0,0,3,1.2,1.3,6.0,0.9,1,FALSE
+415,8,1,FALSE,FALSE,João Filipe Iria,Santos Moutinho,Moutinho,Neville wears Prada,3569399,Arjun Takhar,90,0,0,1,0,0,0,0,0,0,0,0,11,21.8,29.8,0.0,5.2,3,FALSE
+420,9,1,FALSE,FALSE,Leander,Dendoncker,Dendoncker,Neville wears Prada,3569399,Arjun Takhar,90,0,0,1,0,0,0,0,0,0,0,0,13,16.8,21.9,23.0,6.2,3,FALSE
+67,10,1,FALSE,TRUE,Callum,Wilson,Wilson,Neville wears Prada,3569399,Arjun Takhar,89,0,1,0,1,0,0,0,0,0,0,0,10,2.4,2.3,35.0,4.0,5,FALSE
+11,11,1,FALSE,FALSE,Pierre-Emerick,Aubameyang,Aubameyang,Neville wears Prada,3569399,Arjun Takhar,90,1,0,1,0,0,0,0,0,0,0,0,25,37.4,6.5,78.0,12.2,6,FALSE
+47,12,0,FALSE,FALSE,Mathew,Ryan,Ryan,Neville wears Prada,3569399,Arjun Takhar,90,0,0,1,0,0,0,0,0,0,3,2,29,25.4,0.0,0.0,2.5,9,FALSE
+315,13,0,FALSE,FALSE,Shane,Long,Long,Neville wears Prada,3569399,Arjun Takhar,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+87,14,0,FALSE,FALSE,Charlie,Taylor,Taylor,Neville wears Prada,3569399,Arjun Takhar,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+405,15,0,FALSE,FALSE,Willy,Boly,Boly,Neville wears Prada,3569399,Arjun Takhar,90,0,0,1,0,0,0,0,0,0,0,3,32,27.2,0.3,2.0,3.0,9,FALSE
+189,1,1,FALSE,FALSE,Alisson,Ramses Becker,Alisson,Method Rovers,3443957,Michael Kelly,38,0,0,0,0,0,0,0,0,0,2,0,7,5.6,0.0,0.0,0.6,1,FALSE
+159,2,1,FALSE,FALSE,Ricardo Domingos,Barbosa Pereira,Pereira,Method Rovers,3443957,Michael Kelly,90,0,0,1,0,0,0,0,0,0,0,3,32,21.4,16.0,9.0,4.6,9,FALSE
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,Method Rovers,3443957,Michael Kelly,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+160,4,1,FALSE,FALSE,Harry,Maguire,Maguire,Method Rovers,3443957,Michael Kelly,90,0,0,1,0,0,0,0,0,0,0,0,29,34.8,10.8,8.0,5.4,6,FALSE
+59,5,1,FALSE,FALSE,Nathan,Aké,Aké,Method Rovers,3443957,Michael Kelly,90,0,0,0,1,0,0,0,0,0,0,0,19,16.4,21.7,22.0,6.0,2,FALSE
+265,6,1,FALSE,TRUE,Ayoze,Pérez,Pérez,Method Rovers,3443957,Michael Kelly,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+151,7,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,Method Rovers,3443957,Michael Kelly,78,0,0,1,0,0,0,0,0,0,0,0,3,4.8,13.1,37.0,5.5,3,FALSE
+500,8,1,FALSE,FALSE,Allan,Saint-Maximin,Saint-Maximin,Method Rovers,3443957,Michael Kelly,23,0,0,0,0,0,0,0,0,0,0,0,2,0.0,0.0,0.0,0.0,1,FALSE
+443,9,1,FALSE,FALSE,Rodrigo,Hernandez,Rodrigo,Method Rovers,3443957,Michael Kelly,90,0,0,1,0,0,0,0,0,0,0,0,15,12.2,3.1,0.0,1.5,3,FALSE
+166,10,2,TRUE,FALSE,Jamie,Vardy,Vardy,Method Rovers,3443957,Michael Kelly,90,0,0,1,0,0,0,0,0,0,0,0,5,6.8,4.9,4.0,1.6,2,FALSE
+210,11,1,FALSE,FALSE,Sergio,Agüero,Agüero,Method Rovers,3443957,Michael Kelly,21,1,0,0,0,0,0,0,0,0,0,0,27,33.4,0.3,17.0,5.1,5,FALSE
+48,12,0,FALSE,FALSE,David,Button,Button,Method Rovers,3443957,Michael Kelly,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+525,13,0,FALSE,FALSE,Ismaïla,Sarr,Sarr,Method Rovers,3443957,Michael Kelly,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+405,14,0,FALSE,FALSE,Willy,Boly,Boly,Method Rovers,3443957,Michael Kelly,90,0,0,1,0,0,0,0,0,0,0,3,32,27.2,0.3,2.0,3.0,9,FALSE
+409,15,0,FALSE,FALSE,Raúl,Jiménez,Jiménez,Method Rovers,3443957,Michael Kelly,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+340,1,1,FALSE,FALSE,Hugo,Lloris,Lloris,DQ.P.R,1468469,Adam Wilkin,90,0,0,0,1,0,0,0,0,0,3,0,13,21.4,0.0,0.0,2.1,3,FALSE
+181,2,2,TRUE,FALSE,Andrew,Robertson,Robertson,DQ.P.R,1468469,Adam Wilkin,90,0,0,0,1,0,0,0,0,0,0,0,15,12.4,24.7,7.0,4.4,2,FALSE
+122,3,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,DQ.P.R,1468469,Adam Wilkin,90,0,0,1,0,0,0,0,0,0,0,2,34,30.4,16.1,2.0,4.9,8,FALSE
+337,4,1,FALSE,FALSE,Kyle,Walker-Peters,Walker-Peters,DQ.P.R,1468469,Adam Wilkin,90,0,0,0,1,0,0,0,0,0,0,0,20,20.2,19.3,14.0,5.4,2,FALSE
+274,5,1,FALSE,FALSE,Maximillian,Aarons,Aarons,DQ.P.R,1468469,Adam Wilkin,90,0,0,0,4,0,0,0,0,0,0,0,16,25.8,1.4,0.0,2.7,0,FALSE
+192,6,1,FALSE,FALSE,Sadio,Mané,Mané,DQ.P.R,1468469,Adam Wilkin,16,0,0,0,0,0,0,0,0,0,0,0,3,1.2,1.3,6.0,0.9,1,FALSE
+394,7,1,FALSE,FALSE,Jack,Wilshere,Wilshere,DQ.P.R,1468469,Adam Wilkin,55,0,0,0,2,0,0,0,0,0,0,0,3,2.6,2.1,0.0,0.5,1,FALSE
+265,8,1,FALSE,FALSE,Ayoze,Pérez,Pérez,DQ.P.R,1468469,Adam Wilkin,75,0,0,1,0,0,0,0,0,0,0,0,7,2.0,3.6,12.0,1.8,3,FALSE
+409,9,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,DQ.P.R,1468469,Adam Wilkin,90,0,0,1,0,0,0,0,0,0,0,0,10,19.8,12.2,30.0,6.2,2,FALSE
+210,10,1,FALSE,TRUE,Sergio,Agüero,Agüero,DQ.P.R,1468469,Adam Wilkin,21,1,0,0,0,0,0,0,0,0,0,0,27,33.4,0.3,17.0,5.1,5,FALSE
+502,11,1,FALSE,FALSE,Neal,Maupay,Maupay,DQ.P.R,1468469,Adam Wilkin,26,1,0,0,0,0,0,0,0,0,0,1,27,0.0,0.0,0.0,0.0,6,FALSE
+366,12,0,FALSE,FALSE,Ben,Foster,Foster,DQ.P.R,1468469,Adam Wilkin,90,0,0,0,3,0,0,0,0,0,1,0,9,10.0,0.0,0.0,1.0,1,FALSE
+515,13,0,FALSE,FALSE,Kieran,Tierney,Tierney,DQ.P.R,1468469,Adam Wilkin,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+218,14,0,FALSE,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,DQ.P.R,1468469,Adam Wilkin,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
+175,15,0,FALSE,FALSE,Demarai,Gray,Gray,DQ.P.R,1468469,Adam Wilkin,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE
