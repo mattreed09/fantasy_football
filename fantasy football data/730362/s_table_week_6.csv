@@ -1,0 +1,121 @@
+element,position,multiplier,is_captain,is_vice_captain,first_name,second_name,web_name,team,team_name,team_id,team_owner,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,total_points,in_dreamteam,name,color
+411,1,1,FALSE,FALSE,Rui Pedro,dos Santos Patrício,Patrício,20,Schär the load,2459277,Matt Reed,90,0,0,0,1,0,0,0,0,0,4,0,17,34.8,0.0,0.0,3.5,3,FALSE,Wolves,#fdb913
+123,2,1,FALSE,FALSE,Patrick,van Aanholt,van Aanholt,7,Schär the load,2459277,Matt Reed,90,0,0,0,1,0,0,0,0,0,0,0,10,11.2,3.2,12.0,2.6,2,FALSE,Crystal Palace,#0a4af5
+42,3,1,FALSE,FALSE,Lewis,Dunk,Dunk,4,Schär the load,2459277,Matt Reed,90,0,0,1,0,0,0,0,1,0,0,1,26,21.0,0.6,36.0,5.8,6,FALSE,Brighton,#005daa
+141,4,1,FALSE,FALSE,Lucas,Digne,Digne,8,Schär the load,2459277,Matt Reed,90,0,0,0,2,0,0,0,0,0,0,0,12,13.6,19.3,25.0,5.8,1,FALSE,Everton,#0d00e9
+215,5,1,FALSE,FALSE,Kevin,De Bruyne,De Bruyne,11,Schär the load,2459277,Matt Reed,90,1,2,1,0,0,0,0,0,0,0,3,66,88.4,109.4,40.0,23.8,17,TRUE,Man City,#97c1e7
+191,6,1,FALSE,TRUE,Mohamed,Salah,Salah,10,Schär the load,2459277,Matt Reed,90,0,1,0,1,0,0,0,0,0,0,0,11,14.8,15.3,36.0,6.6,5,FALSE,Liverpool,#dd0000
+287,7,1,FALSE,FALSE,Todd,Cantwell,Cantwell,14,Schär the load,2459277,Matt Reed,89,0,0,0,2,0,0,0,0,0,0,0,14,8.2,15.5,28.0,5.2,2,FALSE,Norwich,#00a650
+31,8,1,FALSE,FALSE,John,McGinn,McGinn,2,Schär the load,2459277,Matt Reed,90,1,0,0,3,0,0,0,0,0,0,3,32,50.8,12.0,55.0,11.8,10,FALSE,Aston Villa,#670E36
+11,9,2,TRUE,FALSE,Pierre-Emerick,Aubameyang,Aubameyang,1,Schär the load,2459277,Matt Reed,90,1,0,0,2,0,0,0,1,0,0,0,26,34.6,1.6,59.0,9.5,5,FALSE,Arsenal,#ef0107
+278,10,1,FALSE,FALSE,Teemu,Pukki,Pukki,14,Schär the load,2459277,Matt Reed,90,0,0,0,2,0,0,0,0,0,0,0,2,4.0,2.4,44.0,5.0,2,FALSE,Norwich,#00a650
+460,11,1,FALSE,FALSE,Tammy,Abraham,Abraham,6,Schär the load,2459277,Matt Reed,76,0,0,0,2,0,0,0,0,0,0,0,-5,1.4,0.8,25.0,2.7,2,FALSE,Chelsea,#034694
+93,12,0,FALSE,FALSE,Nick,Pope,Pope,5,Schär the load,2459277,Matt Reed,90,0,0,1,0,0,0,0,0,0,2,0,24,15.0,0.0,0.0,1.5,6,FALSE,Burnley,#80bfff
+391,13,0,FALSE,FALSE,Manuel,Lanzini,Lanzini,19,Schär the load,2459277,Matt Reed,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,West Ham,#7f0000
+297,14,0,FALSE,FALSE,John,Lundstram,Lundstram,15,Schär the load,2459277,Matt Reed,90,0,1,1,0,0,0,0,0,0,0,3,33,35.6,15.4,0.0,5.1,12,TRUE,Sheffield Utd,red
+445,15,0,FALSE,FALSE,Tyrone,Mings,Mings,2,Schär the load,2459277,Matt Reed,90,0,0,0,3,0,0,0,0,0,0,0,11,17.6,0.3,4.0,2.2,1,FALSE,Aston Villa,#670E36
+93,1,1,FALSE,FALSE,Nick,Pope,Pope,5,Hanging By a Fred,3091202,Viet Nguyen,90,0,0,1,0,0,0,0,0,0,2,0,24,15.0,0.0,0.0,1.5,6,FALSE,Burnley,#80bfff
+183,2,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,10,Hanging By a Fred,3091202,Viet Nguyen,90,0,0,0,1,0,0,0,0,0,0,0,13,14.2,0.5,0.0,1.5,2,FALSE,Liverpool,#dd0000
+141,3,1,FALSE,FALSE,Lucas,Digne,Digne,8,Hanging By a Fred,3091202,Viet Nguyen,90,0,0,0,2,0,0,0,0,0,0,0,12,13.6,19.3,25.0,5.8,1,FALSE,Everton,#0d00e9
+123,4,1,FALSE,FALSE,Patrick,van Aanholt,van Aanholt,7,Hanging By a Fred,3091202,Viet Nguyen,90,0,0,0,1,0,0,0,0,0,0,0,10,11.2,3.2,12.0,2.6,2,FALSE,Crystal Palace,#0a4af5
+42,5,1,FALSE,FALSE,Lewis,Dunk,Dunk,4,Hanging By a Fred,3091202,Viet Nguyen,90,0,0,1,0,0,0,0,1,0,0,1,26,21.0,0.6,36.0,5.8,6,FALSE,Brighton,#005daa
+469,6,1,FALSE,FALSE,Daniel,Ceballos Fernández,Ceballos,1,Hanging By a Fred,3091202,Viet Nguyen,71,0,0,0,2,0,0,0,0,0,0,0,10,10.4,15.8,4.0,3.0,2,FALSE,Arsenal,#ef0107
+243,7,1,FALSE,FALSE,Daniel,James,James,12,Hanging By a Fred,3091202,Viet Nguyen,90,0,0,0,2,0,0,0,0,0,0,0,7,2.8,16.5,8.0,2.7,2,FALSE,Man Utd,#e80909
+192,8,1,FALSE,FALSE,Sadio,Mané,Mané,10,Hanging By a Fred,3091202,Viet Nguyen,70,0,0,0,1,0,0,0,0,0,0,0,7,8.2,3.4,6.0,1.8,2,FALSE,Liverpool,#dd0000
+215,9,2,FALSE,TRUE,Kevin,De Bruyne,De Bruyne,11,Hanging By a Fred,3091202,Viet Nguyen,90,1,2,1,0,0,0,0,0,0,0,3,66,88.4,109.4,40.0,23.8,17,TRUE,Man City,#97c1e7
+278,10,1,FALSE,FALSE,Teemu,Pukki,Pukki,14,Hanging By a Fred,3091202,Viet Nguyen,90,0,0,0,2,0,0,0,0,0,0,0,2,4.0,2.4,44.0,5.0,2,FALSE,Norwich,#00a650
+460,11,1,FALSE,FALSE,Tammy,Abraham,Abraham,6,Hanging By a Fred,3091202,Viet Nguyen,76,0,0,0,2,0,0,0,0,0,0,0,-5,1.4,0.8,25.0,2.7,2,FALSE,Chelsea,#034694
+48,12,0,FALSE,FALSE,David,Button,Button,4,Hanging By a Fred,3091202,Viet Nguyen,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Brighton,#005daa
+206,13,0,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,11,Hanging By a Fred,3091202,Viet Nguyen,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+234,14,0,FALSE,FALSE,Mason,Greenwood,Greenwood,12,Hanging By a Fred,3091202,Viet Nguyen,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man Utd,#e80909
+214,15,0,TRUE,FALSE,Raheem,Sterling,Sterling,11,Hanging By a Fred,3091202,Viet Nguyen,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+93,1,1,FALSE,FALSE,Nick,Pope,Pope,5,Kloppopoly,3041911,Peter Jones,90,0,0,1,0,0,0,0,0,0,2,0,24,15.0,0.0,0.0,1.5,6,FALSE,Burnley,#80bfff
+141,2,1,FALSE,FALSE,Lucas,Digne,Digne,8,Kloppopoly,3041911,Peter Jones,90,0,0,0,2,0,0,0,0,0,0,0,12,13.6,19.3,25.0,5.8,1,FALSE,Everton,#0d00e9
+181,3,1,FALSE,FALSE,Andrew,Robertson,Robertson,10,Kloppopoly,3041911,Peter Jones,90,0,1,0,1,0,0,0,0,0,0,3,30,37.6,16.7,2.0,5.6,8,FALSE,Liverpool,#dd0000
+297,4,1,FALSE,FALSE,John,Lundstram,Lundstram,15,Kloppopoly,3041911,Peter Jones,90,0,1,1,0,0,0,0,0,0,0,3,33,35.6,15.4,0.0,5.1,12,TRUE,Sheffield Utd,red
+31,5,1,FALSE,FALSE,John,McGinn,McGinn,2,Kloppopoly,3041911,Peter Jones,90,1,0,0,3,0,0,0,0,0,0,3,32,50.8,12.0,55.0,11.8,10,FALSE,Aston Villa,#670E36
+214,6,1,TRUE,FALSE,Raheem,Sterling,Sterling,11,Kloppopoly,3041911,Peter Jones,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+219,7,1,FALSE,FALSE,David,Silva,David Silva,11,Kloppopoly,3041911,Peter Jones,90,1,1,1,0,0,0,0,0,0,0,0,44,43.8,21.9,89.0,15.5,11,TRUE,Man City,#97c1e7
+448,8,1,FALSE,FALSE,Youri,Tielemans,Tielemans,9,Kloppopoly,3041911,Peter Jones,83,0,0,0,1,0,0,0,0,0,0,0,8,4.8,29.3,10.0,4.4,2,FALSE,Leicester,#0053a0
+191,9,2,FALSE,TRUE,Mohamed,Salah,Salah,10,Kloppopoly,3041911,Peter Jones,90,0,1,0,1,0,0,0,0,0,0,0,11,14.8,15.3,36.0,6.6,5,FALSE,Liverpool,#dd0000
+278,10,1,FALSE,FALSE,Teemu,Pukki,Pukki,14,Kloppopoly,3041911,Peter Jones,90,0,0,0,2,0,0,0,0,0,0,0,2,4.0,2.4,44.0,5.0,2,FALSE,Norwich,#00a650
+460,11,1,FALSE,FALSE,Tammy,Abraham,Abraham,6,Kloppopoly,3041911,Peter Jones,76,0,0,0,2,0,0,0,0,0,0,0,-5,1.4,0.8,25.0,2.7,2,FALSE,Chelsea,#034694
+471,12,0,FALSE,FALSE,Dean,Henderson,Henderson,15,Kloppopoly,3041911,Peter Jones,90,0,0,1,0,0,0,0,1,0,3,0,25,22.6,0.0,0.0,2.3,6,FALSE,Sheffield Utd,red
+206,13,0,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,11,Kloppopoly,3041911,Peter Jones,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+234,14,0,FALSE,FALSE,Mason,Greenwood,Greenwood,12,Kloppopoly,3041911,Peter Jones,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man Utd,#e80909
+274,15,0,FALSE,FALSE,Maximillian,Aarons,Aarons,14,Kloppopoly,3041911,Peter Jones,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Norwich,#00a650
+47,1,1,FALSE,FALSE,Mathew,Ryan,Ryan,4,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,0,0,1,0,0,0,0,0,0,4,3,37,30.6,0.0,0.0,3.1,10,FALSE,Brighton,#005daa
+59,2,1,FALSE,FALSE,Nathan,Aké,Aké,3,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,1,0,0,1,0,0,0,0,0,0,0,26,51.0,0.1,17.0,6.8,8,FALSE,Bournemouth,#ed1c24
+183,3,1,FALSE,FALSE,Virgil,van Dijk,van Dijk,10,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,0,0,0,1,0,0,0,0,0,0,0,13,14.2,0.5,0.0,1.5,2,FALSE,Liverpool,#dd0000
+141,4,1,FALSE,FALSE,Lucas,Digne,Digne,8,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,0,0,0,2,0,0,0,0,0,0,0,12,13.6,19.3,25.0,5.8,1,FALSE,Everton,#0d00e9
+151,5,1,FALSE,FALSE,Gylfi,Sigurdsson,Sigurdsson,8,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,0,0,0,2,0,0,0,0,0,0,0,23,19.2,58.0,17.0,9.4,2,FALSE,Everton,#0d00e9
+191,6,1,FALSE,FALSE,Mohamed,Salah,Salah,10,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,0,1,0,1,0,0,0,0,0,0,0,11,14.8,15.3,36.0,6.6,5,FALSE,Liverpool,#dd0000
+218,7,1,FALSE,TRUE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,11,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,3,0,1,0,0,0,0,1,0,0,2,65,118.0,33.0,102.0,25.3,19,TRUE,Man City,#97c1e7
+287,8,1,FALSE,FALSE,Todd,Cantwell,Cantwell,14,Two-Bissaka,556502,Gilbert Holland-Lloyd,89,0,0,0,2,0,0,0,0,0,0,0,14,8.2,15.5,28.0,5.2,2,FALSE,Norwich,#00a650
+171,9,1,FALSE,FALSE,James,Maddison,Maddison,9,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,1,0,0,1,0,0,0,0,0,0,3,33,44.2,30.9,44.0,11.9,10,FALSE,Leicester,#0053a0
+338,10,2,TRUE,FALSE,Harry,Kane,Kane,17,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,1,0,0,2,0,0,0,0,0,0,2,28,50.4,2.9,86.0,13.9,8,FALSE,Spurs,#132257
+410,11,1,FALSE,FALSE,Diogo,Jota,Jota,20,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,1,0,0,1,0,0,0,0,0,0,3,25,45.2,18.0,74.0,13.7,9,FALSE,Wolves,#fdb913
+48,12,0,FALSE,FALSE,David,Button,Button,4,Two-Bissaka,556502,Gilbert Holland-Lloyd,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Brighton,#005daa
+128,13,0,FALSE,FALSE,Martin,Kelly,Kelly,7,Two-Bissaka,556502,Gilbert Holland-Lloyd,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Crystal Palace,#0a4af5
+68,14,0,FALSE,FALSE,Joshua,King,King,3,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,0,0,0,1,0,0,0,0,0,0,0,2,4.6,3.2,20.0,2.8,2,FALSE,Bournemouth,#ed1c24
+122,15,0,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,12,Two-Bissaka,556502,Gilbert Holland-Lloyd,90,0,0,0,2,0,0,0,0,0,0,0,16,18.8,2.4,2.0,2.3,1,FALSE,Man Utd,#e80909
+47,1,1,FALSE,FALSE,Mathew,Ryan,Ryan,4,Bacchelona,1798132,David Bacchus,90,0,0,1,0,0,0,0,0,0,4,3,37,30.6,0.0,0.0,3.1,10,FALSE,Brighton,#005daa
+182,2,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,10,Bacchelona,1798132,David Bacchus,90,1,0,0,1,0,0,0,1,0,0,0,24,51.0,29.8,7.0,8.8,7,FALSE,Liverpool,#dd0000
+42,3,1,FALSE,FALSE,Lewis,Dunk,Dunk,4,Bacchelona,1798132,David Bacchus,90,0,0,1,0,0,0,0,1,0,0,1,26,21.0,0.6,36.0,5.8,6,FALSE,Brighton,#005daa
+122,4,1,FALSE,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,12,Bacchelona,1798132,David Bacchus,90,0,0,0,2,0,0,0,0,0,0,0,16,18.8,2.4,2.0,2.3,1,FALSE,Man Utd,#e80909
+287,5,1,FALSE,FALSE,Todd,Cantwell,Cantwell,14,Bacchelona,1798132,David Bacchus,89,0,0,0,2,0,0,0,0,0,0,0,14,8.2,15.5,28.0,5.2,2,FALSE,Norwich,#00a650
+57,6,1,FALSE,FALSE,Dale,Stephens,Stephens,4,Bacchelona,1798132,David Bacchus,90,0,0,1,0,0,0,0,0,0,0,0,16,20.0,25.6,9.0,5.5,3,FALSE,Brighton,#005daa
+192,7,1,FALSE,FALSE,Sadio,Mané,Mané,10,Bacchelona,1798132,David Bacchus,70,0,0,0,1,0,0,0,0,0,0,0,7,8.2,3.4,6.0,1.8,2,FALSE,Liverpool,#dd0000
+463,8,1,FALSE,FALSE,Mason,Mount,Mount,6,Bacchelona,1798132,David Bacchus,90,0,0,0,2,0,0,0,0,0,0,0,0,3.8,16.8,10.0,3.1,2,FALSE,Chelsea,#034694
+90,9,1,FALSE,FALSE,Ashley,Barnes,Barnes,5,Bacchelona,1798132,David Bacchus,78,0,0,1,0,0,0,0,0,0,0,0,5,0.0,3.0,54.0,5.6,2,FALSE,Burnley,#80bfff
+210,10,2,TRUE,FALSE,Sergio,Agüero,Agüero,11,Bacchelona,1798132,David Bacchus,90,1,1,1,0,0,0,0,0,0,0,0,40,53.4,38.1,56.0,14.8,9,FALSE,Man City,#97c1e7
+68,11,1,FALSE,FALSE,Joshua,King,King,3,Bacchelona,1798132,David Bacchus,90,0,0,0,1,0,0,0,0,0,0,0,2,4.6,3.2,20.0,2.8,2,FALSE,Bournemouth,#ed1c24
+411,12,0,FALSE,FALSE,Rui Pedro,dos Santos Patrício,Patrício,20,Bacchelona,1798132,David Bacchus,90,0,0,0,1,0,0,0,0,0,4,0,17,34.8,0.0,0.0,3.5,3,FALSE,Wolves,#fdb913
+214,13,0,FALSE,TRUE,Raheem,Sterling,Sterling,11,Bacchelona,1798132,David Bacchus,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+445,14,0,FALSE,FALSE,Tyrone,Mings,Mings,2,Bacchelona,1798132,David Bacchus,90,0,0,0,3,0,0,0,0,0,0,0,11,17.6,0.3,4.0,2.2,1,FALSE,Aston Villa,#670E36
+381,15,0,FALSE,FALSE,Issa,Diop,Diop,19,Bacchelona,1798132,David Bacchus,90,0,0,1,0,0,0,0,0,0,0,0,25,11.6,0.7,0.0,1.2,6,FALSE,West Ham,#7f0000
+388,1,1,FALSE,FALSE,Lukasz,Fabianski,Fabianski,19,Chamakh my  bitch up,426166,Tom Pallot,90,0,0,1,0,0,0,0,0,0,3,1,26,24.0,0.0,0.0,2.4,8,FALSE,West Ham,#7f0000
+141,2,1,FALSE,FALSE,Lucas,Digne,Digne,8,Chamakh my  bitch up,426166,Tom Pallot,90,0,0,0,2,0,0,0,0,0,0,0,12,13.6,19.3,25.0,5.8,1,FALSE,Everton,#0d00e9
+85,3,1,FALSE,FALSE,Matthew,Lowton,Lowton,5,Chamakh my  bitch up,426166,Tom Pallot,90,0,0,1,0,0,0,0,0,0,0,0,25,18.6,40.0,2.0,6.1,6,FALSE,Burnley,#80bfff
+159,4,1,FALSE,FALSE,Ricardo Domingos,Barbosa Pereira,Pereira,9,Chamakh my  bitch up,426166,Tom Pallot,90,1,0,0,1,0,0,0,0,0,0,1,25,51.8,12.3,24.0,8.8,9,TRUE,Leicester,#0053a0
+445,5,1,FALSE,FALSE,Tyrone,Mings,Mings,2,Chamakh my  bitch up,426166,Tom Pallot,90,0,0,0,3,0,0,0,0,0,0,0,11,17.6,0.3,4.0,2.2,1,FALSE,Aston Villa,#670E36
+243,6,1,FALSE,FALSE,Daniel,James,James,12,Chamakh my  bitch up,426166,Tom Pallot,90,0,0,0,2,0,0,0,0,0,0,0,7,2.8,16.5,8.0,2.7,2,FALSE,Man Utd,#e80909
+192,7,1,FALSE,FALSE,Sadio,Mané,Mané,10,Chamakh my  bitch up,426166,Tom Pallot,70,0,0,0,1,0,0,0,0,0,0,0,7,8.2,3.4,6.0,1.8,2,FALSE,Liverpool,#dd0000
+21,8,1,FALSE,FALSE,Matteo,Guendouzi,Guendouzi,1,Chamakh my  bitch up,426166,Tom Pallot,90,0,1,0,2,0,0,0,1,0,0,0,19,12.2,37.8,13.0,6.3,4,FALSE,Arsenal,#ef0107
+193,9,1,FALSE,FALSE,Alex,Oxlade-Chamberlain,Chamberlain,10,Chamakh my  bitch up,426166,Tom Pallot,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Liverpool,#dd0000
+11,10,2,FALSE,TRUE,Pierre-Emerick,Aubameyang,Aubameyang,1,Chamakh my  bitch up,426166,Tom Pallot,90,1,0,0,2,0,0,0,1,0,0,0,26,34.6,1.6,59.0,9.5,5,FALSE,Arsenal,#ef0107
+409,11,1,FALSE,FALSE,Raúl,Jiménez,Jiménez,20,Chamakh my  bitch up,426166,Tom Pallot,75,0,0,0,1,0,0,0,0,0,0,0,14,13.2,41.6,27.0,8.2,2,FALSE,Wolves,#fdb913
+48,12,0,FALSE,FALSE,David,Button,Button,4,Chamakh my  bitch up,426166,Tom Pallot,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Brighton,#005daa
+206,13,0,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,11,Chamakh my  bitch up,426166,Tom Pallot,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+234,14,0,FALSE,FALSE,Mason,Greenwood,Greenwood,12,Chamakh my  bitch up,426166,Tom Pallot,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man Utd,#e80909
+214,15,0,TRUE,FALSE,Raheem,Sterling,Sterling,11,Chamakh my  bitch up,426166,Tom Pallot,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+93,1,1,FALSE,FALSE,Nick,Pope,Pope,5,Men Behaving Chadli,4340463,Chris Hardy,90,0,0,1,0,0,0,0,0,0,2,0,24,15.0,0.0,0.0,1.5,6,FALSE,Burnley,#80bfff
+141,2,1,FALSE,FALSE,Lucas,Digne,Digne,8,Men Behaving Chadli,4340463,Chris Hardy,90,0,0,0,2,0,0,0,0,0,0,0,12,13.6,19.3,25.0,5.8,1,FALSE,Everton,#0d00e9
+297,3,1,FALSE,FALSE,John,Lundstram,Lundstram,15,Men Behaving Chadli,4340463,Chris Hardy,90,0,1,1,0,0,0,0,0,0,0,3,33,35.6,15.4,0.0,5.1,12,TRUE,Sheffield Utd,red
+181,4,1,FALSE,FALSE,Andrew,Robertson,Robertson,10,Men Behaving Chadli,4340463,Chris Hardy,90,0,1,0,1,0,0,0,0,0,0,3,30,37.6,16.7,2.0,5.6,8,FALSE,Liverpool,#dd0000
+31,5,1,FALSE,FALSE,John,McGinn,McGinn,2,Men Behaving Chadli,4340463,Chris Hardy,90,1,0,0,3,0,0,0,0,0,0,3,32,50.8,12.0,55.0,11.8,10,FALSE,Aston Villa,#670E36
+463,6,1,FALSE,FALSE,Mason,Mount,Mount,6,Men Behaving Chadli,4340463,Chris Hardy,90,0,0,0,2,0,0,0,0,0,0,0,0,3.8,16.8,10.0,3.1,2,FALSE,Chelsea,#034694
+191,7,2,FALSE,TRUE,Mohamed,Salah,Salah,10,Men Behaving Chadli,4340463,Chris Hardy,90,0,1,0,1,0,0,0,0,0,0,0,11,14.8,15.3,36.0,6.6,5,FALSE,Liverpool,#dd0000
+287,8,1,FALSE,FALSE,Todd,Cantwell,Cantwell,14,Men Behaving Chadli,4340463,Chris Hardy,89,0,0,0,2,0,0,0,0,0,0,0,14,8.2,15.5,28.0,5.2,2,FALSE,Norwich,#00a650
+278,9,1,FALSE,FALSE,Teemu,Pukki,Pukki,14,Men Behaving Chadli,4340463,Chris Hardy,90,0,0,0,2,0,0,0,0,0,0,0,2,4.0,2.4,44.0,5.0,2,FALSE,Norwich,#00a650
+457,10,1,FALSE,FALSE,Sébastien,Haller,Haller,19,Men Behaving Chadli,4340463,Chris Hardy,90,0,0,1,0,0,0,0,0,0,0,0,6,8.4,4.7,8.0,2.1,2,FALSE,West Ham,#7f0000
+90,11,1,FALSE,FALSE,Ashley,Barnes,Barnes,5,Men Behaving Chadli,4340463,Chris Hardy,78,0,0,1,0,0,0,0,0,0,0,0,5,0.0,3.0,54.0,5.6,2,FALSE,Burnley,#80bfff
+48,12,0,FALSE,FALSE,David,Button,Button,4,Men Behaving Chadli,4340463,Chris Hardy,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Brighton,#005daa
+206,13,0,FALSE,FALSE,Oleksandr,Zinchenko,Zinchenko,11,Men Behaving Chadli,4340463,Chris Hardy,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+214,14,0,TRUE,FALSE,Raheem,Sterling,Sterling,11,Men Behaving Chadli,4340463,Chris Hardy,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Man City,#97c1e7
+458,15,0,FALSE,FALSE,Frédéric,Guilbert,Guilbert,2,Men Behaving Chadli,4340463,Chris Hardy,90,0,0,0,3,0,0,0,0,0,0,0,8,13.6,15.8,0.0,2.9,1,FALSE,Aston Villa,#670E36
+168,1,1,FALSE,FALSE,Kasper,Schmeichel,Schmeichel,9,Toon Army,5450631,Tom Carnegie,90,0,0,0,1,0,0,0,0,0,3,0,16,23.6,0.0,0.0,2.4,3,FALSE,Leicester,#0053a0
+182,2,1,FALSE,FALSE,Trent,Alexander-Arnold,Alexander-Arnold,10,Toon Army,5450631,Tom Carnegie,90,1,0,0,1,0,0,0,1,0,0,0,24,51.0,29.8,7.0,8.8,7,FALSE,Liverpool,#dd0000
+331,3,1,FALSE,FALSE,Toby,Alderweireld,Alderweireld,17,Toon Army,5450631,Tom Carnegie,90,0,0,0,2,0,0,0,0,0,0,0,11,22.0,0.3,2.0,2.4,1,FALSE,Spurs,#132257
+160,4,1,FALSE,FALSE,Harry,Maguire,Maguire,12,Toon Army,5450631,Tom Carnegie,90,0,0,0,2,0,0,0,0,0,0,0,9,19.6,0.3,21.0,4.1,1,FALSE,Man Utd,#e80909
+252,5,1,FALSE,FALSE,Fabian,Schär,Schär,13,Toon Army,5450631,Tom Carnegie,90,0,0,1,0,0,0,0,0,0,0,0,20,20.6,0.9,5.0,2.7,6,FALSE,Newcastle,#000000
+21,6,1,FALSE,FALSE,Matteo,Guendouzi,Guendouzi,1,Toon Army,5450631,Tom Carnegie,90,0,1,0,2,0,0,0,1,0,0,0,19,12.2,37.8,13.0,6.3,4,FALSE,Arsenal,#ef0107
+191,7,2,TRUE,FALSE,Mohamed,Salah,Salah,10,Toon Army,5450631,Tom Carnegie,90,0,1,0,1,0,0,0,0,0,0,0,11,14.8,15.3,36.0,6.6,5,FALSE,Liverpool,#dd0000
+192,8,1,FALSE,FALSE,Sadio,Mané,Mané,10,Toon Army,5450631,Tom Carnegie,70,0,0,0,1,0,0,0,0,0,0,0,7,8.2,3.4,6.0,1.8,2,FALSE,Liverpool,#dd0000
+460,9,1,FALSE,FALSE,Tammy,Abraham,Abraham,6,Toon Army,5450631,Tom Carnegie,76,0,0,0,2,0,0,0,0,0,0,0,-5,1.4,0.8,25.0,2.7,2,FALSE,Chelsea,#034694
+278,10,1,FALSE,TRUE,Teemu,Pukki,Pukki,14,Toon Army,5450631,Tom Carnegie,90,0,0,0,2,0,0,0,0,0,0,0,2,4.0,2.4,44.0,5.0,2,FALSE,Norwich,#00a650
+233,11,1,FALSE,FALSE,Marcus,Rashford,Rashford,12,Toon Army,5450631,Tom Carnegie,60,0,0,0,1,0,0,0,0,0,0,0,5,4.6,12.5,6.0,2.3,2,FALSE,Man Utd,#e80909
+149,12,0,FALSE,FALSE,Maarten,Stekelenburg,Stekelenburg,8,Toon Army,5450631,Tom Carnegie,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Everton,#0d00e9
+463,13,0,FALSE,FALSE,Mason,Mount,Mount,6,Toon Army,5450631,Tom Carnegie,90,0,0,0,2,0,0,0,0,0,0,0,0,3.8,16.8,10.0,3.1,2,FALSE,Chelsea,#034694
+447,14,0,FALSE,FALSE,Erik,Pieters,Pieters,5,Toon Army,5450631,Tom Carnegie,90,0,0,1,0,0,0,0,0,0,0,1,27,16.6,13.7,0.0,3.0,7,FALSE,Burnley,#80bfff
+420,15,0,FALSE,FALSE,Leander,Dendoncker,Dendoncker,20,Toon Army,5450631,Tom Carnegie,64,0,0,0,1,1,0,0,0,0,0,0,7,5.2,2.9,38.0,4.6,0,FALSE,Wolves,#fdb913

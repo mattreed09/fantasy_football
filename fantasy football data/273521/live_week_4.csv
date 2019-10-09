@@ -1,0 +1,533 @@
+id,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,total_points,in_dreamteam,first_name,second_name,web_name,team
+14,90,0,0,0,2,0,0,0,0,0,7,0,21,29.6,0.0,0.0,3.0,3,FALSE,Bernd,Leno,Leno,1
+27,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ørjan,Nyland,Nyland,2
+47,90,0,0,0,4,0,0,0,0,0,2,0,19,21.6,0.0,0.0,2.2,0,FALSE,Mathew,Ryan,Ryan,4
+48,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,David,Button,Button,4
+72,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Asmir,Begovic,Begovic,3
+73,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Artur,Boruc,Boruc,3
+74,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mark,Travers,Travers,3
+93,90,0,0,0,3,0,0,0,0,0,5,0,23,32.2,0.0,0.0,3.2,2,FALSE,Nick,Pope,Pope,5
+94,90,0,0,0,1,0,0,0,0,0,4,0,16,24.0,0.0,0.0,2.4,3,FALSE,Tom,Heaton,Heaton,2
+95,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Joe,Hart,Hart,5
+111,90,0,0,0,2,0,0,0,0,0,2,0,19,10.2,0.0,0.0,1.0,1,FALSE,Kepa,Arrizabalaga,Kepa,6
+112,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Willy,Caballero,Caballero,6
+131,90,0,0,1,0,0,0,0,0,0,2,0,26,18.4,0.0,0.0,1.8,6,FALSE,Vicente,Guaita,Guaita,7
+132,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Wayne,Hennessey,Hennessey,7
+148,90,0,0,0,2,0,0,0,0,0,3,0,16,28.2,0.0,0.0,2.8,2,FALSE,Jordan,Pickford,Pickford,8
+149,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Maarten,Stekelenburg,Stekelenburg,8
+168,90,0,0,0,1,0,0,0,0,0,1,0,9,7.2,0.0,0.0,0.7,2,FALSE,Kasper,Schmeichel,Schmeichel,9
+169,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Eldin,Jakupovic,Jakupovic,9
+170,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Danny,Ward,Ward,9
+189,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Alisson,Ramses Becker,Alisson,10
+190,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Simon,Mignolet,Mignolet,10
+212,90,0,0,1,0,0,0,0,0,0,1,0,24,12.2,0.0,0.0,1.2,6,FALSE,Ederson,Santana de Moraes,Ederson,11
+213,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Claudio,Bravo,Bravo,11
+235,90,0,0,0,1,0,0,0,0,0,1,0,10,10.4,0.0,0.0,1.0,2,FALSE,David,de Gea,de Gea,12
+236,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Sergio,Romero,Romero,12
+237,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Lee,Grant,Grant,12
+262,90,0,0,0,1,0,0,0,0,0,3,0,13,14.0,0.0,0.0,1.4,3,FALSE,Martin,Dubravka,Dubravka,13
+263,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Karl,Darlow,Darlow,13
+264,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Frederick,Woodman,Woodman,13
+280,90,0,0,0,2,0,0,0,0,0,5,0,19,39.8,0.0,0.0,4.0,2,FALSE,Tim,Krul,Krul,14
+281,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Michael,McGovern,McGovern,14
+299,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jake,Eastwood,Eastwood,15
+317,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Fraser,Forster,Forster,16
+318,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Alex,McCarthy,McCarthy,16
+319,90,0,0,0,1,0,0,0,0,0,7,1,23,45.8,0.0,0.0,4.6,5,FALSE,Angus,Gunn,Gunn,16
+340,90,0,0,0,2,0,0,0,0,0,6,0,20,40.8,0.0,0.0,4.1,3,FALSE,Hugo,Lloris,Lloris,17
+341,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Paulo,Gazzaniga,Gazzaniga,17
+366,90,0,0,0,1,0,0,0,0,0,4,2,21,25.4,0.0,0.0,2.5,5,FALSE,Ben,Foster,Foster,18
+367,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Pontus,Dahlberg,Dahlberg,18
+388,90,0,0,1,0,0,0,0,0,0,3,0,26,20.0,0.0,0.0,2.0,7,TRUE,Lukasz,Fabianski,Fabianski,19
+411,90,0,0,0,3,0,0,0,0,0,3,0,10,20.6,0.0,0.0,2.1,2,FALSE,Rui Pedro,dos Santos Patrício,Patrício,20
+412,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,John,Ruddy,Ruddy,20
+413,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Will,Norris,Norris,20
+427,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Emiliano,Martínez,Martínez,1
+429,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jed,Steer,Steer,2
+436,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Simon,Moore,Moore,15
+449,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ralf,Fahrmann,Fahrmann,14
+450,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Roberto,Jimenez Gago,Roberto,19
+471,90,0,0,0,2,0,0,0,0,0,3,0,14,23.6,0.0,0.0,2.4,2,FALSE,Dean,Henderson,Henderson,15
+474,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Lovre,Kalinic,Kalinic,2
+479,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jonas,Lössl,Lössl,8
+494,90,0,0,0,3,0,0,0,0,0,2,0,13,13.0,0.0,0.0,1.3,1,FALSE,Aaron,Ramsdale,Ramsdale,3
+495,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Bailey,Peacock-Farrell,Peacock-Farrell,5
+513,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Heurelho da Silva,Gomes,Gomes,18
+521,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Michael,Verrips,Verrips,15
+526,90,0,0,1,0,0,0,0,0,0,2,0,25,20.8,0.0,0.0,2.1,6,FALSE,Adrián,San Miguel del Castillo,Adrián,10
+530,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Andy,Lonergan,Lonergan,10
+531,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Caoimhin,Kelleher,Kelleher,10
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Shkodran,Mustafi,Mustafi,1
+2,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Héctor,Bellerín,Bellerín,1
+3,90,0,0,0,2,0,0,0,0,0,0,0,15,17.0,34.1,13.0,6.4,1,FALSE,Sead,Kolasinac,Kolasinac,1
+4,90,0,0,0,2,0,0,0,0,0,0,0,19,29.4,41.7,12.0,8.3,1,FALSE,Ainsley,Maitland-Niles,Maitland-Niles,1
+5,90,0,0,0,2,0,0,0,1,0,0,0,9,8.0,0.2,0.0,0.8,0,FALSE,Sokratis,Papastathopoulos,Sokratis,1
+6,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Nacho,Monreal,Monreal,1
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Laurent,Koscielny,Koscielny,1
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Konstantinos,Mavropanos,Mavropanos,1
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Carl,Jenkinson,Jenkinson,1
+10,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Rob,Holding,Holding,1
+22,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ahmed,El Mohamady,El Mohamady,2
+23,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,James,Chester,Chester,2
+24,90,0,0,0,1,0,0,0,1,0,0,0,9,16.2,2.1,0.0,1.8,1,FALSE,Neil,Taylor,Taylor,2
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kortney,Hause,Hause,2
+37,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Shane,Duffy,Duffy,4
+38,90,0,0,0,4,0,0,0,0,0,0,0,12,20.2,17.4,2.0,4.0,0,FALSE,Martín,Montoya,Montoya,4
+39,66,0,0,0,3,0,0,0,0,0,0,0,11,10.8,15.8,2.0,2.9,1,FALSE,Bernardo,Fernandes da Silva Junior,Bernardo,4
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Leon,Balogun,Balogun,4
+41,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Gaëtan,Bong,Bong,4
+42,90,0,0,0,4,0,0,0,1,0,0,0,10,12.4,0.7,2.0,1.5,-1,FALSE,Lewis,Dunk,Dunk,4
+43,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Matthew,Clarke,Clarke,4
+58,90,0,0,0,3,0,0,0,0,0,0,0,17,25.4,0.2,0.0,2.6,1,FALSE,Steve,Cook,Steve Cook,3
+59,90,0,0,0,3,0,0,0,0,0,0,0,14,15.8,2.2,2.0,2.0,1,FALSE,Nathan,Aké,Aké,3
+60,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Charlie,Daniels,Daniels,3
+61,90,0,0,0,3,0,0,0,0,0,0,0,13,25.0,0.4,2.0,2.7,1,FALSE,Chris,Mepham,Mepham,3
+62,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Simon,Francis,Francis,3
+63,63,0,0,0,2,0,0,0,0,0,0,0,12,7.2,1.3,22.0,3.1,1,FALSE,Adam,Smith,Adam Smith,3
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Lloyd,Kelly,Kelly,3
+65,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Diego,Rico,Rico,3
+66,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jack,Simpson,Simpson,3
+83,90,0,0,0,3,0,0,0,0,0,0,0,9,23.6,0.3,0.0,2.4,1,FALSE,Ben,Mee,Mee,5
+84,90,0,0,0,3,0,0,0,0,0,0,0,9,19.6,0.6,8.0,2.8,1,FALSE,James,Tarkowski,Tarkowski,5
+85,90,0,0,0,3,0,0,0,0,0,0,0,11,10.6,14.1,0.0,2.5,1,FALSE,Matthew,Lowton,Lowton,5
+86,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Phil,Bardsley,Bardsley,5
+87,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Charlie,Taylor,Taylor,5
+88,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kevin,Long,Long,5
+89,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ben,Gibson,Gibson,5
+103,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Marcos,Alonso,Alonso,6
+104,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Antonio,Rüdiger,Rüdiger,6
+105,90,0,0,0,2,0,0,0,0,0,0,0,20,25.4,31.6,4.0,6.1,1,FALSE,César,Azpilicueta,Azpilicueta,6
+106,90,0,0,0,2,0,0,0,0,0,0,0,13,15.2,1.0,2.0,1.8,1,FALSE,David,Luiz Moreira Marinho,David Luiz,1
+107,90,0,0,0,2,0,0,0,0,0,0,0,15,13.2,3.4,0.0,1.7,1,FALSE,Emerson,Palmieri dos Santos,Emerson,6
+108,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Andreas,Christensen,Christensen,6
+109,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Davide,Zappacosta,Zappacosta,6
+122,90,0,0,0,1,0,0,0,0,0,0,0,13,27.0,13.2,10.0,5.0,2,FALSE,Aaron,Wan-Bissaka,Wan-Bissaka,12
+123,90,0,0,1,0,0,0,0,0,0,0,0,21,17.8,17.4,16.0,5.1,6,FALSE,Patrick,van Aanholt,van Aanholt,7
+124,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,James,Tomkins,Tomkins,7
+125,11,0,0,0,0,0,0,0,0,0,0,0,3,1.4,0.1,0.0,0.2,1,FALSE,Mamadou,Sakho,Sakho,7
+126,90,0,0,1,0,0,0,0,0,0,0,2,28,18.8,16.9,2.0,3.8,8,FALSE,Joel,Ward,Ward,7
+127,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Scott,Dann,Dann,7
+128,78,0,0,1,0,0,0,0,0,0,0,0,20,7.2,0.1,0.0,0.7,6,FALSE,Martin,Kelly,Kelly,7
+141,90,0,1,0,2,0,0,0,0,0,0,1,24,40.8,36.5,12.0,8.9,5,FALSE,Lucas,Digne,Digne,8
+142,90,0,0,0,2,0,0,0,0,0,0,0,13,24.6,0.3,44.0,6.9,1,FALSE,Yerry,Mina,Mina,8
+143,90,0,0,0,2,0,0,0,0,0,0,0,15,28.2,0.4,4.0,3.3,1,FALSE,Michael,Keane,Keane,8
+144,90,0,0,0,2,0,0,0,0,0,0,0,17,10.0,14.5,20.0,4.5,1,FALSE,Seamus,Coleman,Coleman,8
+145,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Leighton,Baines,Baines,8
+159,90,0,0,0,1,0,0,0,0,0,0,0,15,32.6,13.7,2.0,4.8,2,FALSE,Ricardo Domingos,Barbosa Pereira,Pereira,9
+160,90,0,0,0,1,0,0,0,1,0,0,0,13,17.0,12.6,0.0,3.0,1,FALSE,Harry,Maguire,Maguire,12
+161,90,0,1,0,1,0,0,0,0,0,0,0,20,26.2,25.6,0.0,5.2,5,FALSE,Benjamin,Chilwell,Chilwell,9
+162,90,0,0,0,1,0,0,0,0,0,0,0,20,28.6,0.3,2.0,3.1,2,FALSE,Jonny,Evans,Evans,9
+163,4,0,0,0,0,0,0,0,0,0,0,0,4,4.6,0.4,0.0,0.5,1,FALSE,Christian,Fuchs,Fuchs,9
+164,90,0,0,0,1,0,0,0,0,0,0,0,22,18.4,0.3,3.0,2.2,2,FALSE,Çaglar,Söyüncü,Söyüncü,9
+165,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Wes,Morgan,Morgan,9
+181,90,0,0,1,0,0,0,0,0,0,0,0,26,9.0,5.0,2.0,1.6,6,FALSE,Andrew,Robertson,Robertson,10
+182,90,0,1,1,0,0,0,0,0,0,0,2,40,19.4,33.3,0.0,5.3,11,TRUE,Trent,Alexander-Arnold,Alexander-Arnold,10
+183,90,0,0,1,0,0,0,0,0,0,0,1,27,20.8,1.0,2.0,2.4,7,FALSE,Virgil,van Dijk,van Dijk,10
+184,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Joseph,Gomez,Gomez,10
+185,90,0,0,1,0,0,0,0,0,0,0,0,21,11.2,0.8,0.0,1.2,6,FALSE,Joel,Matip,Matip,10
+186,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Dejan,Lovren,Lovren,10
+202,36,0,0,0,0,0,0,0,1,0,0,0,0,2.4,0.5,0.0,0.3,0,FALSE,Aymeric,Laporte,Laporte,11
+203,90,0,0,1,0,0,0,0,0,0,0,0,23,5.2,3.8,2.0,1.1,6,FALSE,Kyle,Walker,Walker,11
+204,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Benjamin,Mendy,Mendy,11
+205,90,0,0,0,2,0,0,0,1,0,0,0,8,16.4,3.9,0.0,2.0,0,FALSE,Fabian,Delph,Delph,8
+206,90,0,0,1,0,0,0,0,0,0,0,0,21,10.2,7.2,1.0,1.8,6,FALSE,Oleksandr,Zinchenko,Zinchenko,11
+207,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,John,Stones,Stones,11
+208,90,0,0,1,0,0,0,0,0,0,0,0,25,21.4,0.9,2.0,2.4,6,FALSE,Nicolás,Otamendi,Otamendi,11
+209,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Danilo Luiz,da Silva,Danilo,11
+223,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Chris,Smalling,Smalling,12
+224,90,0,0,0,1,0,0,0,1,0,0,0,7,8.8,14.4,3.0,2.6,1,FALSE,Ashley,Young,Young,12
+225,90,0,0,0,1,0,0,0,0,0,0,0,17,20.8,11.3,0.0,3.2,2,FALSE,Victor,Lindelöf,Lindelöf,12
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Luke,Shaw,Shaw,12
+227,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Marcos,Rojo,Rojo,12
+228,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Eric,Bailly,Bailly,12
+229,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,José Diogo,Dalot Teixeira,Dalot,12
+230,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Matteo,Darmian,Darmian,12
+231,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Phil,Jones,Jones,12
+251,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Matt,Ritchie,Ritchie,13
+252,84,1,0,0,1,0,0,0,0,0,0,0,16,42.8,1.5,23.0,6.7,8,FALSE,Fabian,Schär,Schär,13
+253,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,DeAndre,Yedlin,Yedlin,13
+254,5,0,0,0,0,0,0,0,0,0,0,0,3,5.2,0.0,0.0,0.5,1,FALSE,Federico,Fernández,Fernández,13
+255,90,0,0,0,1,0,0,0,1,0,0,0,6,24.6,1.8,9.0,3.5,1,FALSE,Paul,Dummett,Dummett,13
+256,12,0,0,0,0,0,0,0,0,0,0,0,7,4.2,0.3,2.0,0.7,1,FALSE,Javier,Manquillo,Manquillo,13
+257,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Florian,Lejeune,Lejeune,13
+258,90,0,0,0,1,0,0,0,0,0,0,0,15,21.8,11.4,4.0,3.7,2,FALSE,Jamaal,Lascelles,Lascelles,13
+259,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ciaran,Clark,Clark,13
+272,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Timm,Klose,Klose,14
+273,90,0,0,0,2,0,0,0,0,0,0,0,15,18.2,1.4,0.0,2.0,1,FALSE,Ben,Godfrey,Godfrey,14
+274,90,0,0,0,2,0,0,0,1,0,0,0,11,11.8,12.3,20.0,4.4,0,FALSE,Maximillian,Aarons,Aarons,14
+275,35,0,0,0,1,0,0,0,0,0,0,0,3,6.6,0.0,2.0,0.9,1,FALSE,Christoph,Zimmermann,Zimmermann,14
+276,90,0,0,0,2,0,0,0,0,0,0,0,18,20.6,16.8,8.0,4.5,1,FALSE,Jamal,Lewis,Lewis,14
+277,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Grant,Hanley,Hanley,14
+291,90,0,1,0,2,0,0,0,0,0,0,1,23,28.2,12.3,3.0,4.4,5,FALSE,Enda,Stevens,Stevens,15
+292,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kieron,Freeman,Freeman,15
+293,90,0,0,0,2,0,0,0,0,0,0,0,13,12.2,1.1,0.0,1.3,1,FALSE,Jack,O'Connell,O'Connell,15
+294,90,0,0,0,2,0,0,0,0,0,0,0,10,6.2,5.9,0.0,1.2,1,FALSE,George,Baldock,Baldock,15
+295,90,0,0,0,2,0,0,0,0,0,0,0,12,15.2,0.3,0.0,1.6,1,FALSE,John,Egan,Egan,15
+296,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Richard,Stearman,Stearman,15
+297,90,0,0,0,2,0,0,0,0,0,0,0,12,7.8,2.4,4.0,1.4,1,FALSE,John,Lundstram,Lundstram,15
+304,90,1,0,0,1,0,0,0,0,0,0,3,27,56.2,0.7,33.0,9.0,11,TRUE,Jannik,Vestergaard,Vestergaard,16
+305,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ryan,Bertrand,Bertrand,16
+306,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Yan,Valery,Valery,16
+307,90,0,0,0,1,0,0,0,0,0,0,0,15,28.6,0.0,0.0,2.9,2,FALSE,Jan,Bednarek,Bednarek,16
+308,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jack,Stephens,Stephens,16
+309,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Matt,Targett,Targett,2
+310,13,0,0,0,0,0,0,0,0,0,0,0,6,7.0,0.4,0.0,0.7,1,FALSE,Maya,Yoshida,Yoshida,16
+311,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kayne,Ramsay,Ramsay,16
+329,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ben,Davies,Davies,17
+330,90,0,0,0,2,0,0,0,0,0,0,0,12,13.4,0.1,0.0,1.4,1,FALSE,Jan,Vertonghen,Vertonghen,17
+331,90,0,0,0,2,0,0,0,0,0,0,0,13,18.4,0.1,2.0,2.1,1,FALSE,Toby,Alderweireld,Alderweireld,17
+332,90,0,0,0,2,0,0,0,1,0,0,0,9,16.8,0.3,8.0,2.5,0,FALSE,Danny,Rose,Rose,17
+333,90,0,0,0,2,0,0,0,1,0,0,0,8,6.2,1.1,2.0,0.9,0,FALSE,Davinson,Sánchez,Sánchez,17
+334,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kieran,Trippier,Trippier,17
+335,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Juan,Foyth,Foyth,17
+336,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Serge,Aurier,Aurier,17
+337,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kyle,Walker-Peters,Walker-Peters,17
+353,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,José,Holebas,Holebas,18
+354,90,0,0,0,1,0,0,0,0,0,0,0,14,19.8,0.0,0.0,2.0,2,FALSE,Christian,Kabasele,Kabasele,18
+355,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Adam,Masina,Masina,18
+356,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Adrian,Mariappa,Mariappa,18
+357,90,0,0,0,1,0,0,0,0,0,0,0,10,4.2,16.3,1.0,2.2,2,FALSE,Francisco,Femenía Far,Kiko Femenía,18
+358,90,0,0,0,1,0,0,0,1,0,0,0,13,25.8,0.3,0.0,2.6,1,FALSE,Craig,Cathcart,Cathcart,18
+359,90,0,0,0,1,0,0,0,0,0,0,0,11,16.0,3.0,10.0,2.9,2,FALSE,Daryl,Janmaat,Janmaat,18
+360,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Marc,Navarro,Navarro,18
+361,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Sebastian,Prödl,Prödl,18
+376,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Aaron,Cresswell,Cresswell,19
+377,90,0,0,1,0,0,0,0,0,0,0,0,19,9.8,0.4,2.0,1.2,6,FALSE,Angelo,Ogbonna,Ogbonna,19
+378,90,0,1,1,0,0,0,0,0,0,0,3,49,50.4,27.0,2.0,7.9,12,TRUE,Arthur,Masuaku,Masuaku,19
+379,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Pablo,Zabaleta,Zabaleta,19
+380,90,0,0,1,0,0,0,0,1,0,0,0,20,6.0,12.0,10.0,2.8,5,FALSE,Ryan,Fredericks,Fredericks,19
+381,90,0,0,1,0,0,0,0,0,0,0,2,27,10.8,1.1,35.0,4.7,8,FALSE,Issa,Diop,Diop,19
+382,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Fabián,Balbuena,Balbuena,19
+383,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Winston,Reid,Reid,19
+384,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ben,Johnson,Johnson,19
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Matt,Doherty,Doherty,20
+402,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jonathan,Castro Otto,Jonny,20
+403,90,0,0,0,3,0,0,0,0,0,0,0,11,10.8,10.0,0.0,2.1,1,FALSE,Conor,Coady,Coady,20
+404,90,0,0,0,3,0,0,0,1,0,0,0,13,24.0,10.7,0.0,3.5,0,FALSE,Ryan,Bennett,Bennett,20
+405,90,0,1,0,3,0,0,0,0,1,0,0,21,38.2,20.8,8.0,6.7,1,FALSE,Willy,Boly,Boly,20
+406,90,0,0,0,3,0,0,0,1,0,0,0,6,15.4,0.9,4.0,2.0,0,FALSE,Rúben Gonçalo,Silva Nascimento Vinagre,Vinagre,20
+407,58,1,0,0,2,0,0,0,0,0,0,0,12,40.0,0.2,66.0,10.6,6,FALSE,Romain,Saïss,Saïss,20
+408,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Max,Kilman,Kilman,20
+423,83,0,0,0,2,0,0,0,0,0,0,0,17,17.6,11.3,3.0,3.2,1,FALSE,Chris,Basham,Basham,15
+433,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,James,Justin,Justin,9
+439,90,0,0,0,1,0,0,0,1,0,0,0,5,10.6,0.5,40.0,5.1,1,FALSE,Craig,Dawson,Dawson,18
+440,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,José Ángel,Esmorís Tasende,Angeliño,11
+444,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Phil,Jagielka,Jagielka,15
+445,90,0,0,0,1,0,0,0,0,0,0,0,15,27.6,0.8,0.0,2.8,2,FALSE,Tyrone,Mings,Mings,2
+446,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jack,Stacey,Stacey,3
+447,90,0,0,0,3,0,0,0,0,0,0,0,12,21.4,1.3,0.0,2.3,1,FALSE,Erik,Pieters,Pieters,5
+452,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ezri,Konsa Ngoyo,Konsa,2
+454,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Sam,Byram,Byram,14
+455,90,0,0,0,1,0,0,0,0,0,0,0,17,19.0,0.9,0.0,2.0,2,FALSE,Bjorn,Engels,Engels,2
+458,90,0,0,0,1,0,0,0,1,0,0,0,5,11.6,15.6,9.0,3.6,1,FALSE,Frédéric,Guilbert,Guilbert,2
+459,90,0,0,0,2,1,0,0,0,0,0,0,9,10.8,0.3,4.0,1.5,-1,FALSE,Kurt,Zouma,Zouma,6
+467,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Calum,Chambers,Chambers,1
+473,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jesús,Vallejo Lázaro,Vallejo,20
+475,90,0,0,0,4,0,0,0,0,0,0,0,15,11.8,1.5,0.0,1.3,0,FALSE,Dan,Burn,Burn,4
+477,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Lewis,Gibson,Gibson,8
+478,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mason,Holgate,Holgate,8
+481,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Axel,Tuanzebe,Tuanzebe,12
+484,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Philip,Heise,Heise,14
+485,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Wesley,Hoedt,Hoedt,16
+486,90,0,0,0,1,0,0,0,0,0,0,0,14,15.2,5.7,0.0,2.1,2,FALSE,Cédric,Soares,Cédric,16
+493,90,0,0,0,4,0,0,0,0,0,0,0,15,18.4,0.8,2.0,2.1,0,FALSE,Adam,Webster,Webster,4
+498,90,0,0,0,1,0,0,0,0,0,0,0,17,10.6,3.3,10.0,2.4,2,FALSE,Jetro,Willems,Willems,13
+503,90,0,0,1,0,0,0,0,0,0,0,1,27,28.4,1.3,24.0,5.4,7,FALSE,Gary,Cahill,Cahill,7
+506,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Reece,James,James,6
+511,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Djibril,Sidibé,Sidibé,8
+515,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kieran,Tierney,Tierney,1
+518,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,João Pedro Cavaco,Cancelo,Cancelo,11
+519,77,0,0,0,1,0,0,0,0,0,0,0,12,2.4,1.4,2.0,0.6,2,FALSE,Emil,Krafth,Krafth,13
+529,90,0,0,0,2,0,0,0,0,0,0,0,14,25.8,13.8,0.0,4.0,1,FALSE,Fikayo,Tomori,Tomori,6
+532,72,0,1,0,1,0,0,0,0,1,0,0,6,17.4,12.3,0.0,3.0,2,FALSE,Kevin,Danso,Danso,16
+15,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mesut,Özil,Özil,1
+16,23,0,0,0,0,0,0,0,0,0,0,0,0,3.8,13.0,24.0,4.1,1,FALSE,Henrikh,Mkhitaryan,Mkhitaryan,1
+17,75,1,0,0,2,0,0,0,0,0,0,2,30,46.6,15.7,21.0,8.3,9,FALSE,Alex,Iwobi,Iwobi,8
+18,90,0,0,0,2,0,0,0,1,0,0,0,2,10.6,37.1,9.0,5.7,1,FALSE,Granit,Xhaka,Xhaka,1
+19,62,0,0,0,2,0,0,0,0,0,0,0,21,12.4,27.3,5.0,4.5,2,FALSE,Lucas,Torreira,Torreira,1
+20,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mohamed,Elneny,Elneny,1
+21,90,0,1,0,2,0,0,0,0,0,0,2,27,33.2,18.1,25.0,7.6,7,FALSE,Matteo,Guendouzi,Guendouzi,1
+28,19,0,0,0,1,0,0,0,0,0,0,0,6,6.0,25.1,0.0,3.1,1,FALSE,Conor,Hourihane,Hourihane,2
+29,90,0,0,0,1,0,0,0,1,0,0,0,6,17.2,3.8,20.0,4.1,1,FALSE,Jack,Grealish,Grealish,2
+30,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Anwar,El Ghazi,El Ghazi,2
+31,90,0,0,0,1,0,0,0,0,0,0,0,9,22.8,30.6,0.0,5.3,2,FALSE,John,McGinn,McGinn,2
+32,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Andre,Green,Green,2
+33,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Birkir,Bjarnason,Bjarnason,2
+34,31,0,0,0,1,0,0,0,0,0,0,0,7,8.0,11.3,0.0,1.9,1,FALSE,Keinan,Davis,Davis,2
+35,5,0,0,0,0,0,0,0,0,0,0,0,2,2.0,0.7,2.0,0.5,1,FALSE,Henri,Lansbury,Lansbury,2
+36,58,0,0,0,0,0,0,0,0,0,0,0,3,5.0,11.3,4.0,2.0,1,FALSE,José Ignacio,Peleteiro Romallo,Jota,2
+49,16,0,0,0,1,0,0,0,0,0,0,0,2,0.0,0.8,0.0,0.0,1,FALSE,Pascal,Groß,Groß,4
+50,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Alireza,Jahanbakhsh,Jahanbakhsh,4
+51,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,José Heriberto,Izquierdo Mena,Izquierdo,4
+52,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Anthony,Knockaert,Knockaert,4
+53,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Yves,Bissouma,Bissouma,4
+54,90,0,0,0,4,0,0,0,0,0,0,0,15,8.6,1.4,8.0,1.8,2,FALSE,Davy,Pröpper,Pröpper,4
+55,90,0,0,0,4,0,0,0,0,0,0,0,8,6.2,16.8,22.0,4.5,2,FALSE,Solomon,March,March,4
+56,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Beram,Kayal,Kayal,4
+57,90,0,0,0,4,0,0,0,0,0,0,0,10,8.2,1.8,4.0,1.4,2,FALSE,Dale,Stephens,Stephens,4
+75,90,0,1,0,3,0,0,0,0,0,0,1,23,28.6,42.6,20.0,9.1,6,FALSE,Ryan,Fraser,Fraser,3
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,David,Brooks,Brooks,3
+77,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Junior,Stanislas,Stanislas,3
+78,26,0,0,0,1,0,0,0,0,0,0,0,7,5.8,5.1,0.0,1.1,1,FALSE,Jordon,Ibe,Ibe,3
+79,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Lewis,Cook,Lewis Cook,3
+80,11,0,0,0,0,0,0,0,0,0,0,0,3,2.0,0.8,0.0,0.3,1,FALSE,Andrew,Surman,Surman,3
+81,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Dan,Gosling,Gosling,3
+82,90,0,0,0,3,0,0,0,1,0,0,0,11,10.4,1.8,1.0,1.3,1,FALSE,Jefferson,Lerma,Lerma,3
+96,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Johann Berg,Gudmundsson,Gudmundsson,5
+97,90,0,0,0,3,0,0,0,0,0,0,0,10,4.8,19.3,13.0,3.7,2,FALSE,Dwight,McNeil,McNeil,5
+98,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Robbie,Brady,Brady,5
+99,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Steven,Defour,Defour,5
+100,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jeff,Hendrick,Hendrick,5
+101,90,0,0,0,3,0,0,0,0,0,0,0,13,12.0,15.3,0.0,2.7,2,FALSE,Ashley,Westwood,Westwood,5
+102,90,0,0,0,3,0,0,0,0,0,0,0,15,13.2,21.4,0.0,3.5,2,FALSE,Jack,Cork,Cork,5
+113,30,0,0,0,1,0,0,0,0,0,0,0,6,4.2,2.8,2.0,0.9,1,FALSE,Willian,Borges Da Silva,Willian,6
+114,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Pedro,Rodríguez Ledesma,Pedro,6
+115,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ruben,Loftus-Cheek,Loftus-Cheek,6
+116,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Callum,Hudson-Odoi,Hudson-Odoi,6
+117,59,0,0,0,1,0,0,0,0,0,0,0,5,3.8,2.8,29.0,3.6,1,FALSE,Ross,Barkley,Barkley,6
+118,90,0,1,0,2,0,0,0,0,0,0,2,26,25.6,22.4,4.0,5.2,7,FALSE,Jorge Luiz,Frello Filho,Jorginho,6
+119,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,N'Golo,Kanté,Kanté,6
+120,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Daniel,Drinkwater,Drinkwater,5
+121,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ethan,Ampadu,Ampadu,6
+133,90,0,0,1,0,0,0,0,0,0,0,0,6,8.2,15.0,52.0,7.5,3,FALSE,Wilfried,Zaha,Zaha,7
+134,90,0,0,1,0,0,0,0,1,0,0,0,12,21.6,101.3,16.0,13.9,2,FALSE,Luka,Milivojevic,Milivojevic,7
+135,6,0,0,0,0,0,0,0,0,0,0,0,4,9.4,10.5,0.0,2.0,1,FALSE,Andros,Townsend,Townsend,7
+136,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Max,Meyer,Meyer,7
+137,83,0,0,1,0,0,0,0,0,0,0,0,10,20.6,17.3,37.0,7.5,3,FALSE,Jeffrey,Schlupp,Schlupp,7
+138,90,0,0,1,0,0,0,0,0,0,0,0,9,12.0,22.1,22.0,5.6,3,FALSE,James,McArthur,McArthur,7
+139,90,0,0,1,0,0,0,0,1,0,0,0,0,0.0,12.3,43.0,5.3,2,FALSE,Cheikhou,Kouyaté,Kouyaté,7
+140,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Luke,Dreher,Dreher,7
+150,90,2,0,0,2,0,0,0,0,0,0,3,57,88.0,13.3,53.0,15.4,15,TRUE,Richarlison,de Andrade,Richarlison,8
+151,90,0,1,0,2,0,0,0,0,0,0,0,21,29.2,71.6,34.0,13.5,5,FALSE,Gylfi,Sigurdsson,Sigurdsson,8
+152,14,0,0,0,0,0,0,0,0,0,0,0,3,2.8,1.5,12.0,1.6,1,FALSE,Bernard,Anício Caldeira Duarte,Bernard,8
+153,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Theo,Walcott,Walcott,8
+154,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Tom,Davies,Davies,8
+155,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ademola,Lookman,Lookman,8
+156,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Idrissa,Gueye,Gueye,8
+157,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,James,McCarthy,McCarthy,7
+158,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Morgan,Schneiderlin,Schneiderlin,8
+171,85,0,0,0,1,0,0,0,0,0,0,0,5,4.4,19.7,29.0,5.3,2,FALSE,James,Maddison,Maddison,9
+172,70,0,0,0,1,0,0,0,0,0,0,0,8,5.0,15.7,25.0,4.6,2,FALSE,Harvey,Barnes,Barnes,9
+173,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Rachid,Ghezzal,Ghezzal,9
+174,63,0,0,0,1,0,0,0,1,0,0,0,4,5.6,25.3,5.0,3.6,1,FALSE,Marc,Albrighton,Albrighton,9
+175,26,0,0,0,0,0,0,0,0,0,0,0,4,4.6,15.0,22.0,4.2,1,FALSE,Demarai,Gray,Gray,9
+176,90,0,0,0,1,0,0,0,0,0,0,0,22,31.6,22.2,2.0,5.6,2,FALSE,Wilfred,Ndidi,Ndidi,9
+177,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Matty,James,James,9
+178,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Daniel,Amartey,Amartey,9
+179,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Nampalys,Mendy,Mendy,9
+180,19,0,0,0,0,0,0,0,0,0,0,0,3,0.8,1.6,2.0,0.4,1,FALSE,Hamza,Choudhury,Choudhury,9
+191,90,0,1,1,0,0,0,0,0,0,0,0,15,27.0,38.4,58.0,12.3,6,FALSE,Mohamed,Salah,Salah,10
+192,84,1,0,1,0,0,0,0,0,0,0,0,23,40.2,16.6,37.0,9.4,8,FALSE,Sadio,Mané,Mané,10
+193,19,0,0,0,0,0,0,0,0,0,0,0,5,8.2,1.3,7.0,1.7,1,FALSE,Alex,Oxlade-Chamberlain,Chamberlain,10
+194,5,0,0,0,0,0,0,0,0,0,0,0,3,0.2,0.2,8.0,0.8,1,FALSE,Xherdan,Shaqiri,Shaqiri,10
+195,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Adam,Lallana,Lallana,10
+196,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Naby,Keita,Keita,10
+197,90,0,0,1,0,0,0,0,0,0,0,0,11,10.2,12.8,1.0,2.4,3,FALSE,Fabio Henrique,Tavares,Fabinho,10
+198,70,0,0,1,0,0,0,0,0,0,0,0,15,6.8,16.8,4.0,2.8,3,FALSE,Jordan,Henderson,Henderson,10
+199,90,0,0,1,0,0,0,0,0,0,0,0,10,11.0,13.2,9.0,3.3,3,FALSE,Georginio,Wijnaldum,Wijnaldum,10
+200,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,James,Milner,Milner,10
+201,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Rafael,Camacho,Camacho,10
+214,90,0,0,1,0,0,0,0,0,0,0,0,12,5.0,14.5,10.0,3.0,3,FALSE,Raheem,Sterling,Sterling,11
+215,68,1,1,1,0,0,0,0,0,0,0,2,41,59.8,26.7,27.0,11.4,13,TRUE,Kevin,De Bruyne,De Bruyne,11
+216,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Leroy,Sané,Sané,11
+217,90,0,0,1,0,0,0,0,0,0,0,0,18,25.2,66.3,44.0,13.6,3,FALSE,Riyad,Mahrez,Mahrez,11
+218,12,1,0,0,0,0,0,0,0,0,0,0,19,34.0,1.1,19.0,5.4,6,FALSE,Bernardo Mota,Veiga de Carvalho e Silva,Bernardo Silva,11
+219,77,0,2,1,0,0,0,0,0,0,0,1,33,37.6,42.4,15.0,9.5,10,FALSE,David,Silva,David Silva,11
+220,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Phil,Foden,Foden,11
+221,53,0,0,0,0,0,0,0,0,0,0,0,12,16.8,0.8,0.0,1.8,1,FALSE,Fernando,Luiz Rosa,Fernandinho,11
+222,21,0,0,0,0,0,0,0,0,0,0,0,-1,4.6,2.3,3.0,1.0,1,FALSE,Ilkay,Gündogan,Gündogan,11
+238,90,0,0,0,1,0,0,0,0,0,0,0,16,15.6,47.5,2.0,6.5,2,FALSE,Paul,Pogba,Pogba,12
+239,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Anthony,Martial,Martial,12
+240,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Alexis,Sánchez,Sánchez,12
+241,22,0,0,0,0,0,0,0,0,0,0,0,3,1.2,12.2,13.0,2.6,1,FALSE,Jesse,Lingard,Lingard,12
+242,67,0,0,0,1,0,0,0,0,0,0,0,10,9.2,34.1,8.0,5.1,2,FALSE,Juan,Mata,Mata,12
+243,90,1,0,0,1,0,0,0,0,0,0,1,23,52.2,33.0,68.0,15.3,8,FALSE,Daniel,James,James,12
+244,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Frederico,Rodrigues de Paula Santos,Fred,12
+245,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Angel,Gomes,Gomes,12
+246,67,0,0,0,1,0,0,0,0,0,0,0,5,6.4,3.2,23.0,3.3,2,FALSE,Andreas,Pereira,Pereira,12
+247,22,0,0,0,0,0,0,0,0,0,0,0,5,2.0,2.8,21.0,2.6,1,FALSE,Nemanja,Matic,Matic,12
+248,81,0,1,0,1,0,0,0,0,0,0,3,27,48.0,32.2,1.0,8.1,8,FALSE,Scott,McTominay,McTominay,12
+249,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Tahith,Chong,Chong,12
+250,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,James,Garner,Garner,12
+265,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ayoze,Pérez,Pérez,9
+266,90,0,0,0,1,0,0,0,0,0,0,0,5,13.4,14.0,24.0,5.1,2,FALSE,Miguel,Almirón,Almirón,13
+267,81,0,0,0,1,0,0,0,0,0,0,0,13,14.8,48.2,19.0,8.2,2,FALSE,Christian,Atsu,Atsu,13
+268,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Sung-yueng,Ki,Ki Sung-yueng,13
+269,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jonjo,Shelvey,Shelvey,13
+270,90,0,0,0,1,0,0,0,0,0,0,0,18,25.8,41.7,8.0,7.6,2,FALSE,Sean,Longstaff,Longstaff,13
+271,90,0,1,0,1,0,0,0,1,0,0,2,21,26.6,14.2,27.0,6.8,6,FALSE,Isaac,Hayden,Hayden,13
+282,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mario,Vrancic,Vrancic,14
+283,90,0,0,0,2,0,0,0,0,0,0,0,6,12.4,5.3,2.0,2.0,2,FALSE,Emiliano,Buendía,Buendía,14
+284,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Onel,Hernández,Hernández,14
+285,76,0,0,0,2,0,0,0,0,0,0,0,6,10.2,5.5,35.0,5.1,2,FALSE,Marco,Stiepermann,Stiepermann,14
+286,12,0,0,0,0,0,0,0,0,0,0,0,11,9.6,28.8,0.0,3.8,1,FALSE,Kenny,McLean,McLean,14
+287,77,0,0,0,2,0,0,0,0,0,0,0,1,0.2,3.1,8.0,1.1,2,FALSE,Todd,Cantwell,Cantwell,14
+288,90,0,0,0,2,0,0,0,0,0,0,0,11,12.8,15.9,2.0,3.1,2,FALSE,Moritz,Leitner,Leitner,14
+289,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Alexander,Tettey,Tettey,14
+290,90,0,0,0,2,0,0,0,0,0,0,0,20,14.6,1.5,0.0,1.6,2,FALSE,Tom,Trybull,Trybull,14
+300,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mark,Duffy,Duffy,15
+301,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,John,Fleck,Fleck,15
+302,90,0,0,0,2,0,0,0,0,0,0,0,13,22.0,17.3,7.0,4.6,2,FALSE,Oliver,Norwood,Norwood,15
+320,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Nathan,Redmond,Redmond,16
+321,90,0,0,0,1,0,0,0,0,0,0,0,9,7.6,18.6,2.0,2.8,2,FALSE,James,Ward-Prowse,Ward-Prowse,16
+322,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mohamed,Elyounoussi,Elyounoussi,16
+323,19,0,0,0,0,0,0,0,1,0,0,0,-3,0.2,0.3,2.0,0.3,0,FALSE,Stuart,Armstrong,Armstrong,16
+324,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Mario,Lemina,Lemina,16
+325,90,0,0,0,1,0,0,0,0,0,0,0,14,18.8,14.5,2.0,3.5,2,FALSE,Pierre-Emile,Højbjerg,Højbjerg,16
+326,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Tyreke,Johnson,Johnson,16
+327,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Callum,Slattery,Slattery,16
+328,90,0,0,0,1,0,0,0,0,0,0,0,19,20.8,12.7,8.0,4.2,2,FALSE,Oriol,Romeu Vidal,Oriol Romeu,16
+342,78,0,1,0,2,0,0,0,0,0,0,0,15,17.6,24.7,38.0,8.0,5,FALSE,Heung-Min,Son,Son,17
+343,90,1,0,0,2,0,0,0,1,0,0,2,27,56.2,28.7,54.0,13.9,8,FALSE,Christian,Eriksen,Eriksen,17
+344,30,0,0,0,1,0,0,0,0,0,0,0,3,2.2,0.9,0.0,0.3,1,FALSE,Bamidele,Alli,Alli,17
+345,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Lucas,Rodrigues Moura da Silva,Lucas Moura,17
+346,59,0,1,0,1,0,0,0,1,0,0,0,10,2.8,11.9,9.0,2.4,3,FALSE,Erik,Lamela,Lamela,17
+347,90,0,0,0,2,0,0,0,1,0,0,0,9,27.2,22.1,0.0,4.9,1,FALSE,Harry,Winks,Winks,17
+348,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Victor,Wanyama,Wanyama,17
+349,90,0,0,0,2,0,0,0,0,0,0,0,7,3.8,3.8,10.0,1.8,2,FALSE,Moussa,Sissoko,Sissoko,17
+350,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Eric,Dier,Dier,17
+351,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Luke,Amos,Amos,17
+352,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Oliver,Skipp,Skipp,17
+368,70,0,0,0,1,0,0,0,1,0,0,0,9,7.4,3.7,22.0,3.3,1,FALSE,Abdoulaye,Doucouré,Doucouré,18
+369,90,0,0,0,1,0,0,0,0,0,0,0,16,14.6,35.4,11.0,6.1,2,FALSE,Roberto,Pereyra,Pereyra,18
+370,70,1,0,0,1,0,0,0,0,0,0,3,28,48.2,13.7,23.0,8.5,10,FALSE,Will,Hughes,Hughes,18
+371,90,0,0,0,1,0,0,0,0,0,0,0,17,10.8,37.4,20.0,6.8,2,FALSE,Tom,Cleverley,Cleverley,18
+372,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ken,Sema,Sema,18
+373,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Etienne,Capoue,Capoue,18
+374,19,0,0,0,0,0,0,0,0,0,0,0,2,0.0,1.4,6.0,0.7,1,FALSE,Nathaniel,Chalobah,Chalobah,18
+375,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Domingos,Quina,Quina,18
+389,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Michail,Antonio,Antonio,19
+390,87,0,0,1,0,0,0,0,0,0,0,0,21,25.2,37.3,36.0,9.9,3,FALSE,Felipe Anderson,Pereira Gomes,Felipe Anderson,19
+391,90,0,0,1,0,0,0,0,0,0,0,0,13,17.0,59.4,44.0,12.0,3,FALSE,Manuel,Lanzini,Lanzini,19
+392,70,1,0,1,0,0,0,0,0,0,0,0,22,33.4,24.3,35.0,9.3,8,FALSE,Andriy,Yarmolenko,Yarmolenko,19
+393,19,0,0,0,0,0,0,0,1,0,0,0,-1,4.0,16.2,21.0,4.1,0,FALSE,Robert,Snodgrass,Snodgrass,19
+394,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jack,Wilshere,Wilshere,19
+395,90,0,0,1,0,0,0,0,0,0,0,0,12,17.8,1.2,1.0,2.0,3,FALSE,Declan,Rice,Rice,19
+396,84,0,0,1,0,0,0,0,0,0,0,0,20,16.2,18.7,4.0,3.9,3,FALSE,Mark,Noble,Noble,19
+397,5,0,0,0,0,0,0,0,0,0,0,0,3,0.8,1.3,0.0,0.2,1,FALSE,Carlos,Sánchez,Carlos Sánchez,19
+398,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Grady,Diangana,Diangana,19
+399,2,0,0,0,0,0,0,0,0,0,0,0,4,1.2,0.8,0.0,0.2,1,FALSE,Pablo,Fornals,Fornals,19
+400,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Pedro,Obiang,Obiang,19
+414,83,0,0,0,3,0,0,0,0,0,0,0,12,14.2,5.5,8.0,2.8,2,FALSE,Rúben Diogo,da Silva Neves,Neves,20
+415,31,0,0,0,1,0,0,0,0,0,0,0,7,14.4,0.9,0.0,1.5,1,FALSE,João Filipe Iria,Santos Moutinho,Moutinho,20
+416,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Morgan,Gibbs-White,Gibbs-White,20
+417,90,0,0,0,3,0,0,0,0,0,0,0,6,13.4,1.3,2.0,1.7,2,FALSE,Adama,Traoré,Traoré,20
+418,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Hélder,Costa,Costa,20
+419,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ivan,Cavaleiro,Cavaleiro,20
+420,90,0,0,0,3,0,0,0,0,0,0,0,10,7.6,1.7,4.0,1.3,2,FALSE,Leander,Dendoncker,Dendoncker,20
+421,73,0,0,0,3,0,0,0,0,0,0,0,1,8.6,3.8,59.0,7.1,2,FALSE,Leandro,Trossard,Trossard,4
+422,90,0,0,0,2,0,0,0,0,0,0,0,20,20.2,18.3,2.0,4.1,2,FALSE,André Filipe,Tavares Gomes,André Gomes,8
+430,90,0,0,0,3,0,0,0,0,0,0,0,7,2.8,2.4,0.0,0.5,2,FALSE,Aaron,Lennon,Lennon,5
+431,90,0,1,0,2,0,0,0,0,0,0,0,14,11.0,4.1,41.0,5.6,5,FALSE,Christian,Pulisic,Pulisic,6
+432,82,0,0,0,1,0,0,0,0,0,0,0,15,4.4,4.8,8.0,1.7,2,FALSE,Mateo,Kovacic,Kovacic,6
+435,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Patrick,Roberts,Roberts,14
+438,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Moussa,Djenepo,Djenepo,16
+441,78,0,0,0,2,0,0,0,0,0,0,0,3,11.2,14.1,3.0,2.8,2,FALSE,Luke,Freeman,Freeman,15
+442,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Tanguy,Ndombele,Ndombele,17
+443,90,0,0,1,0,0,0,0,0,0,0,0,20,23.4,18.7,4.0,4.6,3,FALSE,Rodrigo,Hernandez,Rodrigo,11
+448,90,1,1,0,1,0,0,0,0,0,0,2,45,60.2,31.9,44.0,13.6,12,TRUE,Youri,Tielemans,Tielemans,9
+453,90,1,1,0,2,0,0,0,0,0,0,1,23,34.0,4.0,40.0,7.8,11,TRUE,Callum,Robinson,Robinson,15
+456,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ravel,Morrison,Morrison,15
+462,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Robert Kenedy,Nunes do Nascimento,Kenedy,6
+463,90,0,0,0,2,0,0,0,0,0,0,0,7,5.6,18.0,9.0,3.3,2,FALSE,Mason,Mount,Mount,6
+465,53,0,0,0,1,0,0,0,0,1,0,0,-8,0.0,1.2,28.0,2.6,-2,FALSE,Mahmoud Ahmed,Ibrahim Hassan,Trézéguet,2
+469,27,0,0,0,0,0,0,0,0,0,0,0,6,13.6,22.7,17.0,5.3,1,FALSE,Daniel,Ceballos Fernández,Ceballos,1
+470,70,0,0,1,0,0,0,0,1,0,0,0,7,7.2,1.4,1.0,1.0,2,FALSE,Douglas Luiz,Soares de Paulo,Douglas Luiz,2
+472,6,0,0,0,0,0,0,0,0,0,0,0,4,6.2,10.3,2.0,1.9,1,FALSE,Ben,Osborn,Osborn,15
+476,90,0,0,0,3,0,0,0,1,0,0,0,15,21.4,3.6,3.0,2.8,1,FALSE,Philip,Billing,Billing,3
+480,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Andy,King,King,9
+482,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jack,Colback,Colback,13
+483,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jacob,Murphy,Murphy,13
+488,90,0,1,0,2,0,0,0,0,0,0,0,22,21.6,29.2,75.0,12.6,5,FALSE,Nicolas,Pépé,Pépé,1
+489,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Reiss,Nelson,Nelson,1
+490,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Joseph,Willock,Willock,1
+491,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Marvelous,Nakamba,Nakamba,2
+492,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Arnaut,Danjuma Groeneveld,Danjuma,3
+497,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jean-Philippe,Gbamin,Gbamin,8
+499,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Rolando,Aarons,Aarons,13
+500,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Allan,Saint-Maximin,Saint-Maximin,13
+505,63,0,0,0,2,0,0,0,0,0,0,0,5,2.0,13.5,18.0,3.4,2,FALSE,Harry,Wilson,Harry Wilson,3
+507,54,0,0,0,1,0,0,0,0,0,0,0,3,9.0,0.3,0.0,0.9,1,FALSE,Ibrahim,Amadou,Amadou,14
+508,70,0,0,0,1,0,0,0,0,0,0,0,3,5.0,11.8,45.0,6.2,2,FALSE,Sofiane,Boufal,Boufal,16
+510,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Víctor,Camarasa,Camarasa,7
+516,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Aaron,Mooy,Mooy,4
+517,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Dennis,Praet,Praet,9
+522,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Muhamed,Bešić,Bešić,15
+523,11,0,0,0,0,0,0,0,0,0,0,0,2,6.4,0.5,0.0,0.7,1,FALSE,Giovani,Lo Celso,Lo Celso,17
+524,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ryan,Sessegnon,Sessegnon,17
+525,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Ismaïla,Sarr,Sarr,18
+527,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Georges-Kévin,Nkoudou,Nkoudou,17
+528,6,0,0,0,0,0,0,0,1,0,0,0,-1,0.0,1.3,0.0,0.0,0,FALSE,Pedro,Lomba Neto,Neto,20
+533,6,0,0,0,1,0,0,0,0,0,0,0,1,0.4,0.8,0.0,0.1,1,FALSE,Billy,Gilmour,Gilmour,6
+11,90,1,0,0,2,0,0,0,0,0,0,3,35,47.8,26.6,53.0,12.7,9,FALSE,Pierre-Emerick,Aubameyang,Aubameyang,1
+12,66,1,0,0,2,0,0,0,1,0,0,0,22,40.6,12.1,69.0,12.2,5,FALSE,Alexandre,Lacazette,Lacazette,1
+13,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Edward,Nketiah,Nketiah,1
+26,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jonathan,Kodjia,Kodjia,2
+44,23,0,0,0,1,0,0,0,0,0,0,0,3,0.2,0.1,0.0,0.0,1,FALSE,Glenn,Murray,Murray,4
+45,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jürgen,Locadia,Locadia,4
+46,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Florin,Andone,Andone,4
+67,90,1,0,0,3,0,0,0,1,0,0,0,22,36.0,23.4,19.0,7.8,5,FALSE,Callum,Wilson,Callum Wilson,3
+68,78,0,0,0,3,0,0,0,0,0,0,0,5,3.6,22.5,2.0,2.8,2,FALSE,Joshua,King,King,3
+69,26,0,0,0,1,0,0,0,0,0,0,0,2,4.8,2.1,9.0,1.6,1,FALSE,Dominic,Solanke,Solanke,3
+70,11,0,0,0,0,0,0,0,0,0,0,0,5,4.2,10.5,0.0,1.5,1,FALSE,Lys,Mousset,Mousset,15
+71,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Sam,Surridge,Surridge,3
+90,72,0,0,0,2,0,0,0,0,0,0,0,0,0.0,4.0,5.0,0.2,2,FALSE,Ashley,Barnes,Barnes,5
+91,90,0,0,0,3,1,0,0,0,0,0,0,-4,0.0,13.2,17.0,2.9,0,FALSE,Chris,Wood,Wood,5
+92,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Matej,Vydra,Vydra,5
+110,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Olivier,Giroud,Giroud,6
+129,4,0,0,0,0,0,0,0,0,0,0,0,-1,0.0,0.3,1.0,0.0,1,FALSE,Christian,Benteke,Benteke,7
+130,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Connor,Wickham,Wickham,7
+146,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Cenk,Tosun,Tosun,8
+147,14,0,0,0,0,0,0,0,0,0,0,0,3,0.2,0.6,8.0,0.9,1,FALSE,Dominic,Calvert-Lewin,Calvert-Lewin,8
+166,90,2,1,0,1,0,0,0,0,0,0,3,63,87.6,13.6,45.0,14.6,16,TRUE,Jamie,Vardy,Vardy,9
+167,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Kelechi,Iheanacho,Iheanacho,9
+187,84,1,1,1,0,0,0,0,0,0,0,3,43,60.0,26.9,72.0,15.9,12,FALSE,Roberto,Firmino,Firmino,10
+188,5,0,0,0,0,0,0,0,0,0,0,0,2,0.0,0.8,2.0,0.2,1,FALSE,Divock,Origi,Origi,10
+210,90,2,1,1,0,0,0,0,0,0,0,3,64,87.4,23.1,58.0,16.9,16,TRUE,Sergio,Agüero,Agüero,11
+211,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Gabriel Fernando,de Jesus,Jesus,11
+232,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Romelu,Lukaku,Lukaku,12
+233,90,0,0,0,1,0,0,0,0,0,0,0,2,8.0,21.8,118.0,14.8,2,FALSE,Marcus,Rashford,Rashford,12
+234,8,0,0,0,0,0,0,0,0,0,0,0,2,3.0,0.3,9.0,1.2,1,FALSE,Mason,Greenwood,Greenwood,12
+260,8,0,0,0,0,0,0,0,0,0,0,0,2,0.0,1.0,10.0,0.9,1,FALSE,Yoshinori,Muto,Muto,13
+261,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Jose Luis,Mato Sanmartín,Joselu,13
+278,90,0,0,0,2,0,0,0,0,0,0,0,5,8.2,0.9,24.0,3.3,2,FALSE,Teemu,Pukki,Pukki,14
+279,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Dennis,Srbeny,Srbeny,14
+298,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Billy,Sharp,Sharp,15
+303,27,0,0,0,0,0,0,0,0,0,0,0,2,0.0,2.7,0.0,0.2,1,FALSE,David,McGoldrick,McGoldrick,15
+312,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Charlie,Austin,Austin,16
+313,76,0,0,0,1,0,0,0,0,0,0,0,9,11.2,14.8,24.0,5.0,2,FALSE,Danny,Ings,Ings,16
+314,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Michael,Obafemi,Obafemi,16
+315,28,0,0,0,0,0,0,0,0,0,0,0,0,5.4,2.2,0.0,0.8,1,FALSE,Shane,Long,Long,16
+316,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Sam,Gallagher,Gallagher,16
+338,90,1,0,0,2,0,0,0,0,0,0,0,23,40.8,11.8,38.0,9.1,6,FALSE,Harry,Kane,Kane,17
+339,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Vincent,Janssen,Janssen,17
+362,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Troy,Deeney,Deeney,18
+363,8,0,0,0,0,0,0,0,0,0,0,0,0,0.2,1.0,2.0,0.3,1,FALSE,Gerard,Deulofeu,Deulofeu,18
+364,81,0,0,0,1,0,0,0,0,0,0,0,6,0.0,1.8,4.0,0.5,2,FALSE,Andre,Gray,Gray,18
+365,19,0,0,0,0,0,0,0,0,0,0,0,4,5.2,12.3,17.0,3.5,1,FALSE,Isaac,Success Ajayi,Success,18
+385,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Marko,Arnautovic,Arnautovic,19
+386,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Javier,Hernández Balcázar,Chicharito,19
+387,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Alexandre Nascimento,Costa Silva,Xande Silva,19
+409,90,1,0,0,3,0,0,0,1,0,0,0,20,37.6,2.8,54.0,9.4,5,FALSE,Raúl,Jiménez,Jiménez,20
+410,22,0,0,0,1,0,0,0,0,0,0,0,2,0.6,0.8,0.0,0.1,1,FALSE,Diogo,Jota,Jota,20
+428,84,0,0,0,1,0,0,0,0,0,0,0,8,9.0,2.5,43.0,5.5,2,FALSE,Wesley,Moraes,Wesley,2
+434,13,0,0,0,0,0,0,0,0,0,0,0,-2,0.2,2.1,7.0,0.9,1,FALSE,Josip,Drmic,Drmic,14
+437,61,0,0,0,1,0,0,0,0,0,0,0,3,1.0,12.8,10.0,2.4,2,FALSE,Che,Adams,Adams,16
+451,17,0,0,0,1,0,0,0,0,0,0,0,0,4.0,0.5,17.0,2.2,1,FALSE,Jay,Rodriguez,Rodriguez,5
+457,90,1,0,1,0,0,0,0,0,0,0,2,27,41.8,6.6,90.0,13.8,8,FALSE,Sébastien,Haller,Haller,19
+460,83,2,0,0,1,0,0,0,0,0,0,3,53,77.0,46.8,61.0,18.5,13,TRUE,Tammy,Abraham,Abraham,6
+461,7,0,0,0,1,0,0,0,0,0,0,0,3,0.0,0.3,0.0,0.0,1,FALSE,Michy,Batshuayi,Batshuayi,6
+464,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Rhian,Brewster,Brewster,10
+466,90,0,0,0,1,0,0,0,0,0,0,0,12,6.8,14.1,38.0,5.9,2,FALSE,Joelinton Cássio,Apolinário de Lira,Joelinton,13
+468,85,1,0,1,0,0,0,0,0,0,0,3,34,37.4,14.9,38.0,9.0,9,FALSE,Jordan,Ayew,Ayew,7
+487,67,0,0,0,2,0,0,0,0,0,0,0,2,3.2,15.7,38.0,5.7,2,FALSE,Patrick,Cutrone,Cutrone,20
+496,75,0,1,0,2,0,0,0,0,0,0,0,15,17.2,12.3,20.0,5.0,5,FALSE,Moise,Kean,Kean,8
+501,62,0,0,0,2,0,0,0,1,0,0,0,6,5.8,10.8,2.0,1.9,1,FALSE,Oliver,McBurnie,McBurnie,15
+502,66,0,0,0,3,0,0,0,0,0,0,0,8,3.6,12.0,10.0,2.6,2,FALSE,Neal,Maupay,Maupay,4
+504,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Gabriel Teodoro,Martinelli Silva,Martinelli,1
+509,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Troy,Parrott,Parrott,17
+512,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Danny,Welbeck,Welbeck,18
+514,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Albian,Ajeti,Ajeti,19
+520,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Andy,Carroll,Carroll,13
+534,24,0,0,0,1,0,0,0,0,0,0,0,1,0.2,0.1,0.0,0.0,1,FALSE,Aaron,Connolly,Connolly,4
+535,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,FALSE,Daniel,N'Lundulu,N'Lundulu,16

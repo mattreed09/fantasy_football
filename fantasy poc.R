@@ -2,10 +2,29 @@
 
 
 library(xml2)
+library(tidyverse)
+library(extrafont)
 library(rvest)
 
 week=1
 
+team_colors = bootstrap$teams %>% select(name, team = id,) %>% mutate(
+  color = c( "#ef0107", "#999999", # arsenal, villa 
+                                "#ed1c24","#005daa", # bourn, brighton
+                                "#80bfff", #burnley,  
+                                "#034694", # chelsea
+                                "#0a4af5", "#0d00e9", #palace, everton
+                                "#0053a0", "#dd0000", #leicester, liverpool
+                                "#97c1e7", "#e80909", # city, united
+                                "#000000", # newcastle 
+             "yellow", #nrowich
+             "red", #sheffield
+             "#ff0000", # south
+             
+                                "#132257", "#fbee23", # tottenham, watform
+                                "#7f0000", "#fdb913" # west ham, wolves
+             ))
+                     
 # GET DATA FROM THE WEBSITE
 
 
@@ -25,7 +44,7 @@ team_owner = s_league$player_name
 
 bootstrap = jsonlite::fromJSON("https://fantasy.premierleague.com/api/bootstrap-static/")
 
-name_ids = bootstrap$elements %>% select(first_name, second_name, web_name, id)
+name_ids = bootstrap$elements %>% select(first_name, second_name, web_name, id, team)
 
 
 picks = map( paste0("https://fantasy.premierleague.com/api/entry/",team_ids,"/event/",week,"/picks/")  , jsonlite::fromJSON)
@@ -54,7 +73,8 @@ for (i in 1:length(without_stats))
 }
 
 
-all = bind_rows(without_stats)
+all = bind_rows(without_stats) %>%
+  left_join(team_colors)
 
 
 temp = live$elements %>% select(-stats, -explain) %>% bind_cols(live$elements$stats) %>% left_join(name_ids)
@@ -65,7 +85,7 @@ write_csv(all %>% select(-explain), paste0("C:/Users/matt.reed/OneDrive - Sainsb
 # DATA MANIPULIATION DONE, NOW LETS LOOK AT THE ACTUAL NUMBERS
 
 
-player_points = all %>% group_by(web_name) %>%
+player_points = all %>% group_by(web_name, color) %>%
   summarise(points = min(total_points),
             league_points = sum(total_points * multiplier ),
             owners = n_distinct(team_name),
@@ -75,11 +95,12 @@ player_points = all %>% group_by(web_name) %>%
             missed_points = sum(league_points*(multiplier == 0))
             ) %>%
   arrange(-league_points) %>%
+  ungroup() %>%
   mutate(web_name = factor(web_name, levels = web_name))
 
 
 ggplot(player_points %>% head(15), aes(reorder(web_name, league_points), league_points) ) + 
-  geom_bar(stat="identity") +
+  geom_bar(stat="identity", aes(fill = web_name), show.legend = F ) +
   geom_text(aes(label = league_points, y = league_points - 10), color = "white", family = "Mary Ann") +
   coord_flip() + 
   sainstheme::s_theme2() +
@@ -88,11 +109,13 @@ ggplot(player_points %>% head(15), aes(reorder(web_name, league_points), league_
   scale_y_continuous(breaks=NULL)+
   theme(panel.grid.major.y = element_blank(),
         plot.title= element_text(hjust  = 0.5),
-        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  
+        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  +
+  scale_fill_manual(values = (player_points %>% head(15))$color )
+
 
 ggplot(player_points %>% filter(captains != 0),
                          aes(reorder(web_name, captains), captains)) + 
-  geom_bar(stat="identity")+
+  geom_bar(stat="identity", aes(fill = web_name), show.legend = F)+
   geom_text(aes(label = captains, y = captains - 0.25), color = "white", family = "Mary Ann ExtraBold")+
   coord_flip()+
   sainstheme::s_theme2() +
@@ -101,7 +124,9 @@ ggplot(player_points %>% filter(captains != 0),
   scale_y_continuous(breaks=NULL)+
   theme(panel.grid.major.y  = element_blank(),
         plot.title = element_text(hjust = 0.5),
-        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))
+        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  +
+  scale_fill_manual(values = (player_points %>% filter(captains != 0))$color )
+
 
 
 
@@ -142,7 +167,7 @@ ggplot(s_league, aes( reorder(player_name,total), total, color = player_name) ) 
 
 ggplot(player_points %>% arrange(-missed_points) %>% head(15),
        aes( reorder(web_name, missed_points), missed_points)) + 
-  geom_bar(stat="identity")+
+  geom_bar(stat="identity", aes(fill = web_name), show.legend = F)+
 geom_text(aes(label = missed_points, y = missed_points - 10), color = "white", family = "Mary Ann") +
   coord_flip() + 
   sainstheme::s_theme2() +
@@ -151,7 +176,8 @@ geom_text(aes(label = missed_points, y = missed_points - 10), color = "white", f
   scale_y_continuous(breaks=NULL)+
   theme(panel.grid.major.y = element_blank(),
         plot.title= element_text(hjust  = 0.5),
-        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  
+        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  +
+  scale_fill_manual(values = (player_points %>% arrange(-missed_points) %>% head(15))$color )
 
 
 ggplot(s_league, aes(1, total) ) + 

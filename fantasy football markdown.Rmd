@@ -1,51 +1,84 @@
 ---
-title: "fantasy"
+title: "Sainsburys Data Fantasy League"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F)
 library(xml2)
 library(rvest)
 library(extrafont)
 library(tidyverse)
+library(MattPack)
+library(gganimate)
+
+theme_set(MattPack::theme_matt("Gadugi"))
+
 ```
 
 
-```{r data input, include = F}
+```{r data input, include = F, message = F}
 
 
 # GET DATA FROM THE WEBSITE
 
-week=1
+bootstrap = jsonlite::fromJSON("https://fantasy.premierleague.com/api/bootstrap-static/")
+
+week = which(bootstrap$events$is_current)
+
+league_num = 273521#730362#730362#273521
+
+
+folder= paste0("C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/ada-an_training/Languages/R/visualisation/fantasy football data/", league_num)
 
 # GET DATA FROM THE WEBSITE
 
 
-s_league = jsonlite::fromJSON("https://fantasy.premierleague.com/api/leagues-classic/273521/standings")$standings$results#/?page_new_entries=1&page_standings=1&phase=1
 
-#https://fantasy.premierleague.com/api/entry/2545729/
-
+s_league = jsonlite::fromJSON(paste0("https://fantasy.premierleague.com/api/leagues-classic/",league_num,"/standings"))$standings$results#/?page_new_entries=1&page_standings=1&phase=1
 
 
 live = jsonlite::fromJSON(paste0("https://fantasy.premierleague.com/api/event/",week,"/live/"))
-
-
 
 team_ids = s_league$entry
 team_names = s_league$entry_name
 team_owner = s_league$player_name
 
-bootstrap = jsonlite::fromJSON("https://fantasy.premierleague.com/api/bootstrap-static/")
-
-name_ids = bootstrap$elements %>% select(first_name, second_name, web_name, id)
 
 
-picks = map( paste0("https://fantasy.premierleague.com/api/entry/",team_ids,"/event/",week,"/picks/")  , jsonlite::fromJSON)
 
+
+team_colors = bootstrap$teams %>% select(name, team = id,) %>% mutate(
+  color = c( "#ef0107", "#670E36", # arsenal, villa 
+                                "#ed1c24","#005daa", # bourn, brighton
+                                "#80bfff", #burnley,  
+                                "#034694", # chelsea
+                                "#0a4af5", "#0d00e9", #palace, everton
+                                "#0053a0", "#dd0000", #leicester, liverpool
+                                "#97c1e7", "#e80909", # city, united
+                                "#000000", # newcastle 
+             "#00a650", #nrowich
+             "red", #sheffield
+             "#ff0000", # south
+             
+                                "#132257", "#fbee23", # tottenham, watform
+                                "#7f0000", "#fdb913" # west ham, wolves
+             ))
+
+
+name_ids = bootstrap$elements %>% select(first_name, second_name, web_name, id, team)
+
+
+#picks = map( paste0("https://fantasy.premierleague.com/api/entry/",team_ids,"/event/",week,"/picks/")  ,jsonlite::fromJSON)
+
+picks = list()
+for (link in paste0("https://fantasy.premierleague.com/api/entry/",team_ids,"/event/",week,"/picks/"))
+{
+  picks[[length(picks)+1]] = tryCatch(jsonlite::fromJSON(link), error = function(e)NA )
+}
+picks=picks[which(map_lgl(picks, function(x)!is.na(x)[1]))]
 
 ```
-
 
 ```{r data manipulation, include = F}
 
@@ -55,11 +88,13 @@ picks2 = map(picks, function(x)x$picks) %>%
   map(left_join, name_ids, by = c("element" = "id") )
 
 
-for(i in 1:length(team_names))
+count = 1
+for(i in which(map_lgl(picks, function(x)!is.na(x)[1])))
 {
-  picks2[[i]]$team_name = team_names[i]
-  picks2[[i]]$team_id = team_ids[i]
-  picks2[[i]]$team_owner = team_owner[i]
+  picks2[[count]]$team_name = team_names[i]
+  picks2[[count]]$team_id = team_ids[i]
+  picks2[[count]]$team_owner = team_owner[i]
+  count=count+1
 }
 
 picks3 = map(picks2, function(x)x$stats )
@@ -72,37 +107,76 @@ for (i in 1:length(without_stats))
 }
 
 
-all = bind_rows(without_stats)
+all = bind_rows(without_stats) %>%
+  left_join(team_colors)
 
 
 temp = live$elements %>% select(-stats, -explain) %>% bind_cols(live$elements$stats) %>% left_join(name_ids)
 
-write_csv(temp, paste0("C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/ada-an_training/Languages/R/visualisation/fantasy football data/live_week_",week,".csv"))
-write_csv(all %>% select(-explain), paste0("C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/ada-an_training/Languages/R/visualisation/fantasy football data/s_table_week_",week,".csv"))
+
+dir.create(folder)
+
+write_csv(temp, paste0(folder, "/live_week_",week,".csv"))
+write_csv(all %>% select(-explain), paste0(folder, "/s_table_week_",week,".csv"))
+write_csv(s_league, paste0(folder, "/s_actual_table_week_",week,".csv"))
 
 
-player_points = all %>% group_by(web_name) %>%
+
+player_points = all %>% group_by(web_name, color) %>%
   summarise(points = min(total_points),
             league_points = sum(total_points * multiplier ),
             owners = n_distinct(team_name),
             captains = sum(multiplier >= 2),
             triple_captains = sum(multiplier == 3),
             benched = sum(multiplier == 0),
-              missed_points = sum(league_points*(multiplier == 0))) %>%
+              missed_points = sum(total_points*(multiplier == 0))) %>%
   arrange(-league_points) %>%
+  ungroup() %>%
   mutate(web_name = factor(web_name, levels = web_name))
-
 
 ```
 
+
+```{r previous week, echo = F}
+{
+if(file.exists(paste0(folder, "/s_actual_table_week_",week-1,".csv")))
+s_league_last = read_csv(paste0(folder, "/s_actual_table_week_",week-1,".csv"))
+else 
+  s_league_last = "none"
+}
+
+```
+
+
+```{r closeness of 2nd and 3rd, echo = F}
+
+in_ord = arrange(s_league, desc(event_total) )
+
+wording = if_else(in_ord$event_total[1] <= in_ord$event_total[2] + 5,"closely followed by",
+                  if_else(in_ord$event_total[1] <= in_ord$event_total[2] + 10, "followed by",
+                          if_else(in_ord$event_total[1] <= in_ord$event_total[2] + 20, "distantly followed by",
+                                  "miles ahead of"
+                                  )
+                          )
+                  )
+
+```
+
+## This Week
+<font size = "4">
+The most recent gameweek saw `r in_ord$player_name[1]` score the highest, netting a total of `r in_ord$event_total[1]` points, `r wording` `r in_ord %>% filter(event_total == in_ord$event_total[2]) %>% pull(player_name) %>% paste(collapse  = " and ")` on `r in_ord$event_total[2]`.  
+</font>
+
+
 ```{r league position, echo  =F, fig.width = 7, fig.height = 10}
 
-ggplot(s_league, aes( reorder(player_name,total), total, color = player_name) ) + 
-  geom_point(size = 3) +
-  geom_segment(aes(x = player_name, xend = player_name, y = 0, yend = total), size = 1) + 
-  geom_hline(yintercept = 0, size = 1)+
+ggplot(s_league, aes( reorder(player_name,event_total), event_total, color = player_name) ) + 
   coord_flip() +
-  sainstheme::s_theme2() +
+  geom_segment(aes(x = reorder(player_name,event_total), xend = reorder(player_name,event_total), y = 0, yend = event_total), size = 1) + 
+  geom_hline(yintercept = 0, size = 1)+
+  geom_point(size = 3) +
+  
+  #sainstheme::s_theme2() +
   labs(x = "",  y= "", title = "Total Weekly Points", subtitle = paste0("week ", week) )+
   theme(legend.position = "none") +
   theme(panel.grid.major.y  = element_blank(),
@@ -112,17 +186,43 @@ ggplot(s_league, aes( reorder(player_name,total), total, color = player_name) ) 
 
 
 ```
+
+
+```{r table changes, echo = F, warning = F}
+{
+  if(s_league_last!="none"){
+if (s_league$player_name[1] == s_league_last$player_name[1])
+    statement = paste0(s_league$player_name[1], " maintains the lead at the top of the table",
+                       if_else(s_league$total[1] - s_league$total[2] < s_league_last$total[1] - s_league_last$total[2],
+                               paste0(" with their lead reduced from ", s_league_last$total[1] - s_league_last$total[2], " to ", s_league$total[1] - s_league$total[2], "."),
+                               paste0(" with their lead increased from ", s_league_last$total[1] - s_league_last$total[2], " to ", s_league$total[1] - s_league$total[2], ".")) 
+                       )
+  else 
+    statement = paste0(s_league$player_name[1]," has taken the lead from ", s_league_last$player_name[1], 
+                       " this week, with ", s_league$player_name[2], " and ", s_league$player_name[3], " completing the top 3.") 
+}
+else statement = ""
+}
+
+```
+
+## Table to Date
+
+<font size = "4">
+`r statement`
+</font>
+
 ```{r scale table, echo = F, fig.width = 7, fig.height = 14}
 ggplot(s_league, aes(1, total) ) + 
   geom_point()+
   ggrepel::geom_text_repel(aes(label = player_name), 
                            direction = "x", 
                            segment.color = NA,
-                           family = "Mary Ann ExtraBold",
-                           size = 5) +
-  sainstheme::s_theme2()+
+                           family = "Gadugi",
+                           size = 4) +
+  #sainstheme::s_theme2()+
   scale_x_continuous(labels = NULL)+
-  labs(x = "", y = "", title = paste0("Week ", week, " points"))+
+  labs(x = "", y = "", title = "Total Points to date")+
   scale_y_continuous(breaks = seq(0,ceiling(max(s_league$total)/10)*10, 5  ))+
   theme(panel.grid.major.x = element_blank(),
         panel.grid.major.y = element_line(color = "grey80"),
@@ -131,22 +231,27 @@ ggplot(s_league, aes(1, total) ) +
 
 ```
 
+## Top Points
+<font size = "4">
+`r player_points$web_name[1]`, selected by `r player_points$owners[1]` players and captained by `r player_points$captains[1]`, scored `r player_points$points[1]` this week, adding to a total of `r player_points$league_points[1]` in the League.
+</font>
 ```{r total points, echo = F}
 
 
 
 ggplot(player_points %>% head(15), aes(reorder(web_name, league_points), league_points) ) + 
-  geom_bar(stat="identity") +
-  geom_text(aes(label = league_points, y = league_points - 15), color = "white", family = "Mary Ann") +
+  geom_bar(stat="identity", aes(fill = web_name), show.legend = F) +
+  geom_text(aes(label = league_points, y = league_points - 15), color = "white", family = "Gadugi") +
   coord_flip() + 
-  sainstheme::s_theme2() +
+  #sainstheme::s_theme2() +
   geom_hline(yintercept = 0, size =1)+
   labs(x = "", y = "", title = "Top Total League Points")+
   scale_y_continuous(breaks=NULL)+
   theme(panel.grid.major.y = element_blank(),
         plot.title= element_text(hjust  = 0.5),
         axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") )
-        )  
+        )  +
+  scale_fill_manual(values = (player_points %>% head(15))$color )
 
 ```
 
@@ -155,16 +260,17 @@ ggplot(player_points %>% head(15), aes(reorder(web_name, league_points), league_
 
 ggplot(player_points %>% filter(captains != 0),
                          aes(reorder(web_name, captains), captains)) + 
-  geom_bar(stat="identity")+
-  geom_text(aes(label = captains, y = captains - 0.25), color = "white", family = "Mary Ann ExtraBold")+
+  geom_bar(stat="identity", aes(fill = web_name), show.legend = F)+
+  geom_text(aes(label = captains, y = captains - 0.25), color = "white", family = "Gadugi")+
   coord_flip()+
-  sainstheme::s_theme2() +
+  #sainstheme::s_theme2() +
   geom_hline(yintercept = 0, size = 1)+
   labs(x = "", y = "", title = "Total Captaincies")+
   scale_y_continuous(breaks=NULL)+
   theme(panel.grid.major.y  = element_blank(),
         plot.title = element_text(hjust = 0.5),
-        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))
+        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))+
+  scale_fill_manual(values = (player_points %>% filter(captains != 0))$color)
 
 
 
@@ -172,43 +278,296 @@ ggplot(player_points %>% filter(captains != 0),
 
 ```
 
-```{r points on bench, echo = F, fig.width = 7, fig.height = 10}
+```{r bench_prep, echo =F}
 
 most_points_on_bench = all %>%
-  group_by(team_owner, team_name) %>%
+  group_by(team_owner, team_name ) %>%
   summarise(points = sum(total_points*multiplier),
             left_on_bench = sum(total_points * (multiplier == 0)),
             players = paste( if_else(multiplier == 0, web_name, NULL) , collapse = ", " ) ) %>%
   mutate(players = str_remove_all(players, "NA, ") ) %>%
   arrange(-left_on_bench)
 
+```
+
+## Benched
+<font size = "4">
+`r most_points_on_bench$team_owner[1]` was left with `r most_points_on_bench$left_on_bench[1]` points on the bench this week, after leaving `r str_replace(most_points_on_bench$players[1], ",(?=[^,]+$)", " and")` out of the starting lineup.
+
+</font>
+```{r points on bench, echo = F, fig.width = 7, fig.height = 10}
+
+
 ggplot(most_points_on_bench, aes( reorder(team_owner, left_on_bench),left_on_bench ) ) + 
-  geom_bar(stat="identity") +
-  geom_text(aes(label = left_on_bench, y = left_on_bench - 1), color = "white", family = "Mary Ann ExtraBold")+
+  geom_bar(stat="identity", aes(fill = team_owner), show.legend = F) +
+  geom_text(aes(label = left_on_bench, 
+                y = if_else(left_on_bench < 2, left_on_bench + 1, left_on_bench - 1)), 
+            color = if_else(most_points_on_bench$left_on_bench < 2, "black",  "white"), 
+            family = "Gadugi")+
   coord_flip()+
-  sainstheme::s_theme2() +
+  #sainstheme::s_theme2() +
   geom_hline(yintercept = 0, size = 1)+
   labs(x = "", y = "", title = "Points left on bench") + 
   theme(panel.grid.major.y  = element_blank(),
         plot.title = element_text(hjust = 0.5),
-        axis.text.y = element_text(size = 13, margin = margin(r = -0.9,unit = "cm") ))
+        axis.text.y = element_text(size = 13, margin = margin(r = -0.5 ,unit = "cm") ))
+
+```
+```{r temp1, echo = F}
+plot_d = player_points %>% arrange(-missed_points) %>% head(10) %>%
+  mutate(web_name = factor(web_name, levels = web_name))
 
 ```
 
+<font size = "4">
+`r plot_d$web_name[1]` was left on the bench by `r plot_d$benched[1]` player`r if_else(plot_d$benched[1] > 1, "s", "")`, each missing out on `r plot_d$points[1]` points.
+</font>
 ```{r players on bench, echo = F}
 
 
-ggplot(player_points %>% arrange(-missed_points) %>% head(15),
+
+ggplot(plot_d ,
        aes( reorder(web_name, missed_points), missed_points)) + 
-  geom_bar(stat="identity")+
-geom_text(aes(label = missed_points, y = missed_points - 10), color = "white", family = "Mary Ann") +
+  geom_bar(stat="identity", aes(fill = web_name), show.legend = F)+
+geom_text(aes(label = missed_points, 
+              y = if_else(missed_points <= 2, missed_points + 2, missed_points - 2),
+              ), 
+          color = if_else(plot_d$missed_points <= 2, "black", "white" ),
+           family = "Gadugi") +
   coord_flip() + 
-  sainstheme::s_theme2() +
+  #sainstheme::s_theme2() +
   geom_hline(yintercept = 0, size =1)+
   labs(x = "", y = "", title = "Top Total Points Left on Bench")+
   scale_y_continuous(breaks=NULL)+
   theme(panel.grid.major.y = element_blank(),
         plot.title= element_text(hjust  = 0.5),
-        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  
+        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  +
+  scale_fill_manual(values = plot_d$color )
 
 ```
+
+
+```{r missed, echo = F}
+biggest_missed = temp %>% arrange(-total_points) %>% anti_join(all) %>% left_join(team_colors) %>% head(10) %>%
+  mutate(web_name = factor(web_name, levels = web_name) )
+  
+ggplot( biggest_missed, aes( reorder(web_name, total_points), total_points)) + 
+  geom_bar(stat="identity", aes(fill = web_name), show.legend = F)+
+  geom_text(aes(label = total_points, y = total_points - 0.6), color = "white", family = "Gadugi") +
+  coord_flip()+
+  #sainstheme::s_theme2() +
+  geom_hline(yintercept = 0, size =1)+
+  labs(x = "", y = "", title = "Most Points by Unselected players")+
+  scale_y_continuous(breaks=NULL)+
+  theme(panel.grid.major.y = element_blank(),
+        plot.title= element_text(hjust  = 0),
+        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ))  +
+  scale_fill_manual(values = (biggest_missed$color) )
+
+```
+
+```{r animated, echo = F}
+
+if(s_league_last[1][[1]][1] != "none" )
+{
+all_leagues = map(paste0(folder,"/",list.files(folder, pattern = "s_actual_table_week")),
+                  read_csv)
+                  
+all_leagues = map(all_leagues, function(x)x %>% mutate(row_rank = as.numeric(rownames(x)) ) %>% select(player_name, row_rank, entry)) 
+
+for (i in 1:length(all_leagues))
+{
+  all_leagues[[i]]$pweek = i
+  all_leagues[[i]] = all_leagues[[i]]  %>% 
+    full_join(all_leagues[[length(all_leagues)]] %>% 
+                select(entry, player_name), 
+              by = c("entry" = "entry"))
+  all_leagues[[i]]$player_name = if_else(!is.na(all_leagues[[i]]$player_name.y), all_leagues[[i]]$player_name.y, all_leagues[[i]]$player_name.x)
+}
+all_leagues = all_leagues %>% bind_rows %>%
+  filter(!is.na(pweek) & player_name %in% s_league$player_name )
+
+anim = ggplot(all_leagues %>% arrange(pweek), aes(pweek, row_rank,  group = player_name, color = player_name) ) + 
+  scale_y_reverse(breaks = NULL)+
+  theme(legend.position = "none") + 
+  labs(x= "Gameweek", y = "Rank", title= "Fantasy League Position over time", caption = "@MattTheReed")+
+  scale_color_viridis_d()+
+  geom_line(size = 0.9) + 
+  geom_segment( aes(xend = week, yend = row_rank ), linetype = 2, color = "grey50") +
+  geom_point(size=3) + 
+  geom_text(x = week*1.02, aes(label = str_extract(player_name, "^.*? \\w"), y = row_rank, group = player_name),
+            color = "grey15", size = 6, hjust = 0, family = "Gadugi") +
+  #coord_cartesian(ylim = c(0.995, 10.005))+
+  transition_reveal(pweek) + 
+  scale_x_continuous(breaks = 1:38, limits = c(1, week*1.1)) +
+  ease_aes('cubic-in-out')+
+  view_follow(fixed_x = T)
+
+  animate(anim, fps = 10, duration = week+6, start_pause = 20, end_pause = 40, height = 800, width = 800)
+}
+```
+
+
+```{r sub comparison, echo = F, fig.height = 9, fig.width = 9}
+
+all_st_ables <- map(paste0(folder, "/s_table_week_",1:week,".csv"), read_csv)
+
+team_players_last_week = all_st_ables[[length(all_st_ables)-1]] %>%
+  select(web_name, team_owner, first_name, second_name, team, team_id, team_name, name, color) %>%#filter(team_id == 1300063)%>%
+  left_join(temp %>% select(first_name, second_name, team, web_name, id, this_week_points = total_points)) 
+  
+
+this_week_players = all %>% select(-explain)
+
+
+transfers = this_week_players %>% #filter(team_id == 1143642) %>%
+  full_join(team_players_last_week, #%>% #filter(team_id == 1143642), 
+            by = c("team_id" = "team_id", "first_name" = "first_name", "second_name" = "second_name", "team" = "team",
+                                                                               "web_name" = "web_name", 
+                                                                               "team_name" = "team_name",
+                                                                          "team_owner" = "team_owner",
+                   "name" = "name")) %>%
+  filter(is.na(total_points) | is.na(this_week_points)) %>%
+  group_by(team_id, team_name, team_owner) %>%
+  summarise(last_week_missed_points = sum(this_week_points, na.rm = T),
+            replacement_points = sum(total_points, na.rm = T),
+            point_increase = replacement_points - last_week_missed_points,
+            players_last = paste(if_else( is.na(this_week_points), str_replace_all(web_name," ", "_"), ""), collapse = " ") %>% trimws,
+            players_this = paste(if_else( is.na(total_points), str_replace_all(web_name," ", "_"), ""), collapse = " ") %>% trimws) %>%
+  filter(players_last != "" & players_this != "") %>%
+  arrange(point_increase) %>%  ungroup() %>%
+    mutate(team_owner = factor(team_owner, levels = sort(s_league$player_name)) ) 
+
+```
+
+<font size = "4">
+
+`r transfers$team_owner[1]` made the worst transfers this week, replacing `r str_replace_all(transfers$players_this[1], " ", ", ") %>% str_replace(",(?=[^,]+$)", " and") %>% str_replace_all("_",  " ")` with `r str_replace_all(transfers$players_last[1], " ", ", ") %>% str_replace(",(?=[^,]+$)", " and") %>% str_replace_all("_",  " ")`, with their new players scoring `r transfers$replacement_points[1]` points and missing out on `r transfers$last_week_missed_points[1]` points from their dropped players.
+
+`r transfers$team_owner[nrow(transfers)]` made the best transfers this week, replacing `r str_replace_all(transfers$players_this[nrow(transfers)], " ", ", ") %>% str_replace(",(?=[^,]+$)", " and") %>% str_replace_all("_",  " ")` with `r str_replace_all(transfers$players_last[nrow(transfers)], " ", ", ") %>% str_replace(",(?=[^,]+$)", " and") %>% str_replace_all("_",  " ")`, with their new players scoring `r transfers$replacement_points[nrow(transfers)]` points and the replaced players scoring `r transfers$last_week_missed_points[nrow(transfers)]` points.
+
+</font>
+
+
+```{r plot transfer diff, echo = F, fig.height = 9, fig.width = 9}
+  
+  
+  transfers %>%
+    ggplot(aes( reorder(team_owner, point_increase), point_increase)) + 
+    geom_bar(stat="identity", aes(fill = team_owner)) + 
+    geom_text(aes(label = point_increase,
+                  y = if_else(point_increase >= 0,point_increase + 0.1,point_increase - 0.1),
+                  hjust = if_else(point_increase >= 0,0,1) ),
+              family = "Gadugi") +
+    geom_text(aes(label = team_owner, 
+                  y = if_else(point_increase >= 0,-0.4,0.4) ,
+                  hjust = if_else(point_increase >= 0,1,0) ),
+              family = "Gadugi",
+              size = 5)+
+    coord_flip()+
+  geom_hline(yintercept = 0, size =1)+
+  labs(x = "", y = "", title = "Transfer Points Effect",
+       subtitle = "Points difference between tranfers in and transfers out")+
+  scale_y_continuous(breaks=NULL, limits = c(min(transfers$point_increase*1.1),max(transfers$point_increase*1.1) ) )+
+  scale_x_discrete(breaks ="none")+  
+  theme(panel.grid.major.y = element_blank(),
+        plot.title= element_text(hjust  = 0.5),
+        axis.text.y = element_text(margin = margin(r = -0.5,unit = "cm") ),
+        legend.position = "none")
+
+
+
+```
+
+
+
+```{r moving table with point_diff, echo = F}
+
+
+w = map(paste0(folder, "/s_actual_table_week_",1:week,".csv"), read_csv)
+
+for (i in 1:length(w))
+{
+  w[[i]]$week = i
+  w[[i]]$vis_rank = 1:nrow(w[[i]])
+  
+  
+  w[[i]] = w[[i]]  %>% 
+    full_join(w[[length(w)]] %>% 
+                select(entry, player_name), 
+              by = c("entry" = "entry"))
+  w[[i]]$player_name = if_else(!is.na(w[[i]]$player_name.y), w[[i]]$player_name.y, w[[i]]$player_name.x)
+  
+}
+
+
+w2 = map_df(w, I) %>% filter(!is.na(week))
+
+
+anim2 <- w2 %>% group_by(week) %>%
+  filter(player_name %in% s_league$player_name) %>%
+  #mutate(vis_rank = 1:(nrow(w) / max(w$week))) %>%
+  mutate(disp_rank = max(total) - (max(total) - min(total))*( (vis_rank-1) / (max(vis_rank)-1) ) ) %>%
+  ggplot(aes(1,total, group = player_name, frame = week)) + 
+  geom_point() + 
+  geom_segment( aes(xend = 2, yend = disp_rank ), linetype = 2, color = "grey50") +
+  geom_text(x = 2, aes(label = str_extract(player_name, "^.*? \\w"), y = disp_rank, group = player_name),
+            color = "grey15", size = 6, hjust = 0, family = "Gadugi")+
+  scale_x_continuous(limits = c(1-0.005, 3), breaks = NULL)+
+  scale_y_continuous(breaks = seq(0,3000, by = 10) )+
+  labs(x = "", y = "Total Points", title = ("Gameweek {frame_along}" ))+
+  transition_reveal(week)+
+  ease_aes('cubic-in-out')+
+  view_follow(fixed_x = T)
+
+
+
+  animate(anim2, fps = 10, duration = week+3, start_pause = 10, end_pause = 20, height = 800, width = 300)
+
+```
+```{r moving bars, echo = F}
+
+
+anim = ggplot( bind_rows(w2 %>% filter(week == 1) %>% mutate(week = 0 , total= 0), w2) , 
+               aes( total, vis_rank, group=player_name.x )) + 
+  geom_point(alpha = 0, aes(x = if_else(total < 5,5,total*1.05) )) + 
+  ggstance::geom_barh(stat="identity", aes(fill = player_name.x), show.legend = F) +
+  geom_segment(data = tibble(x = 0,xend = 0, 
+                            y = min(w2$vis_rank)-1, yend = max(w2$vis_rank)+1,
+                      week = 0:max(w2$week) + 0.0) , size = 1.5,
+               aes(x=x,y=y, xend = xend, yend = yend, group = "1")) +
+  scale_fill_viridis_d(option = "plasma") +
+  geom_text(aes(label = str_match(player_name.x, "^.*? \\w"), x = total*0.97 ), 
+            hjust = 1,   color= "white", family= "Gadugi") +
+  coord_cartesian(ylim = c(-0.00, 10))+
+  scale_y_reverse(breaks = NULL)+
+  #scale_x_continuous(breaks = seq(0,ceiling(max(test_tibble$value)/10)*10, by = 5) ) +
+  gganimate::transition_reveal(week) + 
+  gganimate::view_follow(fixed_y = TRUE) +
+  gganimate::ease_aes("cubic-in-out")+
+  labs(title = "Top 10 Scores",
+       subtitle = "Gameweek {round(frame_along)}",
+       y = "",
+       x = "Total Points")
+
+gganimate::animate(anim, fps = 10, duration = n_distinct(w2$week) +3, start_pause = 10, end_pause = 20, height = 400, width = 800)
+
+
+
+```
+
+
+```{r goals for and against, echo = F}
+
+goals <- map(all_st_ables, function(y)y %>% 
+  group_by(team_id, team_owner) %>% 
+  summarise(gf = sum(goals_scored*multiplier), 
+            ga = sum(goals_conceded*multiplier ),
+            assists = sum(assists*multiplier),
+            cs = sum(clean_sheets*multiplier),
+            bps = sum(bonus*multiplier)))
+
+```
+
+
+

@@ -1,0 +1,10 @@
+name: fantasy_app
+title:
+username:
+account: mattr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1259878
+bundleId: 2453079
+url: https://mattr.shinyapps.io/fantasy_app/
+when: 1569778982.87812
