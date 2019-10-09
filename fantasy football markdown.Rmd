@@ -11,8 +11,13 @@ library(extrafont)
 library(tidyverse)
 library(MattPack)
 library(gganimate)
+library(git2r)
 
 theme_set(MattPack::theme_matt("Gadugi"))
+
+inputs = list(git_repo_loc = "C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/fantasy_football/")
+
+setwd(inputs$git_repo_loc)
 
 ```
 
@@ -29,7 +34,7 @@ week = which(bootstrap$events$is_current)
 league_num = 273521#730362#730362#273521
 
 
-folder= paste0("C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/ada-an_training/Languages/R/visualisation/fantasy football data/", league_num)
+folder= paste0(inputs$git_repo_loc ,"fantasy football data/", league_num)
 
 # GET DATA FROM THE WEBSITE
 
@@ -566,6 +571,73 @@ goals <- map(all_st_ables, function(y)y %>%
             assists = sum(assists*multiplier),
             cs = sum(clean_sheets*multiplier),
             bps = sum(bonus*multiplier)))
+
+```
+
+
+
+```{r git stuff, echo = F}
+
+# gitstatus <- function(dir = getwd()){
+#   cmd_list <- list(
+#     cmd1 = tolower(substr(dir,1,2)),
+#     cmd2 = paste("cd",dir),
+#     cmd3 = "git status"
+#   )
+#   cmd <- paste(unlist(cmd_list),collapse = " & ")
+#   shell(cmd)
+# }
+# 
+# # Git add.
+# gitadd <- function(dir = getwd()){
+#   cmd_list <- list(
+#     cmd1 = tolower(substr(dir,1,2)),
+#     cmd2 = paste("cd",dir),
+#     cmd3 = "git add --all"
+#   )
+#   cmd <- paste(unlist(cmd_list),collapse = " & ")
+#   shell(cmd)
+# }
+# 
+# # Git commit.
+# gitcommit <- function(msg = "commit from Rstudio", dir = getwd()){
+#   cmd_list <- list(
+#     cmd1 = tolower(substr(dir,1,2)),
+#     cmd2 = paste("cd",dir),
+#     cmd3 = paste0("git commit -am ","'",msg,"'")
+#   )
+#   cmd <- paste(unlist(cmd_list),collapse = " & ")
+#   shell(cmd)
+# }
+# 
+# # Git push.
+# gitpush <- function(dir = getwd()){
+#   cmd_list <- list(
+#     cmd1 = tolower(substr(dir,1,2)),
+#     cmd2 = paste("cd",dir),
+#     cmd3 = "git push"
+#   )
+#   cmd <- paste(unlist(cmd_list),collapse = " & ")
+#   shell(cmd)
+# }
+# 
+# git2r::config(user.name = "mattreed09",user.email = "matthew_reed@live.co.uk")
+# 
+# # Check git status.
+# gitstatus()
+# 
+# # Download a file.
+# # url <- "https://i.kym-cdn.com/entries/icons/original/000/002/232/bullet_cat.jpg"
+# # destfile <- "bullet_cat.jpg"
+# # download.file(url,destfile)
+# 
+# # Add and commit changes. 
+# gitadd()
+# gitcommit()
+# 
+# # Push changes to github.
+# gitpush()
+
 
 ```
 
