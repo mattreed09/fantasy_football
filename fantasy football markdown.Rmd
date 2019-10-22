@@ -31,8 +31,8 @@ bootstrap = jsonlite::fromJSON("https://fantasy.premierleague.com/api/bootstrap-
 
 week = which(bootstrap$events$is_current)
 
-league_num = 273521#730362#730362#273521
-
+#league_num = 273521
+league_num = 730362
 
 folder= paste0(inputs$git_repo_loc ,"fantasy football data/", league_num)
 
@@ -169,7 +169,7 @@ wording = if_else(in_ord$event_total[1] <= in_ord$event_total[2] + 5,"closely fo
 
 ## This Week
 <font size = "4">
-The most recent gameweek saw `r in_ord$player_name[1]` score the highest, netting a total of `r in_ord$event_total[1]` points, `r wording` `r in_ord %>% filter(event_total == in_ord$event_total[2]) %>% pull(player_name) %>% paste(collapse  = " and ")` on `r in_ord$event_total[2]`.  
+The most recent gameweek saw `r in_ord$player_name[1]` score the highest, netting a total of `r in_ord$event_total[1]` points, `r wording` `r (in_ord %>% filter(event_total == in_ord$event_total[2]))$player_name  %>% paste(collapse  = " and ")` on `r in_ord$event_total[2]`.  
 </font>
 
 
@@ -370,6 +370,58 @@ ggplot( biggest_missed, aes( reorder(web_name, total_points), total_points)) +
   scale_fill_manual(values = (biggest_missed$color) )
 
 ```
+```{r without old data, echo = F}
+# historic_leagues = list()
+# for (team1 in team_ids)
+# {
+#   picks3 = list()
+#   for (thisweek in 1:week)
+#   {
+#     link = paste0("https://fantasy.premierleague.com/api/entry/",team1,"/event/",thisweek,"/picks/")
+#     picks3[[length(picks3)+1]] = tryCatch(jsonlite::fromJSON(link), error = function(e)NA )
+#   }
+#   historic_leagues[[length(historic_leagues) + 1]] = picks3
+#   #print(team1)
+# }
+# 
+# #picks2=picks2[which(map_lgl(picks, function(x)!is.na(x)[1]))]
+# 
+# keeps = list()
+# for (team in 1:length(team_ids))
+# {
+#   df_list = list()
+#   for (tweek in 1:week)
+#   {
+#     if (length(historic_leagues[[team]][[tweek]]) > 1)
+#     df_list[[length(df_list) + 1]] =
+#     list(points =
+#       historic_leagues[[team]][[tweek]]$entry_history$points +
+#       historic_leagues[[team]][[tweek]]$entry_history$event_transfers_cost,
+#       week = tweek,
+#       team = team_owner[team]
+#       )
+#   }
+#   keeps[[length(keeps) + 1]] = df_list
+# 
+# 
+# }
+# 
+# anim_data = map_df( keeps, function(d)map_df(d, function(s)as_tibble(s) )) %>%
+#   group_by(team) %>%
+#   mutate(total_points = cumsum(points) ) %>%
+#   arrange(week, -total_points) %>%
+#   group_by(week) %>%
+#   mutate(week_rank = order(total_points, decreasing = T) )
+# 
+# anim_data2 = anim_data %>% 
+#   left_join(all_leagues %>% 
+#               group_by(player_name) %>% 
+#               summarise(join_week = min(pweek)), 
+#             by = c("team" = "player_name")) %>%
+#   filter(week >= join_week)
+
+
+```
 
 ```{r animated, echo = F}
 
@@ -404,7 +456,7 @@ anim = ggplot(all_leagues %>% arrange(pweek), aes(pweek, row_rank,  group = play
             color = "grey15", size = 6, hjust = 0, family = "Gadugi") +
   #coord_cartesian(ylim = c(0.995, 10.005))+
   transition_reveal(pweek) + 
-  scale_x_continuous(breaks = 1:38, limits = c(1, week*1.1)) +
+  scale_x_continuous(breaks = 1:week, limits = c(1, week*1.1)) +
   ease_aes('cubic-in-out')+
   view_follow(fixed_x = T)
 
