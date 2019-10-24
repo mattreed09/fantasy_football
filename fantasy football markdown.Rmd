@@ -15,7 +15,10 @@ library(git2r)
 
 theme_set(MattPack::theme_matt("Gadugi"))
 
-inputs = list(git_repo_loc = "C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/fantasy_football/")
+inputs = list(git_repo_loc = "C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/fantasy_football/",
+              #league_num = 273521,
+              league_num = 730362
+              )
 
 setwd(inputs$git_repo_loc)
 
@@ -31,16 +34,15 @@ bootstrap = jsonlite::fromJSON("https://fantasy.premierleague.com/api/bootstrap-
 
 week = which(bootstrap$events$is_current)
 
-#league_num = 273521
-league_num = 730362
 
-folder= paste0(inputs$git_repo_loc ,"fantasy football data/", league_num)
+
+folder= paste0(inputs$git_repo_loc ,"fantasy football data/", inputs$league_num)
 
 # GET DATA FROM THE WEBSITE
 
 
 
-s_league = jsonlite::fromJSON(paste0("https://fantasy.premierleague.com/api/leagues-classic/",league_num,"/standings"))$standings$results#/?page_new_entries=1&page_standings=1&phase=1
+s_league = jsonlite::fromJSON(paste0("https://fantasy.premierleague.com/api/leagues-classic/",inputs$league_num,"/standings"))$standings$results#/?page_new_entries=1&page_standings=1&phase=1
 
 
 live = jsonlite::fromJSON(paste0("https://fantasy.premierleague.com/api/event/",week,"/live/"))
