@@ -16,7 +16,7 @@ library(git2r)
 theme_set(MattPack::theme_matt("Gadugi"))
 
 inputs = list(git_repo_loc = "C:/Users/matt.reed/OneDrive - Sainsbury's Supermarkets Ltd/Git/fantasy_football/",
-              #league_num = 273521,
+      #        league_num = 273521
               league_num = 730362
               )
 
@@ -40,7 +40,9 @@ folder= paste0(inputs$git_repo_loc ,"fantasy football data/", inputs$league_num)
 
 # GET DATA FROM THE WEBSITE
 
+```
 
+```{r data input 2, include = F, message = F}
 
 s_league = jsonlite::fromJSON(paste0("https://fantasy.premierleague.com/api/leagues-classic/",inputs$league_num,"/standings"))$standings$results#/?page_new_entries=1&page_standings=1&phase=1
 
@@ -431,8 +433,12 @@ if(s_league_last[1][[1]][1] != "none" )
 {
 all_leagues = map(paste0(folder,"/",list.files(folder, pattern = "s_actual_table_week")),
                   read_csv)
-                  
-all_leagues = map(all_leagues, function(x)x %>% mutate(row_rank = as.numeric(rownames(x)) ) %>% select(player_name, row_rank, entry)) 
+
+file_order <- list.files(folder, pattern = "s_actual_table_week") %>% str_match("\\d+") %>% as.vector() %>% as.numeric()
+
+all_leagues = all_leagues[map_dbl(1:10, function(x)which(file_order == x))]
+
+all_leagues = map(all_leagues, function(x)x %>% mutate(row_rank = as.numeric(rownames(x)) ) %>% select(player_name, row_rank, entry, total)) 
 
 for (i in 1:length(all_leagues))
 {
@@ -584,6 +590,8 @@ anim2 <- w2 %>% group_by(week) %>%
   animate(anim2, fps = 10, duration = week+3, start_pause = 10, end_pause = 20, height = 800, width = 300)
 
 ```
+
+
 ```{r moving bars, echo = F}
 
 
@@ -691,6 +699,38 @@ goals <- map(all_st_ables, function(y)y %>%
 # 
 # # Push changes to github.
 # gitpush()
+
+
+```
+
+```{r anim graph 3, echo = F}
+
+anim3 = ggplot(all_leagues %>% arrange(pweek) %>%
+                 group_by(pweek) %>%
+                 mutate(disp_rank = max(total) - (max(total) - max(total)*0.05 )*( (row_rank-1) / (max(row_rank)-1) ) ) ,
+                 aes(pweek, total,  group = player_name, color = player_name) ) + 
+  #scale_y_reverse(breaks = NULL)+
+  theme(legend.position = "none") + 
+  labs(x= "Gameweek", y = "Rank", title= "Fantasy League Position over time", caption = "@MattTheReed")+
+  scale_color_viridis_d()+
+  geom_line(size = 0.9) + 
+  geom_segment( aes(xend = (pweek)*1.08, yend = disp_rank ), linetype = 2, color = "grey50") +
+  geom_point(size=3) +#
+  geom_point(size=3, aes(x = pweek*1.25), alpha = 0) +
+  # geom_text(x = week*1.02, aes(label = str_extract(player_name, "^.*? \\w"), y = total, group = player_name),
+  #           color = "grey15", size = 6, hjust = 0, family = "Gadugi") +
+  geom_text(aes(x = (pweek)*1.1, label = str_extract(player_name, "^.*? \\w"), y = disp_rank, group = player_name),
+            color = "grey15", size = 6, hjust = 0, family = "Gadugi")+
+  
+  #coord_cartesian(ylim = c(0.995, 10.005))+
+  transition_reveal(pweek) + 
+  scale_x_continuous(breaks = 1:week, ) +#limits = c(1, pweek*1.5)
+  ease_aes('cubic-in-out')+
+  view_follow(fixed_x = F)
+
+  animate(anim3, fps = 10, duration = week+6, start_pause = 20, end_pause = 40, height = 800, width = 800)
+
+
 
 
 ```
